@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains transcripts and analytical reports from Shawn Ryan Show podcast episodes featuring Sarah Adams, a former CIA counterterrorism officer and targeter (call sign: "Super Bad"). The reports provide detailed intelligence analysis on Al-Qaeda operations, terrorist threats, the Benghazi attacks, and current national security concerns.
+This repository contains analytical reports from Shawn Ryan Show podcast episode transcripts featuring Sarah Adams, a former CIA counterterrorism officer and targeter (call sign: "Super Bad"). The reports provide detailed intelligence analysis on Al-Qaeda operations, terrorist threats, the Benghazi attacks, and current national security concerns.  The purpose is to try and make the information laid out in these podcasts more accessible and understandable.  The end goal is a react JS app with diagrams and laid out, categorized sections.
 
 ## Contents
 
