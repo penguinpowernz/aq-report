@@ -15,11 +15,11 @@ window.renderFunding = function(container) {
     // Critical Alert - The Central Irony
     const alert = createInfoBox(
         '⚠️ Critical Finding: U.S. Funding Its Own Attackers',
-        `<strong>$2.3-4.7 billion annually</strong> from U.S. to Taliban/Al-Qaeda<br>
+        linkifyEntities(`<strong>$2.3-4.7 billion annually</strong> from U.S. to Taliban/Al-Qaeda<br>
         <strong>Seven of eight</strong> weekly delivery stops to designated terrorists<br>
         <strong>1,000+ terrorists</strong> trained for U.S. homeland attack with American money<br>
         <strong>382,000 petition signatures</strong> to Congress - ZERO ACTION TAKEN<br>
-        <strong>The Irony:</strong> U.S. taxpayers funding the organization training their attackers`,
+        <strong>The Irony:</strong> U.S. taxpayers funding the organization training their attackers`),
         'danger'
     );
     container.appendChild(alert);
@@ -27,7 +27,7 @@ window.renderFunding = function(container) {
     // Total Annual U.S. Funding Stats Cards
     const statsGrid = document.createElement('div');
     statsGrid.className = 'findings-grid';
-    statsGrid.innerHTML = `
+    statsGrid.innerHTML = linkifyEntities(`
         <div class="finding-card">
             <h4>Weekly Cash Deliveries</h4>
             <p style="font-size: 2rem; font-weight: bold; color: var(--danger);">$44-87M</p>
@@ -48,7 +48,7 @@ window.renderFunding = function(container) {
             <p style="font-size: 2rem; font-weight: bold; color: var(--danger);">$10B</p>
             <p>$3 billion directly allocated to Al-Qaeda for operations and affiliates</p>
         </div>
-    `;
+    `);
     container.appendChild(statsGrid);
 
     // U.S. Weekly Cash Deliveries Breakdown
@@ -67,7 +67,7 @@ window.renderFunding = function(container) {
     const weeklyNote = document.createElement('p');
     weeklyNote.style.marginTop = '1rem';
     weeklyNote.style.color = 'var(--text-secondary)';
-    weeklyNote.innerHTML = '<strong>Source:</strong> U.S. State Department via NGOs. Initial reports $40M/week, revised to $44-87M. 70% diverted to Taliban-only causes.';
+    weeklyNote.innerHTML = linkifyEntities('<strong>Source:</strong> U.S. State Department via NGOs. Initial reports $40M/week, revised to $44-87M. 70% diverted to Taliban-only causes.');
     weeklyChart.appendChild(weeklyNote);
     container.appendChild(weeklyChart);
 
@@ -133,26 +133,26 @@ window.renderFunding = function(container) {
     stops.forEach(stop => {
         const card = document.createElement('div');
         card.className = 'location-card critical';
-        card.innerHTML = `
+        card.innerHTML = linkifyEntities(`
             <div class="location-name" style="font-size: 0.95rem;">${stop.name}</div>
             <div class="location-region">${stop.status}</div>
             <p style="margin-top: 0.75rem; color: var(--text-secondary); font-size: 0.9rem;">
                 ${stop.description}
             </p>
             ${stop.amount !== 'Unknown' ? `<p style="margin-top: 0.5rem; font-weight: bold; color: var(--danger);">Amount: ${stop.amount}</p>` : ''}
-        `;
+        `);
         stopsGrid.appendChild(card);
     });
     stopsSection.appendChild(stopsGrid);
 
     const stopsNote = document.createElement('div');
     stopsNote.className = 'info-box warning';
-    stopsNote.innerHTML = `
+    stopsNote.innerHTML = linkifyEntities(`
         <div class="info-box-title">Legal Status</div>
         <p><strong>7 out of 8 stops:</strong> Designated terrorists - every delivery violates U.S. and international law</p>
         <p><strong>1 out of 8 stops:</strong> Abdullah Bin Laden NOT designated (runs all training camps, should be designated)</p>
         <p style="margin-top: 0.5rem;"><strong>Sarah Adams:</strong> "Every single delivery except one was a building, every single one of those terrorists are sanctioned, every delivery is against U.S. law"</p>
-    `;
+    `);
     stopsSection.appendChild(stopsNote);
     container.appendChild(stopsSection);
 
@@ -174,13 +174,13 @@ window.renderFunding = function(container) {
     const refugeeNote = document.createElement('div');
     refugeeNote.className = 'info-box danger';
     refugeeNote.style.marginTop = '1rem';
-    refugeeNote.innerHTML = `
+    refugeeNote.innerHTML = linkifyEntities(`
         <div class="info-box-title">Refugee Program Fraud</div>
         <p>Official program: Resettling Afghan refugees returning from Pakistan</p>
         <p><strong>Run by:</strong> Khalil Haqqani (uncle of Sirajuddin)</p>
         <p><strong>Actual use:</strong> $5M/month goes directly to Al-Qaeda training camps in Nangarhar</p>
         <p><strong>What's at camps:</strong> Libyan fighters, foreign nationals, Al-Qaeda trainees - NOT refugees</p>
-    `;
+    `);
     additionalChart.appendChild(refugeeNote);
     container.appendChild(additionalChart);
 
@@ -195,7 +195,7 @@ window.renderFunding = function(container) {
     flowDiagram.style.padding = '2rem';
     flowDiagram.style.borderRadius = '8px';
     flowDiagram.style.marginTop = '1rem';
-    flowDiagram.innerHTML = `
+    flowDiagram.innerHTML = linkifyEntities(`
         <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; justify-content: center;">
             <div style="text-align: center; padding: 1.5rem; background: var(--background); border-radius: 8px; flex: 1; min-width: 200px;">
                 <div style="font-size: 2rem; margin-bottom: 0.5rem;">🇺🇸</div>
@@ -224,7 +224,7 @@ window.renderFunding = function(container) {
         <div style="margin-top: 2rem; padding: 1rem; background: var(--warning); color: var(--background); border-radius: 4px; text-align: center; font-weight: bold;">
             THE IRONY: Americans funding the training of their own attackers
         </div>
-    `;
+    `);
     flowSection.appendChild(flowDiagram);
     container.appendChild(flowSection);
 
@@ -244,7 +244,7 @@ window.renderFunding = function(container) {
     const siphonMethods = document.createElement('div');
     siphonMethods.className = 'findings-grid';
     siphonMethods.style.marginTop = '1.5rem';
-    siphonMethods.innerHTML = `
+    siphonMethods.innerHTML = linkifyEntities(`
         <div class="finding-card">
             <h4>Method 1: Board Membership</h4>
             <p>Every NGO must have Taliban representative on board. Taliban vote controls all spending and directs funds to Taliban priorities.</p>
@@ -261,7 +261,7 @@ window.renderFunding = function(container) {
             <h4>Result: Perfect Money Laundering</h4>
             <p>Money flows to same NGO names, actually to Taliban. Humanitarian cover for terrorist funding. State Department pretends not to notice.</p>
         </div>
-    `;
+    `);
     siphonChart.appendChild(siphonMethods);
     container.appendChild(siphonChart);
 
@@ -273,7 +273,7 @@ window.renderFunding = function(container) {
 
     const stateActorGrid = document.createElement('div');
     stateActorGrid.className = 'location-grid';
-    stateActorGrid.innerHTML = `
+    stateActorGrid.innerHTML = linkifyEntities(`
         <div class="location-card critical">
             <div class="location-name">China: $10 Billion Investment</div>
             <div class="location-region">$3 Billion to Al-Qaeda</div>
@@ -310,7 +310,7 @@ window.renderFunding = function(container) {
                 for future war.
             </p>
         </div>
-    `;
+    `);
     stateActorChart.appendChild(stateActorGrid);
     container.appendChild(stateActorChart);
 
@@ -322,7 +322,7 @@ window.renderFunding = function(container) {
 
     const congressInfo = document.createElement('div');
     congressInfo.className = 'info-box danger';
-    congressInfo.innerHTML = `
+    congressInfo.innerHTML = linkifyEntities(`
         <div class="info-box-title">Three Legislative Failures</div>
         <ul style="margin-left: 2rem; margin-top: 1rem; color: var(--text-secondary);">
             <li><strong>382,000 Petition Signatures:</strong> Stop Taliban funding - ZERO ACTION TAKEN by Congress</li>
@@ -333,7 +333,7 @@ window.renderFunding = function(container) {
             Result: Cannot even get Congress to call Taliban terrorists, despite them killing U.S. soldiers,
             harboring Al-Qaeda, training 1,000+ for U.S. attacks, and holding 3 Americans hostage.
         </p>
-    `;
+    `);
     congressChart.appendChild(congressInfo);
 
     const congressTheory = document.createElement('div');
@@ -476,7 +476,7 @@ window.renderFunding = function(container) {
     // Final Summary
     const summary = createInfoBox(
         'Summary: Unprecedented Financial Network Supporting Terrorism',
-        `<p><strong>Direct U.S. Funding:</strong> $2.5-4.7 billion annually to Taliban, majority diverted to terrorist operations</p>
+        linkifyEntities(`<p><strong>Direct U.S. Funding:</strong> $2.5-4.7 billion annually to Taliban, majority diverted to terrorist operations</p>
         <p style="margin-top: 0.5rem;"><strong>Multi-State Support:</strong> China ($10B), Iran (intelligence), Russia (supplies), India ($10M)</p>
         <p style="margin-top: 0.5rem;"><strong>Total Scale:</strong> Over $13 billion in confirmed funding - largest state-sponsored terrorism financing in history</p>
         <p style="margin-top: 0.5rem;"><strong>Legal Violations:</strong> Every delivery to designated terrorists violates U.S. law - no accountability, no prosecution</p>
@@ -486,7 +486,7 @@ window.renderFunding = function(container) {
         <p style="font-weight: bold; font-size: 1.1rem; color: var(--danger); margin-top: 1rem;">
             THE CENTRAL IRONY: U.S. taxpayers funding the organization training attackers who will kill them,
             while Congress ignores 382,000 petition signatures and kills bills to stop it.
-        </p>`,
+        </p>`),
         'danger'
     );
     container.appendChild(summary);

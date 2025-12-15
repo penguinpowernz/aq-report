@@ -15,10 +15,10 @@ window.renderLocations = function(container) {
     // Critical Alert
     const alert = createInfoBox(
         '⚠️ Afghanistan - Central Hub',
-        `<strong>30 Al-Qaeda training camps</strong> (7 suicide bombing, 23 general warfare)<br>
+        linkifyEntities(`<strong>30 Al-Qaeda training camps</strong> (7 suicide bombing, 23 general warfare)<br>
         <strong>120,000 trained</strong> under Islamic Army by end of 2024<br>
         <strong>Kandahar:</strong> International coordination hub (Iranian, Russian, Chinese, North Korean reps)<br>
-        <strong>Iranian intelligence base</strong> inside Al-Qaeda camp`,
+        <strong>Iranian intelligence base</strong> inside Al-Qaeda camp`),
         'danger'
     );
     container.appendChild(alert);
@@ -117,7 +117,7 @@ window.renderLocations = function(container) {
 
     const attackLocations = document.createElement('div');
     attackLocations.className = 'info-box warning';
-    attackLocations.innerHTML = `
+    attackLocations.innerHTML = linkifyEntities(`
         <div class="info-box-title">Major Attack Coordination Sites</div>
         <ul style="margin-left: 2rem; margin-top: 1rem; color: var(--text-secondary);">
             <li><strong>Kandahar, Afghanistan:</strong> October 7th planned (March 2022), Abbey Gate planned (Aug 18, 2021)</li>
@@ -125,7 +125,7 @@ window.renderLocations = function(container) {
             <li><strong>Benghazi, Libya:</strong> 2012 attacks (150 terrorists, 4 Americans killed)</li>
             <li><strong>Baghdad, Iraq:</strong> 1,500 fighters positioned for embassy attack</li>
         </ul>
-    `;
+    `);
     attacksChart.appendChild(attackLocations);
     container.appendChild(attacksChart);
 
@@ -163,7 +163,7 @@ window.renderLocations = function(container) {
 
     const coordInfo = document.createElement('div');
     coordInfo.className = 'location-grid';
-    coordInfo.innerHTML = `
+    coordInfo.innerHTML = linkifyEntities(`
         <div class="location-card critical">
             <div class="location-name">Kandahar Meeting Hub</div>
             <div class="location-region">Afghanistan</div>
@@ -188,7 +188,7 @@ window.renderLocations = function(container) {
                 Wasam's brother (terrorist financier, multimillionaire) lives here.
             </p>
         </div>
-    `;
+    `);
     coordChart.appendChild(coordInfo);
     container.appendChild(coordChart);
 };

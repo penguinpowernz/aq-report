@@ -138,7 +138,7 @@ function createInfoBox(title, content, type = 'info') {
     }
 
     const contentEl = document.createElement('div');
-    contentEl.innerHTML = content;
+    contentEl.innerHTML = linkifyEntities(content);
     box.appendChild(contentEl);
 
     return box;
@@ -184,7 +184,7 @@ function createLocationCard(location) {
 
     const name = document.createElement('div');
     name.className = 'location-name';
-    name.textContent = location.name;
+    name.innerHTML = linkifyEntities(location.name);
     card.appendChild(name);
 
     const region = document.createElement('div');
@@ -196,7 +196,7 @@ function createLocationCard(location) {
         const desc = document.createElement('p');
         desc.style.marginTop = '0.75rem';
         desc.style.color = 'var(--text-secondary)';
-        desc.textContent = location.description;
+        desc.innerHTML = linkifyEntities(location.description);
         card.appendChild(desc);
     }
 
@@ -210,11 +210,11 @@ function createLocationCard(location) {
 
             const labelEl = document.createElement('span');
             labelEl.className = 'detail-label';
-            labelEl.textContent = key;
+            labelEl.innerHTML = linkifyEntities(key);
 
             const valueEl = document.createElement('span');
             valueEl.className = 'detail-value';
-            valueEl.textContent = value;
+            valueEl.innerHTML = linkifyEntities(value);
 
             row.appendChild(labelEl);
             row.appendChild(valueEl);
@@ -251,7 +251,7 @@ function createTimelineEvent(event, index) {
     if (event.description) {
         const desc = document.createElement('div');
         desc.className = 'timeline-description';
-        desc.textContent = event.description;
+        desc.innerHTML = event.description;
         content.appendChild(desc);
     }
 
@@ -273,28 +273,61 @@ function linkifyEntities(text) {
     // Comprehensive entity name to ID mapping
     const entityMap = {
         // People (longest names first to avoid partial matches)
+        'Mohammad Hassan Akhund': 'mohammad-hassan-akhund',
+        'Mullah Abdul Ghani Baradar': 'mullah-baradar',
         'Hibatullah Akhundzada': 'hibatullah-akhundzada',
+        'Abdullah Omar Bhajauri': 'abdullah-omar-bhajauri',
+        'Hafiz Zahir Hamidi': 'hafiz-zahir-hamidi',
         'Sirajuddin Haqqani': 'sirajuddin-haqqani',
         'Abdul Rahim Sangari': 'abdul-rahim-sangari',
+        'Ahmad Shah Massoud': 'ahmad-shah-massoud',
+        'Tyler Vargas Andrews': 'tyler-vargas-andrews',
+        'Abdulaziz Haqqani': 'abdulaziz-haqqani',
         'Sanullah Ghafari': 'sanullah-ghafari',
         'Abdul Haq Wasiq': 'abdul-haq-wasiq',
         'Mohammad Kazemi': 'mohammad-kazemi',
+        'Ghulam Kohistani': 'ghulam-kohistani',
         'Christopher Stevens': 'chris-stevens',
         'Ambassador Stevens': 'chris-stevens',
+        'Qasem Soleimani': 'qasem-soleimani',
+        'Khalil Haqqani': 'khalil-haqqani',
+        'Richard Holbrooke': 'richard-holbrooke',
+        'Hillary Clinton': 'hillary-clinton',
         'Hamza al-Ghamdi': 'hamza-al-ghamdi',
         'Hamza bin Laden': 'hamza-bin-laden',
         'Osama bin Laden': 'osama-bin-laden',
+        'Ahmad Massoud': 'ahmad-massoud',
         'Chris Stevens': 'chris-stevens',
+        'George Glezmann': 'george-glezmann',
+        'Mahmood Habibi': 'mahmood-habibi',
         'Saif al-Adel': 'saif-al-adel',
+        'Saad bin Laden': 'saad-bin-laden',
         'Ryan Corbett': 'ryan-corbett',
         'Sarah Adams': 'sarah-adams',
+        'Jake Sullivan': 'jake-sullivan',
+        'Mark Frerichs': 'mark-frerichs',
+        'Mullah Yaqub': 'mullah-yaqub',
+        'Anas Haqqani': 'anas-haqqani',
+        'Mullah Omar': 'mullah-omar',
+        'Ron DeSantis': 'ron-desantis',
+        'Scott Mann': 'scott-mann',
+        'Ross Wilson': 'ross-wilson',
+        'Tom West': 'tom-west',
+        'Obama': 'obama',
         'Sirajuddin': 'sirajuddin-haqqani',
         'Sanullah': 'sanullah-ghafari',
+        'Soleimani': 'qasem-soleimani',
+        'Baradar': 'mullah-baradar',
         'Kazemi': 'mohammad-kazemi',
         'Hamza': 'hamza-bin-laden',
         'Musa': 'musa',
 
         // Organizations (longest first)
+        'National Resistance Front': 'nrf',
+        'Task Force Pineapple': 'task-force-pineapple',
+        'U.S. State Department': 'state-department',
+        'State Department': 'state-department',
+        'Moral Compass Federation': 'moral-compass-federation',
         'Haqqani Network': 'haqqani-network',
         'Islamic Army': 'islamic-army',
         'Al-Qaeda': 'al-qaeda',
@@ -307,38 +340,59 @@ function linkifyEntities(text) {
         'GDI': 'gdi',
         'AQAP': 'aqap',
         'AQIM': 'aqim',
+        'TTP': 'ttp',
+        'NRF': 'nrf',
         'ISI': 'isi',
         'CIA': 'cia',
         'FBI': 'fbi',
         'Congress': 'congress',
 
-        // Countries
+        // Countries (longest first)
         'United States': 'united-states',
+        'North Korea': 'north-korea',
+        'Saudi Arabia': 'saudi-arabia',
         'Afghanistan': 'afghanistan',
         'Pakistan': 'pakistan',
         'Russia': 'russia',
         'China': 'china',
+        'Syria': 'syria',
+        'India': 'india',
+        'Qatar': 'qatar',
         'Iran': 'iran',
+        'Iraq': 'iraq',
+        'Mali': 'mali',
         'Libya': 'libya',
         'Yemen': 'yemen',
         'Turkey': 'turkey',
         'Brazil': 'brazil',
+        'Kuwait': 'kuwait',
+        'Jordan': 'jordan',
         'Panama': 'panama',
         'U\\.S\\.': 'united-states',
 
         // Locations (longest first)
         'Bagram Air Base': 'bagram',
+        'Uruzgan Province': 'uruzgan',
+        'Kunar Province': 'kunar',
+        'U.S. Capitol': 'us-capitol',
         'Darien Gap': 'darien-gap',
         'Abbey Gate': 'abbey-gate',
+        'Waziristan': 'waziristan',
+        'Baluchistan': 'baluchistan',
+        'Guantanamo': 'guantanamo',
         'Kandahar': 'kandahar',
         'Benghazi': 'benghazi',
         'Nangarhar': 'nangarhar',
-        'Baluchistan': 'baluchistan',
-        'Guantanamo': 'guantanamo',
         'Panjgur': 'panjgur',
+        'Tripoli': 'tripoli',
+        'Kashmir': 'kashmir',
         'Bagram': 'bagram',
         'Turbat': 'turbat',
+        'Quetta': 'quetta',
         'Kabul': 'kabul',
+        'Kunar': 'kunar',
+        'Gaza': 'gaza',
+        'Florida': 'florida',
 
         // Operations
         'October 7th': 'october-7',

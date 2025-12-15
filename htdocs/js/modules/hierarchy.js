@@ -91,13 +91,13 @@ window.renderHierarchy = function(container) {
 
     const leadershipGrid = document.createElement('div');
     leadershipGrid.className = 'location-grid';
-    leadershipGrid.innerHTML = `
+    leadershipGrid.innerHTML = linkifyEntities(`
         <div class="location-card critical">
-            <div class="location-name"><a href="#entity:hamza-bin-laden" class="entity-link" style="color: inherit;">Hamza bin Laden</a> - #1</div>
+            <div class="location-name">Hamza bin Laden - #1</div>
             <div class="location-region">Overall Leader</div>
             <p style="margin-top: 0.75rem; color: var(--text-secondary);">
-                <strong>Location:</strong> <a href="#entity:kandahar" class="entity-link">Kandahar</a>, <a href="#entity:afghanistan" class="entity-link">Afghanistan</a><br>
-                <strong>Status:</strong> <a href="#entity:united-states" class="entity-link">U.S.</a> falsely claims deceased<br>
+                <strong>Location:</strong> Kandahar, <a href="#entity:afghanistan" class="entity-link">Afghanistan</a><br>
+                <strong>Status:</strong> U.S. falsely claims deceased<br>
                 <strong>Married to:</strong> Daughter of Mullah Omar & Zawahiri<br>
                 <strong>Receives:</strong> U.S. weekly cash ($44-87M distributed)<br>
                 <strong>FBI Reward:</strong> $1M (remarkably low)
@@ -133,7 +133,7 @@ window.renderHierarchy = function(container) {
                 <strong>U.S. Claim:</strong> Falsely stated as AQ head (he's not)
             </p>
         </div>
-    `;
+    `);
     aqLeadership.appendChild(leadershipGrid);
     container.appendChild(aqLeadership);
 
@@ -145,7 +145,7 @@ window.renderHierarchy = function(container) {
 
     const fundingBox = document.createElement('div');
     fundingBox.className = 'info-box danger';
-    fundingBox.innerHTML = `
+    fundingBox.innerHTML = linkifyEntities(`
         <div class="info-box-title">Weekly U.S. Funding Recipients (All Designated Terrorists)</div>
         <div style="margin-top: 1rem;">
             <table class="data-table">
@@ -215,7 +215,7 @@ window.renderHierarchy = function(container) {
                 </tbody>
             </table>
         </div>
-    `;
+    `);
     fundingChart.appendChild(fundingBox);
     container.appendChild(fundingChart);
 
@@ -227,7 +227,7 @@ window.renderHierarchy = function(container) {
 
     const talibanFlow = document.createElement('div');
     talibanFlow.className = 'flow-chart';
-    talibanFlow.innerHTML = `
+    talibanFlow.innerHTML = linkifyEntities(`
         <div class="flow-row">
             <div class="flow-node orange">
                 <div class="flow-node-title">Kandahari Taliban Faction</div>
@@ -272,7 +272,7 @@ window.renderHierarchy = function(container) {
                 <div class="flow-node-detail">Via Sanullah (Haqqani plant)</div>
             </div>
         </div>
-    `;
+    `);
     talibanChart.appendChild(talibanFlow);
     container.appendChild(talibanChart);
 
@@ -284,7 +284,7 @@ window.renderHierarchy = function(container) {
 
     const isisInfo = document.createElement('div');
     isisInfo.className = 'location-grid';
-    isisInfo.innerHTML = `
+    isisInfo.innerHTML = linkifyEntities(`
         <div class="location-card critical">
             <div class="location-name">Real ISIS Leadership</div>
             <div class="location-region">Panjgur, Baluchistan, Pakistan</div>
@@ -315,7 +315,7 @@ window.renderHierarchy = function(container) {
                 <strong>Backing:</strong> Sirajuddin Haqqani funding
             </p>
         </div>
-    `;
+    `);
     isisChart.appendChild(isisInfo);
     container.appendChild(isisChart);
 
@@ -349,7 +349,7 @@ window.renderHierarchy = function(container) {
 
     const irgcGrid = document.createElement('div');
     irgcGrid.className = 'location-grid';
-    irgcGrid.innerHTML = `
+    irgcGrid.innerHTML = linkifyEntities(`
         <div class="location-card critical">
             <div class="location-name">Mohammad Kazemi</div>
             <div class="location-region">IRGC Intelligence Organization Head</div>
@@ -381,7 +381,7 @@ window.renderHierarchy = function(container) {
                 <strong>Chinese Role:</strong> Aware and allowing collaboration
             </p>
         </div>
-    `;
+    `);
     irgcChart.appendChild(irgcGrid);
     container.appendChild(irgcChart);
 
@@ -393,7 +393,7 @@ window.renderHierarchy = function(container) {
 
     const stateGrid = document.createElement('div');
     stateGrid.className = 'location-grid';
-    stateGrid.innerHTML = `
+    stateGrid.innerHTML = linkifyEntities(`
         <div class="location-card critical">
             <div class="location-name">Russia</div>
             <div class="location-region">Direct Logistical Support</div>
@@ -424,7 +424,7 @@ window.renderHierarchy = function(container) {
                 <strong>Details:</strong> Less disclosed but confirmed present
             </p>
         </div>
-    `;
+    `);
     stateChart.appendChild(stateGrid);
     container.appendChild(stateChart);
 
@@ -436,7 +436,7 @@ window.renderHierarchy = function(container) {
 
     const oct7Flow = document.createElement('div');
     oct7Flow.className = 'flow-chart';
-    oct7Flow.innerHTML = `
+    oct7Flow.innerHTML = linkifyEntities(`
         <div class="info-box warning" style="margin-bottom: 2rem;">
             <div class="info-box-title">Strategic Level Coordination</div>
             <p><strong>Russia:</strong> Approved timing (wanted Ukraine distraction)<br>
@@ -472,7 +472,7 @@ window.renderHierarchy = function(container) {
                 <div class="flow-node-detail">Al-Qassam Brigades<br>October 7, 2023</div>
             </div>
         </div>
-    `;
+    `);
     oct7Chart.appendChild(oct7Flow);
     container.appendChild(oct7Chart);
 
@@ -493,7 +493,7 @@ window.renderHierarchy = function(container) {
     const trainingBox = document.createElement('div');
     trainingBox.className = 'info-box warning';
     trainingBox.style.marginTop = '2rem';
-    trainingBox.innerHTML = `
+    trainingBox.innerHTML = linkifyEntities(`
         <div class="info-box-title">Camp Management & Security</div>
         <p><strong>Overall Manager:</strong> Abdullah bin Laden (Al-Qaeda COO)<br>
         <strong>Security:</strong> GDI 12th Department (sole job: protect Al-Qaeda)<br>
@@ -501,7 +501,7 @@ window.renderHierarchy = function(container) {
         <strong>Recent Training:</strong> Oct 7th (1,500), U.S. Homeland (1,000+), Europe (1,000), Syria (10,000)<br>
         <strong>Multi-Generational:</strong> Families now integrated, children trained from birth<br>
         <strong>Invisible Bomb Vest:</strong> AQAP developed, defeats magnetometers and K-9s (Dec 2023)</p>
-    `;
+    `);
     trainingChart.appendChild(trainingBox);
     container.appendChild(trainingChart);
 
@@ -513,7 +513,7 @@ window.renderHierarchy = function(container) {
 
     const regionalGrid = document.createElement('div');
     regionalGrid.className = 'location-grid';
-    regionalGrid.innerHTML = `
+    regionalGrid.innerHTML = linkifyEntities(`
         <div class="location-card high">
             <div class="location-name">AQAP - Yemen</div>
             <div class="location-region">Al-Qaeda in Arabian Peninsula</div>
@@ -552,7 +552,7 @@ window.renderHierarchy = function(container) {
                 <strong>Knowledge:</strong> Knows EVERY terrorist AQ deploys from Afghanistan
             </p>
         </div>
-    `;
+    `);
     regionalChart.appendChild(regionalGrid);
     container.appendChild(regionalChart);
 
@@ -579,7 +579,7 @@ window.renderHierarchy = function(container) {
     const gdiStructure = document.createElement('div');
     gdiStructure.className = 'location-grid';
     gdiStructure.style.marginTop = '2rem';
-    gdiStructure.innerHTML = `
+    gdiStructure.innerHTML = linkifyEntities(`
         <div class="location-card critical">
             <div class="location-name">12th Department</div>
             <div class="location-region">"Most Important" Unit</div>
@@ -600,7 +600,7 @@ window.renderHierarchy = function(container) {
                 <strong>Part of:</strong> Fat War plan
             </p>
         </div>
-    `;
+    `);
     gdiChart.appendChild(gdiStructure);
     container.appendChild(gdiChart);
 
@@ -612,7 +612,7 @@ window.renderHierarchy = function(container) {
 
     const hamasBox = document.createElement('div');
     hamasBox.className = 'location-grid';
-    hamasBox.innerHTML = `
+    hamasBox.innerHTML = linkifyEntities(`
         <div class="location-card high">
             <div class="location-name">Hamas - Al-Qassam Brigades</div>
             <div class="location-region">October 7th Execution Force</div>
@@ -633,7 +633,7 @@ window.renderHierarchy = function(container) {
                 <strong>Coordination:</strong> Through IRGC (Iran)
             </p>
         </div>
-    `;
+    `);
     hamasChart.appendChild(hamasBox);
     container.appendChild(hamasChart);
 
@@ -645,7 +645,7 @@ window.renderHierarchy = function(container) {
 
     const shiftsTable = document.createElement('table');
     shiftsTable.className = 'data-table';
-    shiftsTable.innerHTML = `
+    shiftsTable.innerHTML = linkifyEntities(`
         <thead>
             <tr>
                 <th>Traditional Al-Qaeda Model</th>
@@ -690,7 +690,7 @@ window.renderHierarchy = function(container) {
                 <td>Territory managed (ISIS controls, AQ influences politically)</td>
             </tr>
         </tbody>
-    `;
+    `);
     shiftsChart.appendChild(shiftsTable);
     container.appendChild(shiftsChart);
 
