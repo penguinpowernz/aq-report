@@ -13,13 +13,15 @@ window.renderHierarchy = function(container) {
     container.appendChild(header);
 
     // Critical Alert - Islamic Army Formation
-    const alert = createInfoBox(
-        '🚨 Islamic Army - Unified Command',
-        `<strong>Supreme Commander:</strong> Hamza bin Laden (alive in Afghanistan, U.S. falsely lists as deceased)<br>
-        <strong>Military Commander:</strong> Hamza al-Ghamdi (former Osama bin Laden bodyguard)<br>
+    const alertContent = `<strong>Supreme Commander:</strong> <a href="#entity:hamza-bin-laden" class="entity-link">Hamza bin Laden</a> (alive in <a href="#entity:afghanistan" class="entity-link">Afghanistan</a>, U.S. falsely lists as deceased)<br>
+        <strong>Military Commander:</strong> <a href="#entity:hamza-al-ghamdi" class="entity-link">Hamza al-Ghamdi</a> (former <a href="#entity:osama-bin-laden" class="entity-link">Osama bin Laden</a> bodyguard)<br>
         <strong>Total Force:</strong> 120,000+ trained fighters (2024)<br>
         <strong>Innovation:</strong> First successful Sunni-Shia integration for operational purposes<br>
-        <strong>State Support:</strong> Iran, Russia, China, North Korea coordination`,
+        <strong>State Support:</strong> <a href="#entity:iran" class="entity-link">Iran</a>, <a href="#entity:russia" class="entity-link">Russia</a>, <a href="#entity:china" class="entity-link">China</a>, North Korea coordination`;
+
+    const alert = createInfoBox(
+        '🚨 <a href="#entity:islamic-army" class="entity-link">Islamic Army</a> - Unified Command',
+        alertContent,
         'danger'
     );
     container.appendChild(alert);
@@ -35,45 +37,45 @@ window.renderHierarchy = function(container) {
     orgFlow.innerHTML = `
         <div class="flow-row">
             <div class="flow-node red">
-                <div class="flow-node-title">ISLAMIC ARMY</div>
+                <div class="flow-node-title"><a href="#entity:islamic-army" class="entity-link" style="color: inherit;">ISLAMIC ARMY</a></div>
                 <div class="flow-node-detail">120,000+ trained fighters</div>
             </div>
         </div>
         <div class="flow-row">
             <div class="flow-node orange">
-                <div class="flow-node-title">Hamza bin Laden</div>
+                <div class="flow-node-title"><a href="#entity:hamza-bin-laden" class="entity-link" style="color: inherit;">Hamza bin Laden</a></div>
                 <div class="flow-node-detail">Supreme Commander</div>
             </div>
             <div class="flow-node orange">
-                <div class="flow-node-title">Hamza al-Ghamdi</div>
+                <div class="flow-node-title"><a href="#entity:hamza-al-ghamdi" class="entity-link" style="color: inherit;">Hamza al-Ghamdi</a></div>
                 <div class="flow-node-detail">Military Commander</div>
             </div>
         </div>
         <div class="flow-row">
             <div class="flow-node blue">
-                <div class="flow-node-title">Al-Qaeda Core</div>
+                <div class="flow-node-title"><a href="#entity:al-qaeda" class="entity-link" style="color: inherit;">Al-Qaeda Core</a></div>
                 <div class="flow-node-detail">Training & Operations</div>
             </div>
             <div class="flow-node blue">
-                <div class="flow-node-title">Taliban</div>
+                <div class="flow-node-title"><a href="#entity:taliban" class="entity-link" style="color: inherit;">Taliban</a></div>
                 <div class="flow-node-detail">Safe Haven & Support</div>
             </div>
             <div class="flow-node blue">
-                <div class="flow-node-title">ISIS/ISIS-K</div>
+                <div class="flow-node-title"><a href="#entity:isis-k" class="entity-link" style="color: inherit;">ISIS/ISIS-K</a></div>
                 <div class="flow-node-detail">Territory Control</div>
             </div>
         </div>
         <div class="flow-row">
             <div class="flow-node green">
-                <div class="flow-node-title">Hamas</div>
+                <div class="flow-node-title"><a href="#entity:hamas" class="entity-link" style="color: inherit;">Hamas</a></div>
                 <div class="flow-node-detail">Al-Qassam Brigades</div>
             </div>
             <div class="flow-node green">
-                <div class="flow-node-title">Hezbollah</div>
+                <div class="flow-node-title"><a href="#entity:hezbollah" class="entity-link" style="color: inherit;">Hezbollah</a></div>
                 <div class="flow-node-detail">Military Wing</div>
             </div>
             <div class="flow-node green">
-                <div class="flow-node-title">Iranian IRGC</div>
+                <div class="flow-node-title"><a href="#entity:irgc" class="entity-link" style="color: inherit;">Iranian IRGC</a></div>
                 <div class="flow-node-detail">Quds Force & Intel</div>
             </div>
         </div>
@@ -91,11 +93,11 @@ window.renderHierarchy = function(container) {
     leadershipGrid.className = 'location-grid';
     leadershipGrid.innerHTML = `
         <div class="location-card critical">
-            <div class="location-name">Hamza bin Laden - #1</div>
+            <div class="location-name"><a href="#entity:hamza-bin-laden" class="entity-link" style="color: inherit;">Hamza bin Laden</a> - #1</div>
             <div class="location-region">Overall Leader</div>
             <p style="margin-top: 0.75rem; color: var(--text-secondary);">
-                <strong>Location:</strong> Kandahar, Afghanistan<br>
-                <strong>Status:</strong> U.S. falsely claims deceased<br>
+                <strong>Location:</strong> <a href="#entity:kandahar" class="entity-link">Kandahar</a>, <a href="#entity:afghanistan" class="entity-link">Afghanistan</a><br>
+                <strong>Status:</strong> <a href="#entity:united-states" class="entity-link">U.S.</a> falsely claims deceased<br>
                 <strong>Married to:</strong> Daughter of Mullah Omar & Zawahiri<br>
                 <strong>Receives:</strong> U.S. weekly cash ($44-87M distributed)<br>
                 <strong>FBI Reward:</strong> $1M (remarkably low)

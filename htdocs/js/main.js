@@ -112,14 +112,14 @@ function createChartContainer(title, subtitle) {
     if (title) {
         const titleEl = document.createElement('h3');
         titleEl.className = 'chart-title';
-        titleEl.textContent = title;
+        titleEl.innerHTML = title;  // Changed from textContent to innerHTML to support entity links
         container.appendChild(titleEl);
     }
 
     if (subtitle) {
         const subtitleEl = document.createElement('p');
         subtitleEl.className = 'chart-subtitle';
-        subtitleEl.textContent = subtitle;
+        subtitleEl.innerHTML = subtitle;  // Changed from textContent to innerHTML to support entity links
         container.appendChild(subtitleEl);
     }
 
@@ -133,7 +133,7 @@ function createInfoBox(title, content, type = 'info') {
     if (title) {
         const titleEl = document.createElement('div');
         titleEl.className = 'info-box-title';
-        titleEl.textContent = title;
+        titleEl.innerHTML = title;  // Changed from textContent to innerHTML to support entity links
         box.appendChild(titleEl);
     }
 
@@ -270,48 +270,104 @@ function createEntityLink(entityId, displayText) {
 
 // Replace entity mentions in text with links
 function linkifyEntities(text) {
-    // Entity name to ID mapping (most common names)
+    // Comprehensive entity name to ID mapping
     const entityMap = {
-        'Hamza bin Laden': 'hamza-bin-laden',
-        'Hamza': 'hamza-bin-laden',
+        // People (longest names first to avoid partial matches)
+        'Hibatullah Akhundzada': 'hibatullah-akhundzada',
         'Sirajuddin Haqqani': 'sirajuddin-haqqani',
+        'Abdul Rahim Sangari': 'abdul-rahim-sangari',
+        'Sanullah Ghafari': 'sanullah-ghafari',
+        'Abdul Haq Wasiq': 'abdul-haq-wasiq',
         'Mohammad Kazemi': 'mohammad-kazemi',
+        'Christopher Stevens': 'chris-stevens',
+        'Ambassador Stevens': 'chris-stevens',
+        'Hamza al-Ghamdi': 'hamza-al-ghamdi',
+        'Hamza bin Laden': 'hamza-bin-laden',
+        'Osama bin Laden': 'osama-bin-laden',
+        'Chris Stevens': 'chris-stevens',
+        'Saif al-Adel': 'saif-al-adel',
+        'Ryan Corbett': 'ryan-corbett',
         'Sarah Adams': 'sarah-adams',
+        'Sirajuddin': 'sirajuddin-haqqani',
+        'Sanullah': 'sanullah-ghafari',
+        'Kazemi': 'mohammad-kazemi',
+        'Hamza': 'hamza-bin-laden',
+        'Musa': 'musa',
+
+        // Organizations (longest first)
+        'Haqqani Network': 'haqqani-network',
         'Islamic Army': 'islamic-army',
         'Al-Qaeda': 'al-qaeda',
+        'Al Qaeda': 'al-qaeda',
+        'Hezbollah': 'hezbollah',
         'Taliban': 'taliban',
-        'Haqqani Network': 'haqqani-network',
         'ISIS-K': 'isis-k',
-        'Kandahar': 'kandahar',
+        'Hamas': 'hamas',
+        'IRGC': 'irgc',
+        'GDI': 'gdi',
+        'AQAP': 'aqap',
+        'AQIM': 'aqim',
+        'ISI': 'isi',
+        'CIA': 'cia',
+        'FBI': 'fbi',
+        'Congress': 'congress',
+
+        // Countries
+        'United States': 'united-states',
+        'Afghanistan': 'afghanistan',
+        'Pakistan': 'pakistan',
+        'Russia': 'russia',
         'China': 'china',
         'Iran': 'iran',
-        'Russia': 'russia',
-        'Afghanistan': 'afghanistan',
-        'Benghazi': 'benghazi',
-        'October 7': 'october-7',
-        'October 7th': 'october-7',
-        'Abbey Gate': 'abbey-gate',
+        'Libya': 'libya',
+        'Yemen': 'yemen',
+        'Turkey': 'turkey',
+        'Brazil': 'brazil',
+        'Panama': 'panama',
+        'U\\.S\\.': 'united-states',
+
+        // Locations (longest first)
+        'Bagram Air Base': 'bagram',
         'Darien Gap': 'darien-gap',
-        'GDI': 'gdi',
-        'Hamas': 'hamas',
-        'Hezbollah': 'hezbollah',
-        'IRGC': 'irgc',
-        'Saif al-Adel': 'saif-al-adel',
-        'Hibatullah Akhundzada': 'hibatullah-akhundzada',
-        'Abdul Haq Wasiq': 'abdul-haq-wasiq',
-        'Musa': 'musa',
+        'Abbey Gate': 'abbey-gate',
+        'Kandahar': 'kandahar',
+        'Benghazi': 'benghazi',
+        'Nangarhar': 'nangarhar',
+        'Baluchistan': 'baluchistan',
+        'Guantanamo': 'guantanamo',
+        'Panjgur': 'panjgur',
         'Bagram': 'bagram',
+        'Turbat': 'turbat',
         'Kabul': 'kabul',
-        'Pakistan': 'pakistan',
-        'United States': 'united-states',
-        'U.S.': 'united-states'
+
+        // Operations
+        'October 7th': 'october-7',
+        'October 7': 'october-7',
+
+        // Programs
+        'HIDE': 'hide-seek-bat',
+        'SEEK': 'hide-seek-bat',
+        'BAT': 'hide-seek-bat'
     };
 
     let linkedText = text;
-    Object.entries(entityMap).forEach(([name, id]) => {
+
+    // Sort by length (longest first) to avoid partial replacements
+    const sortedEntries = Object.entries(entityMap).sort((a, b) => b[0].length - a[0].length);
+
+    sortedEntries.forEach(([name, id]) => {
+        // Skip if already linked
+        if (linkedText.includes(`entity:${id}`)) return;
+
+        // Escape special regex characters except period (for U.S.)
+        const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\\\./g, '\\.');
+
         // Use word boundaries to avoid partial matches
-        const regex = new RegExp(`\\b${name}\\b`, 'g');
-        linkedText = linkedText.replace(regex, `<a href="#entity:${id}" class="entity-link">${name}</a>`);
+        const regex = new RegExp(`\\b${escapedName}\\b`, 'gi');
+        linkedText = linkedText.replace(regex, (match) => {
+            // Don't link if already inside a tag
+            return `<a href="#entity:${id}" class="entity-link">${match}</a>`;
+        });
     });
 
     return linkedText;

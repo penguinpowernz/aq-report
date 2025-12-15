@@ -5,7 +5,7 @@ window.renderAttacks = function(container) {
 
     const intro = createInfoBox(
         'Attack Analysis',
-        'Detailed breakdown of past attacks and predicted 2025 operations. All follow the Mumbai model: swarming multiple locations, real-time intelligence, extended duration engagements.',
+        linkifyEntities('Detailed breakdown of past attacks and predicted 2025 operations. All follow the Mumbai model: swarming multiple locations, real-time intelligence, extended duration engagements.'),
         'warning'
     );
     container.appendChild(intro);
@@ -14,41 +14,41 @@ window.renderAttacks = function(container) {
     const pastSection = createChartContainer('Historical Attacks', 'Attack patterns and methodologies');
 
     const benghazi = createInfoBox(
-        'Benghazi - September 11-12, 2012',
-        '<strong>Force:</strong> 150 terrorists (75 assault, 75 cordon)<br>' +
+        linkifyEntities('Benghazi - September 11-12, 2012'),
+        linkifyEntities('<strong>Force:</strong> 150 terrorists (75 assault, 75 cordon)<br>' +
         '<strong>Type:</strong> Kidnapping operation (NOT killing operation)<br>' +
         '<strong>Command:</strong> Ayman al-Zawahiri directly orchestrated<br>' +
         '<strong>Experience:</strong> Soviet-Afghan War, Algerian Civil War (200,000 killed), Iraq Wars, Libyan Revolution<br>' +
         '<strong>Key Failure:</strong> 17-minute delay by CIA chief Bob allowed fire to start<br>' +
         '<strong>Bob\'s Lie:</strong> Called 17th February Brigade (who sent 25 terrorists to attack), claimed waiting for their response<br>' +
-        '<strong>Objective:</strong> Exchange Ambassador Stevens for terrorists including Adel al-Shalali, Blind Sheikh, Abu Faraj al-Libi',
+        '<strong>Objective:</strong> Exchange Ambassador Stevens for terrorists including Adel al-Shalali, Blind Sheikh, Abu Faraj al-Libi'),
         'info'
     );
     pastSection.appendChild(benghazi);
 
     const abbey = createInfoBox(
-        'Abbey Gate - August 26, 2021',
-        '<strong>Casualties:</strong> 170+ Afghans, 13 U.S. service members<br>' +
+        linkifyEntities('Abbey Gate - August 26, 2021'),
+        linkifyEntities('<strong>Casualties:</strong> 170+ Afghans, 13 U.S. service members<br>' +
         '<strong>Command:</strong> Joint ISIS-K and Haqqani Network<br>' +
         '<strong>Bomber:</strong> Abdul Rahim Sangari (NOT al-Logari as CENTCOM stated after 3.5 years)<br>' +
         '<strong>Timeline:</strong> Released from Bagram July 1 → Planning meeting Aug 18 (3 days after release) → Attack Aug 26 (11 days total)<br>' +
         '<strong>Key Fact:</strong> ISIS-K leader Sanullah is actually Haqqani Network plant since 2012. Sirajuddin asked him to join ISIS to circumvent Doha Agreement.<br>' +
         '<strong>Control:</strong> Haqqani controlled all external security, deliberately concentrated casualties<br>' +
-        '<strong>Investigation:</strong> Sarah Adams identified true bomber in 4 months. CENTCOM took 3.5 years and failed.',
+        '<strong>Investigation:</strong> Sarah Adams identified true bomber in 4 months. CENTCOM took 3.5 years and failed.'),
         'info'
     );
     pastSection.appendChild(abbey);
 
     const october7 = createInfoBox(
-        'October 7th - 2023',
-        '<strong>Force:</strong> 1,400-1,500 attackers<br>' +
+        linkifyEntities('October 7th - 2023'),
+        linkifyEntities('<strong>Force:</strong> 1,400-1,500 attackers<br>' +
         '<strong>Training:</strong> Afghanistan (August 7, 2022 - October 2023)<br>' +
         '<strong>Date Significance:</strong> October 7, 2001 - U.S. began bombing Kandahar<br>' +
         '<strong>Model:</strong> Mumbai 2008 template - swarming, real-time intel, extended duration<br>' +
-        '<strong>Planning:</strong> Started March 2022, delayed one year after Zawahiri strike<br>' +
-        '<strong>Russia Role:</strong> Encouraged attack saying "go for it" - wanted distraction from Ukraine<br>' +
+        '<strong>Planning:</strong> Started March 2022 at Kandahar meeting, delayed one year after Zawahiri strike<br>' +
+        '<strong>Russia Role:</strong> Russia encouraged attack saying "go for it" - wanted distraction from Ukraine<br>' +
         '<strong>Warning Ignored:</strong> Israel informed Hamas training in Afghanistan, knew of "big plot," took no action<br>' +
-        '<strong>Significance:</strong> "First in series targeting Israel, Europe, United States" - Adams calls it "test run" for U.S. attacks',
+        '<strong>Significance:</strong> "First in series targeting Israel, Europe, United States" - Adams calls it "test run" for U.S. attacks'),
         'info'
     );
     pastSection.appendChild(october7);
@@ -98,15 +98,15 @@ window.renderAttacks = function(container) {
     predicted.appendChild(wave3);
 
     const wave4 = createInfoBox(
-        'Wave 4: U.S. Homeland Attacks',
-        '<strong>Force:</strong> 1,000+ trained terrorists deployed<br>' +
+        linkifyEntities('Wave 4: U.S. Homeland Attacks'),
+        linkifyEntities('<strong>Force:</strong> 1,000+ trained terrorists deployed<br>' +
         '<strong>Actual Number:</strong> Adams believes "more than a thousand Al-Qaeda members in United States"<br>' +
         '<strong>Style:</strong> October 7th/Mumbai-style swarming<br>' +
         '<strong>Scope:</strong> Multiple cities simultaneously<br>' +
         '<strong>Casualties:</strong> Al-Qaeda predicting 50,000-60,000 American deaths<br>' +
         '<strong>Duration:</strong> Extended engagements over days<br>' +
         '<strong>Status:</strong> All training completed, attackers deployed<br>' +
-        '<strong>Attribution:</strong> Will be falsely blamed on ISIS (Taliban has pre-planted intelligence in U.S. databases for years)',
+        '<strong>Attribution:</strong> Will be falsely blamed on ISIS (Taliban has pre-planted intelligence in U.S. databases for years)'),
         'danger'
     );
     predicted.appendChild(wave4);
