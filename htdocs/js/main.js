@@ -26,13 +26,44 @@ function initNavigation() {
     // Handle back/forward navigation
     window.addEventListener('hashchange', function() {
         const hash = window.location.hash.substring(1) || 'overview';
-        loadSection(hash);
+        handleHashChange(hash);
     });
+}
+
+function handleHashChange(hash) {
+    // Check if it's an entity page
+    if (hash.startsWith('entity:')) {
+        const entityId = hash.substring(7); // Remove 'entity:' prefix
+        loadEntityPage(entityId);
+    } else {
+        loadSection(hash);
+    }
 }
 
 function loadInitialSection() {
     const hash = window.location.hash.substring(1) || 'overview';
-    loadSection(hash);
+    handleHashChange(hash);
+}
+
+function loadEntityPage(entityId) {
+    // Hide all sections
+    const sections = document.querySelectorAll('.content-section');
+    sections.forEach(section => section.classList.remove('active'));
+
+    // Remove active state from nav links
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(l => l.classList.remove('active'));
+
+    // Show entity section
+    const entitySection = document.getElementById('entity-section');
+    if (entitySection) {
+        entitySection.classList.add('active');
+
+        // Render entity
+        if (window.renderEntity && typeof window.renderEntity === 'function') {
+            window.renderEntity(entitySection, entityId);
+        }
+    }
 }
 
 function loadSection(sectionName) {
@@ -61,7 +92,8 @@ function loadSectionContent(sectionName, targetElement) {
         'attacks': window.renderAttacks,
         'funding': window.renderFunding,
         'propaganda': window.renderPropaganda,
-        'refugees': window.renderRefugees
+        'refugees': window.renderRefugees,
+        'glossary': window.renderGlossary
     };
 
     const renderFunction = moduleFunctions[sectionName];
@@ -227,9 +259,69 @@ function createTimelineEvent(event, index) {
     return item;
 }
 
+// Entity linking utility
+function createEntityLink(entityId, displayText) {
+    const link = document.createElement('a');
+    link.href = `#entity:${entityId}`;
+    link.className = 'entity-link';
+    link.textContent = displayText;
+    return link;
+}
+
+// Replace entity mentions in text with links
+function linkifyEntities(text) {
+    // Entity name to ID mapping (most common names)
+    const entityMap = {
+        'Hamza bin Laden': 'hamza-bin-laden',
+        'Hamza': 'hamza-bin-laden',
+        'Sirajuddin Haqqani': 'sirajuddin-haqqani',
+        'Mohammad Kazemi': 'mohammad-kazemi',
+        'Sarah Adams': 'sarah-adams',
+        'Islamic Army': 'islamic-army',
+        'Al-Qaeda': 'al-qaeda',
+        'Taliban': 'taliban',
+        'Haqqani Network': 'haqqani-network',
+        'ISIS-K': 'isis-k',
+        'Kandahar': 'kandahar',
+        'China': 'china',
+        'Iran': 'iran',
+        'Russia': 'russia',
+        'Afghanistan': 'afghanistan',
+        'Benghazi': 'benghazi',
+        'October 7': 'october-7',
+        'October 7th': 'october-7',
+        'Abbey Gate': 'abbey-gate',
+        'Darien Gap': 'darien-gap',
+        'GDI': 'gdi',
+        'Hamas': 'hamas',
+        'Hezbollah': 'hezbollah',
+        'IRGC': 'irgc',
+        'Saif al-Adel': 'saif-al-adel',
+        'Hibatullah Akhundzada': 'hibatullah-akhundzada',
+        'Abdul Haq Wasiq': 'abdul-haq-wasiq',
+        'Musa': 'musa',
+        'Bagram': 'bagram',
+        'Kabul': 'kabul',
+        'Pakistan': 'pakistan',
+        'United States': 'united-states',
+        'U.S.': 'united-states'
+    };
+
+    let linkedText = text;
+    Object.entries(entityMap).forEach(([name, id]) => {
+        // Use word boundaries to avoid partial matches
+        const regex = new RegExp(`\\b${name}\\b`, 'g');
+        linkedText = linkedText.replace(regex, `<a href="#entity:${id}" class="entity-link">${name}</a>`);
+    });
+
+    return linkedText;
+}
+
 // Export utility functions
 window.createChartContainer = createChartContainer;
 window.createInfoBox = createInfoBox;
 window.createBarChart = createBarChart;
 window.createLocationCard = createLocationCard;
 window.createTimelineEvent = createTimelineEvent;
+window.createEntityLink = createEntityLink;
+window.linkifyEntities = linkifyEntities;

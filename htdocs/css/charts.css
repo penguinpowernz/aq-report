@@ -409,3 +409,332 @@
         flex-direction: column;
     }
 }
+
+/* Entity Page Styles */
+.entity-page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.entity-header {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--accent-red);
+}
+
+.entity-header.threat-critical {
+    border-left-color: var(--accent-red);
+}
+
+.entity-header.threat-high {
+    border-left-color: var(--accent-orange);
+}
+
+.entity-header.threat-historical {
+    border-left-color: var(--accent-yellow);
+}
+
+.entity-header.threat-info {
+    border-left-color: var(--primary-blue);
+}
+
+.entity-header.threat-victim {
+    border-left-color: #7c3aed;
+}
+
+.entity-name {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.entity-role {
+    font-size: 1.2rem;
+    color: var(--accent-orange);
+    margin-bottom: 1rem;
+}
+
+.entity-type-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: var(--secondary-bg);
+    border-radius: 4px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-right: 0.5rem;
+}
+
+.entity-aliases {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.entity-aliases strong {
+    color: var(--text-primary);
+}
+
+.entity-section {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.entity-section h3 {
+    color: var(--accent-orange);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.key-facts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.key-facts-list li {
+    padding: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.key-facts-list li:last-child {
+    border-bottom: none;
+}
+
+.key-facts-list li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--accent-red);
+    font-size: 1.2rem;
+}
+
+.related-entities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.related-entity-link {
+    background: var(--secondary-bg);
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--primary-blue);
+    transition: all 0.2s;
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.related-entity-link:hover {
+    background: var(--border-color);
+    border-color: var(--accent-orange);
+    transform: translateY(-2px);
+}
+
+.wikipedia-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--secondary-bg);
+    color: var(--primary-blue);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s;
+    border: 1px solid var(--border-color);
+}
+
+.wikipedia-link:hover {
+    background: var(--border-color);
+    border-color: var(--primary-blue);
+}
+
+.wikipedia-link::before {
+    content: "🔗";
+    font-size: 1.2rem;
+}
+
+.back-to-glossary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--secondary-bg);
+    color: var(--text-primary);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s;
+    border: 1px solid var(--border-color);
+    margin-bottom: 1.5rem;
+}
+
+.back-to-glossary:hover {
+    background: var(--border-color);
+}
+
+.back-to-glossary::before {
+    content: "←";
+    font-size: 1.2rem;
+}
+
+/* Glossary Styles */
+.glossary-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.75rem 1.5rem;
+    background: var(--secondary-bg);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1rem;
+}
+
+.filter-btn:hover {
+    background: var(--border-color);
+}
+
+.filter-btn.active {
+    background: var(--accent-orange);
+    border-color: var(--accent-orange);
+    color: var(--primary-bg);
+}
+
+.glossary-alphabet {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.alphabet-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-bg);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+.alphabet-btn:hover {
+    background: var(--border-color);
+}
+
+.alphabet-btn.active {
+    background: var(--primary-blue);
+    border-color: var(--primary-blue);
+    color: white;
+}
+
+.alphabet-btn.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.glossary-section {
+    margin-bottom: 2rem;
+}
+
+.glossary-section h3 {
+    font-size: 1.8rem;
+    color: var(--accent-orange);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.glossary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.glossary-card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--accent-red);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.glossary-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.glossary-card.threat-critical {
+    border-left-color: var(--accent-red);
+}
+
+.glossary-card.threat-high {
+    border-left-color: var(--accent-orange);
+}
+
+.glossary-card.threat-historical {
+    border-left-color: var(--accent-yellow);
+}
+
+.glossary-card.threat-info {
+    border-left-color: var(--primary-blue);
+}
+
+.glossary-card.threat-victim {
+    border-left-color: #7c3aed;
+}
+
+.glossary-card-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.glossary-card-role {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.glossary-card-type {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: var(--secondary-bg);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+/* Entity inline links */
+.entity-link {
+    color: var(--primary-blue);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--primary-blue);
+    transition: all 0.2s;
+}
+
+.entity-link:hover {
+    color: var(--accent-orange);
+    border-bottom-color: var(--accent-orange);
+}
