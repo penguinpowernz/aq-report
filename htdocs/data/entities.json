@@ -940,6 +940,973 @@
       ],
       "relatedEntities": ["united-states", "taliban", "al-qaeda"],
       "threatLevel": "info"
+    },
+    {
+      "id": "george-glezmann",
+      "name": "George Glezmann",
+      "aliases": ["Third American Hostage"],
+      "type": "person",
+      "role": "American Hostage",
+      "keyFacts": [
+        "One of 3 Americans held by Taliban GDI",
+        "Previously unnamed 'third American' in reporting",
+        "Held separately from Ryan Corbett and Mahmood Habibi",
+        "U.S. government receiving weekly payments to organization holding him"
+      ],
+      "relatedEntities": ["gdi", "ryan-corbett", "mahmood-habibi", "abdul-haq-wasiq", "taliban"],
+      "threatLevel": "victim"
+    },
+    {
+      "id": "mahmood-habibi",
+      "name": "Mahmood Habibi",
+      "aliases": ["Second American Hostage"],
+      "type": "person",
+      "role": "American Hostage",
+      "keyFacts": [
+        "One of 3 Americans held by Taliban GDI",
+        "Locked in same cell as Ryan Corbett",
+        "Suffering severe health consequences",
+        "No adequate food or nutrition",
+        "Organs breaking down, brain affected",
+        "British detainee said he and Corbett kept him alive"
+      ],
+      "relatedEntities": ["gdi", "ryan-corbett", "george-glezmann", "abdul-haq-wasiq", "taliban"],
+      "threatLevel": "victim"
+    },
+    {
+      "id": "saad-bin-laden",
+      "name": "Saad bin Laden",
+      "aliases": [],
+      "type": "person",
+      "role": "Deputy Leader of Al-Qaeda",
+      "keyFacts": [
+        "Brother of Hamza bin Laden",
+        "Number two in Al-Qaeda hierarchy",
+        "Receives weekly U.S. cash deliveries via Taliban",
+        "September 2023: Visited Hamza in Afghanistan",
+        "Part of Bin Laden family receiving U.S. government funds"
+      ],
+      "relatedEntities": ["hamza-bin-laden", "abdullah-bin-laden", "al-qaeda", "taliban", "afghanistan"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "abdullah-bin-laden",
+      "name": "Abdullah bin Laden",
+      "aliases": [],
+      "type": "person",
+      "role": "Number Three in Al-Qaeda, COO (Business Operations)",
+      "keyFacts": [
+        "Brother of Hamza bin Laden",
+        "Runs business operations side of Al-Qaeda",
+        "Receives weekly U.S. cash deliveries via Taliban",
+        "NOT designated as terrorist (only top 3 Al-Qaeda member not designated)",
+        "Only terrorist U.S. can legally give money to",
+        "Sarah Adams recommendation: 'Please designate Abdullah Bin Laden as a terrorist'"
+      ],
+      "relatedEntities": ["hamza-bin-laden", "saad-bin-laden", "al-qaeda", "taliban", "afghanistan"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "mohammad-hassan-akhund",
+      "name": "Mohammad Hassan Akhund",
+      "aliases": [],
+      "type": "person",
+      "role": "Prime Minister of Taliban",
+      "keyFacts": [
+        "One of six founders of Taliban (1990s)",
+        "Co-founder with Mullah Omar",
+        "Longtime Mullah Omar supporter",
+        "Receives weekly U.S. cash deliveries (violates international law)",
+        "Designated terrorist receiving U.S. funds",
+        "Very wealthy from Taliban funds",
+        "Heavy investments in Pakistan",
+        "Has cancer, going to Pakistan for treatment",
+        "Two-faced: publicly backs Hibatullah, privately plays Pakistan side"
+      ],
+      "relatedEntities": ["taliban", "mullah-omar", "hibatullah-akhundzada", "pakistan", "united-states"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "mullah-baradar",
+      "name": "Mullah Abdul Ghani Baradar",
+      "aliases": ["Baradar"],
+      "type": "person",
+      "role": "Deputy Prime Minister of Taliban",
+      "keyFacts": [
+        "Co-founder of Taliban with Mullah Omar",
+        "Captured January 2010 by Sarah Adams' operation",
+        "Lead operational commander of Taliban",
+        "Every US soldier death in Afghanistan 'on his shoulders'",
+        "Released for peace deal negotiations",
+        "Made entire peace deal that turned Afghanistan over to Taliban",
+        "Taliban-China liaison since 2009",
+        "Receives weekly U.S. cash deliveries (designated terrorist)",
+        "Went to Iran with Al-Qaeda delegation",
+        "Made deal to send AQ fighters to attack U.S. and Israeli troops (Doha violation)"
+      ],
+      "relatedEntities": ["taliban", "sarah-adams", "china", "iran", "al-qaeda", "richard-holbrooke", "obama"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "khalil-haqqani",
+      "name": "Khalil Haqqani",
+      "aliases": [],
+      "type": "person",
+      "role": "Head of Taliban Refugee Program / Haqqani Network",
+      "keyFacts": [
+        "Uncle of Sirajuddin Haqqani",
+        "Runs fraudulent refugee program",
+        "Funnels $5 million per month to Al-Qaeda training camps",
+        "Claimed purpose: resettling Afghan refugees from Pakistan",
+        "Actual purpose: funding Al-Qaeda",
+        "Abdulaziz Haqqani delivers money directly to camps",
+        "Source: humanitarian aid dollars"
+      ],
+      "relatedEntities": ["haqqani-network", "sirajuddin-haqqani", "abdulaziz-haqqani", "al-qaeda", "taliban"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "abdulaziz-haqqani",
+      "name": "Abdulaziz Haqqani",
+      "aliases": [],
+      "type": "person",
+      "role": "Haqqani Network Financial Courier",
+      "keyFacts": [
+        "Delivers $5 million monthly from refugee fraud directly to Al-Qaeda training camps",
+        "Works with uncle Khalil Haqqani",
+        "Camps contain Libyan fighters and foreign nationals"
+      ],
+      "relatedEntities": ["haqqani-network", "khalil-haqqani", "al-qaeda", "taliban"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "anas-haqqani",
+      "name": "Anas Haqqani",
+      "aliases": [],
+      "type": "person",
+      "role": "Haqqani Network Public Relations",
+      "keyFacts": [
+        "Brother of Sirajuddin Haqqani",
+        "Used by Sirajuddin for U.S. relations",
+        "Public-facing member of Haqqani Network",
+        "Part of manipulation regarding women's education"
+      ],
+      "relatedEntities": ["haqqani-network", "sirajuddin-haqqani", "taliban"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "mullah-yaqub",
+      "name": "Mullah Yaqub",
+      "aliases": [],
+      "type": "person",
+      "role": "Taliban Official, Son of Mullah Omar",
+      "keyFacts": [
+        "Son of Mullah Omar",
+        "Kandahari Taliban faction (opposed to Haqqani)",
+        "Received $10 million from India to fund Bagram base security",
+        "Bagram is where Hibatullah's personal security is based",
+        "ISIS-KP mostly attacks Kandahari side (his side), not Haqqani side"
+      ],
+      "relatedEntities": ["taliban", "mullah-omar", "hibatullah-akhundzada", "bagram", "india", "isis-k"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "ghulam-kohistani",
+      "name": "Ghulam Kohistani",
+      "aliases": [],
+      "type": "person",
+      "role": "Leader of ISIS-K Branch Two",
+      "keyFacts": [
+        "Former Tajikistan Special Forces commander",
+        "Defected to ISIS, became ISIS's Minister of War",
+        "Death was faked, released after Kabul fell (2021)",
+        "Runs northern Afghanistan ISIS operations (Branch Two)",
+        "Focus: Central Asian terrorist recruitment",
+        "Threats against Russia - one of Russia's main global enemies",
+        "Supported and funded by Sirajuddin Haqqani",
+        "Real threat to Russia (vs Sanullah's Branch One)",
+        "Taliban hiding his role from Russia while making Russia focus on wrong branch"
+      ],
+      "relatedEntities": ["isis-k", "haqqani-network", "sirajuddin-haqqani", "russia", "afghanistan", "tajikistan"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "hafiz-zahir-hamidi",
+      "name": "Hafiz Zahir Hamidi",
+      "aliases": [],
+      "type": "person",
+      "role": "Haqqani Network Terrorist / Abbey Gate Facilitator",
+      "keyFacts": [
+        "Told Abbey Gate bomber 'you're in a good spot now, blow'",
+        "Final detonation authorization for Abbey Gate attack",
+        "At gates during attack",
+        "Part of 12 terrorists identified in Abbey Gate operation"
+      ],
+      "relatedEntities": ["abbey-gate", "haqqani-network", "abdul-rahim-sangari", "sirajuddin-haqqani"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "abdullah-omar-bhajauri",
+      "name": "Abdullah Omar Bhajauri",
+      "aliases": [],
+      "type": "person",
+      "role": "Head of Intel for ISIS-K",
+      "keyFacts": [
+        "Guy who puts all the pieces together to make an attack happen",
+        "Plotter/planner for Abbey Gate attack",
+        "Target for Abbey Gate justice",
+        "Name not being brought up by U.S. government",
+        "Should be pursued but no active efforts"
+      ],
+      "relatedEntities": ["isis-k", "abbey-gate", "sanullah-ghafari", "afghanistan"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "tom-west",
+      "name": "Tom West",
+      "aliases": [],
+      "type": "person",
+      "role": "Special Envoy to Afghanistan",
+      "keyFacts": [
+        "Taliban sympathizer",
+        "Said after Kabul fall: 'We will do anything at all cost to recognize the Taliban'",
+        "Potential nepotism in Swiss bank account oversight ($3.5 billion)",
+        "Oversees Taliban access to funds",
+        "Lots of issues involving him"
+      ],
+      "relatedEntities": ["taliban", "afghanistan", "state-department", "united-states"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "ross-wilson",
+      "name": "Ross Wilson",
+      "aliases": [],
+      "type": "person",
+      "role": "Former Special Envoy to Afghanistan",
+      "keyFacts": [
+        "Just as bad as Tom West",
+        "Knew Taliban detained Mark Frerichs before Kabul fall",
+        "Downplayed to keep 'fake peace deal' going",
+        "Lied: 'not Taliban, people trying to ruin peace'",
+        "Taliban had Frerichs whole time",
+        "After fall: released Frerichs for #1 narco trafficker (Taliban-run)",
+        "Major Doha deal violation"
+      ],
+      "relatedEntities": ["taliban", "mark-frerichs", "state-department", "afghanistan"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "mark-frerichs",
+      "name": "Mark Frerichs",
+      "aliases": [],
+      "type": "person",
+      "role": "American Contractor (Released 2021)",
+      "keyFacts": [
+        "Detained by Taliban before Kabul fall",
+        "Ross Wilson knew, downplayed situation",
+        "Released after fall",
+        "Exchanged for #1 narco trafficker Afghanistan (Taliban-run)",
+        "Major Doha deal violation"
+      ],
+      "relatedEntities": ["taliban", "ross-wilson", "afghanistan", "united-states"],
+      "threatLevel": "victim"
+    },
+    {
+      "id": "richard-holbrooke",
+      "name": "Richard Holbrooke",
+      "aliases": [],
+      "type": "person",
+      "role": "Special Envoy (Deceased)",
+      "keyFacts": [
+        "Appointed by President Obama",
+        "Goal: Taliban reconciliation",
+        "Assessment: could only reconcile using Mullah Baradar",
+        "Took over from Islamabad station after Baradar capture",
+        "Didn't want station personnel debriefing Baradar",
+        "Afghanistan reconciliation became top White House priority",
+        "Focus on peace deal over counterterrorism"
+      ],
+      "relatedEntities": ["obama", "mullah-baradar", "taliban", "united-states"],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "obama",
+      "name": "President Barack Obama",
+      "aliases": ["Barack Obama"],
+      "type": "person",
+      "role": "Former U.S. President",
+      "keyFacts": [
+        "Appointed Richard Holbrooke as special envoy",
+        "Goal: Taliban reconciliation (plan existed before Baradar capture)",
+        "Flew to Las Vegas during Benghazi attacks (to see Beyoncé/Jay-Z)",
+        "Did not cancel trip during active attack",
+        "Made statement supporting video narrative (anti-Islam movie false blame)",
+        "2021 withdrawal planned years in advance under his administration"
+      ],
+      "relatedEntities": ["richard-holbrooke", "benghazi", "taliban", "hillary-clinton", "jake-sullivan"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "hillary-clinton",
+      "name": "Hillary Clinton",
+      "aliases": [],
+      "type": "person",
+      "role": "Former Secretary of State",
+      "keyFacts": [
+        "Secretary of State during Benghazi",
+        "Made statement supporting video narrative",
+        "Anti-Islam movie falsely blamed for attacks"
+      ],
+      "relatedEntities": ["benghazi", "jake-sullivan", "obama", "united-states"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "jake-sullivan",
+      "name": "Jake Sullivan",
+      "aliases": [],
+      "type": "person",
+      "role": "National Security Advisor (Current)",
+      "keyFacts": [
+        "Created the video narrative about Benghazi",
+        "Anti-Islam movie falsely blamed for attacks",
+        "Same person who created Benghazi false narrative now in senior position as National Security Advisor"
+      ],
+      "relatedEntities": ["benghazi", "hillary-clinton", "obama", "united-states"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "ron-desantis",
+      "name": "Governor Ron DeSantis",
+      "aliases": ["DeSantis"],
+      "type": "person",
+      "role": "Florida Governor",
+      "keyFacts": [
+        "Briefed by Adams & Scott Mann on terror threats",
+        "Statement: 'I've received no threat reporting at all on terrorism from federal government'",
+        "Day after briefing: briefed every sheriff in Florida",
+        "Created information sharing with Adams team",
+        "Established Florida National Guard CT capability",
+        "Positioned state independent of federal government"
+      ],
+      "relatedEntities": ["florida", "sarah-adams", "scott-mann", "united-states"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "scott-mann",
+      "name": "Scott Mann",
+      "aliases": ["Lt. Col. Scott Mann"],
+      "type": "person",
+      "role": "Former Green Beret / Task Force Pineapple Leader",
+      "keyFacts": [
+        "Confirmed Taliban funding amounts",
+        "Briefed DeSantis with Sarah Adams",
+        "Leader of Task Force Pineapple",
+        "Confirmed $44-87 million per week to Taliban",
+        "Reportedly told Shawn Ryan: Al-Qaeda predicting 50,000-60,000 American deaths",
+        "Interviewed Ahmad Massoud in Vienna"
+      ],
+      "relatedEntities": ["sarah-adams", "ron-desantis", "taliban", "task-force-pineapple", "ahmad-massoud"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "ahmad-massoud",
+      "name": "Ahmad Massoud",
+      "aliases": [],
+      "type": "person",
+      "role": "Leader of National Resistance Front (NRF)",
+      "keyFacts": [
+        "Son of Ahmad Shah Massoud (assassinated 2001)",
+        "Leading Northern Alliance resistance",
+        "Fighting same terrorists as father",
+        "Confirmed Taliban funding info with Scott Mann in Vienna",
+        "Tajik-based resistance cannot win alone due to ethnic limitations"
+      ],
+      "relatedEntities": ["nrf", "ahmad-shah-massoud", "taliban", "afghanistan", "scott-mann"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "ahmad-shah-massoud",
+      "name": "Ahmad Shah Massoud",
+      "aliases": ["Massoud"],
+      "type": "person",
+      "role": "Northern Alliance Leader (Assassinated 2001)",
+      "keyFacts": [
+        "Key US ally before 9/11",
+        "Assassinated September 9, 2001 (two days before 9/11)",
+        "Killed by two Tunisian suicide bombers",
+        "Individual who provided suicide bombers also provided Benghazi attackers",
+        "Same terrorist networks still in play",
+        "Son Ahmad Massoud currently leading resistance"
+      ],
+      "relatedEntities": ["ahmad-massoud", "al-qaeda", "benghazi", "afghanistan", "ayman-al-zawahiri"],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "tyler-vargas-andrews",
+      "name": "Tyler Vargas Andrews",
+      "aliases": ["Tyler Andrew Vargas"],
+      "type": "person",
+      "role": "Marine at Abbey Gate",
+      "keyFacts": [
+        "Had Abbey Gate bomber in his sights",
+        "Witnessed atrocities at Kabul airport",
+        "Part of Moral Compass Federation",
+        "Testified to Congress (no action taken by Michael McCaul)",
+        "Requested permission to engage but was denied"
+      ],
+      "relatedEntities": ["abbey-gate", "moral-compass-federation", "congress", "afghanistan"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "qasem-soleimani",
+      "name": "Qasem Soleimani",
+      "aliases": ["Soleimani"],
+      "type": "person",
+      "role": "Head of Iranian Quds Force (Killed January 2020)",
+      "keyFacts": [
+        "Killed January 2020 by U.S. drone strike in Iraq (ordered by Trump)",
+        "Personally oversaw Al-Qaeda protection in Iran",
+        "Created infrastructure to harbor terrorists",
+        "Tasked Mohammad Kazemi to keep Al-Qaeda leaders safe",
+        "Symbol of the Iranian Revolution, not just a man",
+        "Iran expects equivalent response (not just one assassination)",
+        "Infrastructure used for October 7th planning",
+        "Legacy: revenge plot ongoing with $145 million monthly budget"
+      ],
+      "relatedEntities": ["iran", "irgc", "mohammad-kazemi", "united-states", "al-qaeda"],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "mullah-omar",
+      "name": "Mullah Omar",
+      "aliases": [],
+      "type": "person",
+      "role": "Founder of Taliban (Deceased)",
+      "keyFacts": [
+        "Created Taliban in 1990s with Mohammad Hassan Akhund",
+        "Gave Osama bin Laden refuge in Afghanistan",
+        "9/11 planned from Afghanistan under his rule",
+        "Daughter married to Hamza bin Laden since age 17",
+        "Grandson Osama bin Laden (Hamza's son)",
+        "Hidden by Baradar in Waziristan after 2001, likely never left"
+      ],
+      "relatedEntities": ["taliban", "hamza-bin-laden", "osama-bin-laden", "mohammad-hassan-akhund", "mullah-baradar"],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "russia",
+      "name": "Russia",
+      "aliases": ["Russian Federation"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Russia",
+      "role": "State Actor Supporting Terrorists",
+      "keyFacts": [
+        "Representatives at Kandahar coordination hub",
+        "Approved October 7th attack at March 2022 meeting",
+        "Treats Taliban/Al-Qaeda as peer state actors",
+        "Coordinates with Islamic Army",
+        "Part of anti-U.S. coalition",
+        "Taliban deceiving Russia: focusing them on ISIS-K Branch One while protecting Branch Two (real Russia threat)"
+      ],
+      "relatedEntities": ["kandahar", "al-qaeda", "taliban", "october-7", "islamic-army", "ghulam-kohistani"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "pakistan",
+      "name": "Pakistan",
+      "aliases": ["Islamic Republic of Pakistan"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pakistan",
+      "role": "Terrorist Safe Haven",
+      "keyFacts": [
+        "Hosts ISIS headquarters in Panjgur, Baluchistan",
+        "ISI protects terrorist groups",
+        "Turbat training camp in Baluchistan",
+        "Long history supporting Taliban",
+        "Pakistani military aware of terrorist presence",
+        "Target of TTP attacks (800 last year) as part of Fat War plan",
+        "Mohammad Hassan Akhund has heavy investments here"
+      ],
+      "relatedEntities": ["isi", "panjgur", "turbat", "baluchistan", "taliban", "isis-k", "ttp"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "north-korea",
+      "name": "North Korea",
+      "aliases": ["DPRK", "Democratic People's Republic of Korea"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/North_Korea",
+      "role": "State Actor Supporting Terrorists",
+      "keyFacts": [
+        "Representatives at Kandahar coordination hub",
+        "Meetings with Taliban, Al-Qaeda, and other state actors",
+        "Part of anti-U.S. coordination",
+        "State actors treat Taliban/Al-Qaeda as peers"
+      ],
+      "relatedEntities": ["kandahar", "taliban", "al-qaeda", "russia", "china", "iran"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "aliases": ["Republic of India"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
+      "role": "State Actor / Transit Point",
+      "keyFacts": [
+        "Gave $10 million to Mullah Yaqub to fund Bagram base security",
+        "Primary exit point for terrorists to U.S.",
+        "Abbey Gate bomber cased targets in New Delhi (2017)",
+        "Being used by Taliban to assassinate Kashmir militants in Pakistan",
+        "India doesn't understand Taliban using them to eliminate Pakistan-loyal militants",
+        "Involved in Kashmir operations with HuM"
+      ],
+      "relatedEntities": ["mullah-yaqub", "bagram", "abdul-rahim-sangari", "taliban", "kashmir", "pakistan"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "qatar",
+      "name": "Qatar",
+      "aliases": ["State of Qatar"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Qatar",
+      "role": "Taliban Political Office Host",
+      "keyFacts": [
+        "Hosts Taliban political office",
+        "U.S. funds Taliban office: at least $10 million per month",
+        "Operating expenses funded by U.S. since 2013",
+        "11+ years of continuous U.S. funding to Taliban",
+        "Marwan Issa (Hamas) got private plane from Tripoli to Qatar after release",
+        "Safe haven for terrorist organizations"
+      ],
+      "relatedEntities": ["taliban", "united-states", "hamas"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "aliases": ["Republic of Turkey"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
+      "role": "Terrorist Transit Route",
+      "keyFacts": [
+        "Transit point on route to U.S.",
+        "Afghanistan → Iran → Turkey → Brazil route",
+        "Visa arrangements for Afghan passport holders",
+        "Part of 3-week journey to U.S.",
+        "Musa (document forger) specialized in Turkish documents",
+        "Muhammad al-Gharabi travels between Libya and Turkey"
+      ],
+      "relatedEntities": ["iran", "brazil", "darien-gap", "afghanistan", "musa"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "aliases": ["Federative Republic of Brazil"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+      "role": "Terrorist Transit Route",
+      "keyFacts": [
+        "Entry point before Darien Gap crossing",
+        "Part of Afghanistan → Iran → Turkey → Brazil → Darien Gap → U.S. route",
+        "NGO coordination for terrorist movement",
+        "Visa-free entry for many nationalities"
+      ],
+      "relatedEntities": ["darien-gap", "panama", "iran", "turkey"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "aliases": ["Kingdom of Saudi Arabia"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+      "role": "Al-Qaeda Recruitment Source",
+      "keyFacts": [
+        "Clean terrorists from Saudi can get tourist visas to U.S.",
+        "U.S. Embassy on Saudi Peninsula under active threat",
+        "AQ preference: legal entry from Saudi/Kuwait/Jordan",
+        "Banned Muslim Brotherhood (unlike U.S.)"
+      ],
+      "relatedEntities": ["al-qaeda", "aqap", "kuwait", "jordan"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "kuwait",
+      "name": "Kuwait",
+      "aliases": ["State of Kuwait"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kuwait",
+      "role": "Al-Qaeda Recruitment Source",
+      "keyFacts": [
+        "Clean terrorists from Kuwait can get tourist visas to U.S.",
+        "AQ preference: legal entry",
+        "Part of Persian Gulf recruitment area"
+      ],
+      "relatedEntities": ["al-qaeda", "saudi-arabia", "jordan"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "aliases": ["Hashemite Kingdom of Jordan"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
+      "role": "Al-Qaeda Recruitment Source",
+      "keyFacts": [
+        "Clean terrorists from Jordan can get tourist visas to U.S.",
+        "AQ recruits from Jordan",
+        "Camp Chapman double agent was Jordanian"
+      ],
+      "relatedEntities": ["al-qaeda", "saudi-arabia", "kuwait"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "syria",
+      "name": "Syria",
+      "aliases": ["Syrian Arab Republic"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Syria",
+      "role": "Caliphate Expansion Target",
+      "keyFacts": [
+        "10,000 Al-Qaeda/Taliban fighters deployed recently",
+        "Al-Badri Brigade (Libyan terrorists) joined ISIS here",
+        "HTS (Jolani) blitz attack supported by AQ/Taliban",
+        "Media only reported HTS, no mention AQ/Taliban involvement",
+        "Part of caliphate vision",
+        "Recently completed operations"
+      ],
+      "relatedEntities": ["al-qaeda", "taliban", "isis-k", "iraq", "libya"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "iraq",
+      "name": "Iraq",
+      "aliases": ["Republic of Iraq"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Iraq",
+      "role": "Caliphate Expansion Target / Attack Target",
+      "keyFacts": [
+        "Part of caliphate core territories",
+        "U.S. Embassy Baghdad under threat",
+        "Some Syria fighters deployed here",
+        "Mullah Baradar deal: send AQ to attack U.S./Israeli troops",
+        "Al-Qaeda in Iraq historical presence",
+        "Qasem Soleimani killed here by U.S. drone (January 2020)"
+      ],
+      "relatedEntities": ["al-qaeda", "syria", "taliban", "iran", "qasem-soleimani"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "mali",
+      "name": "Mali",
+      "aliases": ["Republic of Mali"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mali",
+      "role": "Al-Qaeda Expansion / Embassy Threat",
+      "keyFacts": [
+        "U.S. Embassy Bamako under threat",
+        "Abu Muhammad al-Masri deployed here from Afghanistan",
+        "Reason for embassy threat",
+        "Next Al-Qaeda base (Osama wanted Libya, Hamza chose Mali)",
+        "Caliphate expansion operations",
+        "AQIM operations area"
+      ],
+      "relatedEntities": ["al-qaeda", "aqim", "africa"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "libya",
+      "name": "Libya",
+      "aliases": ["State of Libya"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Libya",
+      "role": "Former Terrorist Safe Haven / Benghazi Attack Site",
+      "keyFacts": [
+        "2014: Peak Al-Qaeda power level in Libya",
+        "Benghazi attack site (2012)",
+        "75% of Benghazi attackers still in Tripoli",
+        "Current Afghanistan approaching 2014 Libya threat level",
+        "Al-Qaeda 'a year away' from matching 2014 Libya power",
+        "Abdul Hakim Belhaj leads 'Islamic Reform Movement' (rebranded AQ)",
+        "U.S. aligned with same Government of Libya that harbors terrorists"
+      ],
+      "relatedEntities": ["benghazi", "al-qaeda", "aqim", "chris-stevens"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "gaza",
+      "name": "Gaza",
+      "aliases": ["Gaza Strip"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gaza_Strip",
+      "role": "Hamas Base",
+      "keyFacts": [
+        "Marwan Issa from Gaza to Libya as Hamas representative",
+        "Weapons sent here from Libya",
+        "Abu Khattala picture in Gaza around 2011",
+        "Hamas cell ran weapons/aid to Gaza over years",
+        "Target of October 7, 2023 attack"
+      ],
+      "relatedEntities": ["hamas", "libya", "october-7"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "kashmir",
+      "name": "Kashmir",
+      "aliases": ["Jammu and Kashmir"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kashmir",
+      "role": "Disputed Territory / Militant Operations",
+      "keyFacts": [
+        "Sarah Adams thesis topic",
+        "India-Taliban theory: using India to assassinate Kashmir militants in Pakistan",
+        "18 militants targeted (Lashkar-e-Taiba, Jaish-e-Mohammed, Hizbul Mujahideen)",
+        "Not one from HuM killed (key indicator)",
+        "Taliban/HuM taking out Pakistan-loyal militants",
+        "New generation more aligned Taliban/AQ than Pakistani military",
+        "Creating new Kashmir landscape"
+      ],
+      "relatedEntities": ["india", "pakistan", "taliban"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "waziristan",
+      "name": "Waziristan",
+      "aliases": ["FATA", "Federally Administered Tribal Areas"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waziristan",
+      "role": "Pakistan Tribal Region / Terrorist Safe Haven",
+      "keyFacts": [
+        "Zawahiri used as haven",
+        "Mullah Omar hidden here by Baradar after 2001 (likely never left)",
+        "Haqqani Network historically based here",
+        "Terrorists fell back here during Afghan war",
+        "Part of FATA (Federally Administered Tribal Areas)",
+        "Hamza bin Laden 2020-2021 location"
+      ],
+      "relatedEntities": ["pakistan", "ayman-al-zawahiri", "mullah-omar", "mullah-baradar", "haqqani-network"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "quetta",
+      "name": "Quetta",
+      "aliases": ["Quetta, Pakistan"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Quetta",
+      "role": "City in Pakistan (Baluchistan)",
+      "keyFacts": [
+        "Mullah Baradar tracked and captured here (January 2010)",
+        "Dawood Badini house location",
+        "Al-Mauritani capture 3 blocks from Badini house",
+        "Only white people who come to Quetta are Russian prostitutes (flight attendant quote)",
+        "ISIS/terrorist/prostitute connection",
+        "FATA/Waziristan area"
+      ],
+      "relatedEntities": ["pakistan", "baluchistan", "mullah-baradar"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "kunar",
+      "name": "Kunar Province",
+      "aliases": ["Kunar"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kunar_Province",
+      "role": "Afghanistan Province / ISIS-K Headquarters",
+      "keyFacts": [
+        "ISIS-K headquarters location",
+        "Sanullah Ghafari operated from here",
+        "Eastern Afghanistan province",
+        "Training camps in Pakistan, not Afghanistan",
+        "Sanullah moved to Panjgur days before interview"
+      ],
+      "relatedEntities": ["afghanistan", "isis-k", "sanullah-ghafari", "panjgur"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "uruzgan",
+      "name": "Uruzgan Province",
+      "aliases": ["Uruzgan"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Urozgan_Province",
+      "role": "Afghanistan Province / Training Location",
+      "keyFacts": [
+        "Hamas attackers trained here for October 7th",
+        "Southern Afghanistan",
+        "Al-Qaeda training camps",
+        "1,500 Hamas fighters trained in Afghanistan"
+      ],
+      "relatedEntities": ["afghanistan", "hamas", "october-7", "al-qaeda"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "tripoli",
+      "name": "Tripoli",
+      "aliases": ["Tripoli, Libya"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tripoli,_Libya",
+      "role": "Libya Capital",
+      "keyFacts": [
+        "75% of at-large Benghazi attackers harbored by Government of Libya here",
+        "U.S. aligned with same government",
+        "State Dept requesting $53M for new embassy here",
+        "FBI says no budget for bounties",
+        "Haqqani goal: 'repeat success of Afghanistan in Tripoli'",
+        "Ashraf Salton discussing creating 'little Taliban-stans'"
+      ],
+      "relatedEntities": ["libya", "benghazi", "state-department"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "us-capitol",
+      "name": "U.S. Capitol",
+      "aliases": ["Capitol Building", "The Capitol"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States_Capitol",
+      "role": "Symbolic U.S. Target",
+      "keyFacts": [
+        "In Al-Qaeda propaganda since 9/11",
+        "In memorials of 9/11",
+        "High symbolic value",
+        "Specifically mentioned as AQ target",
+        "May be part of Soleimani revenge plot (equivalent to his symbolic value)",
+        "Adams theory: $145M/month... maybe it's the Capitol, the entire Capitol, the building",
+        "Qasem Soleimani 'symbol of Iranian Revolution' - equivalent response expected"
+      ],
+      "relatedEntities": ["al-qaeda", "united-states", "mohammad-kazemi", "qasem-soleimani"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "florida",
+      "name": "Florida",
+      "aliases": ["State of Florida"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Florida",
+      "role": "U.S. State with CT Capability",
+      "keyFacts": [
+        "Governor DeSantis briefed by Sarah Adams & Scott Mann",
+        "Day after: briefed all sheriffs",
+        "Established Florida National Guard CT capability",
+        "Info sharing system with Adams team",
+        "Model for other states (Tennessee interested)",
+        "State-level counterterrorism independent of federal government"
+      ],
+      "relatedEntities": ["united-states", "ron-desantis", "sarah-adams", "scott-mann"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "isi",
+      "name": "ISI (Inter-Services Intelligence)",
+      "aliases": ["Pakistani Intelligence", "ISI"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Inter-Services_Intelligence",
+      "role": "Pakistani Intelligence Agency",
+      "keyFacts": [
+        "Pakistan's intelligence service",
+        "Aware of ISIS headquarters in Panjgur",
+        "Protects ISIS in Baluchistan",
+        "Long history with Taliban",
+        "Allows terrorist safe havens in Pakistan",
+        "Sarah Adams negotiated with ISI after UBL raid for Al-Mauritani capture"
+      ],
+      "relatedEntities": ["pakistan", "panjgur", "isis-k", "taliban", "sarah-adams"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "irgc",
+      "name": "IRGC (Islamic Revolutionary Guard Corps)",
+      "aliases": ["Iranian Revolutionary Guards", "Quds Force"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps",
+      "role": "Iranian Military/Intelligence Force",
+      "keyFacts": [
+        "Iranian military and intelligence organization",
+        "Quds Force leader: Mohammad Kazemi",
+        "Intelligence base inside Al-Qaeda camp in Kandahar",
+        "Co-planned October 7th attack",
+        "Coordinates dirty bomb research with Al-Qaeda",
+        "Provides technical expertise to terrorists",
+        "$145 million monthly for operations (Soleimani revenge plot)",
+        "Harbored Al-Qaeda leadership 2001-2021 (entire 20-year war)"
+      ],
+      "relatedEntities": ["iran", "mohammad-kazemi", "al-qaeda", "kandahar", "october-7", "qasem-soleimani"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "ttp",
+      "name": "TTP (Tehrik-i-Taliban Pakistan)",
+      "aliases": ["Pakistani Taliban", "TTP"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tehrik-i-Taliban_Pakistan",
+      "role": "Pakistani Taliban",
+      "keyFacts": [
+        "GDI Immigrants Department solely funds and supports TTP",
+        "800 attacks in Pakistan last year",
+        "Afghan Taliban rotating units into TTP for attacks",
+        "Part of Fat War plan",
+        "Completely resurged to 'one of biggest terrorist groups in region'",
+        "Marriott bombing (killed Americans)",
+        "Peshawar consulate attack",
+        "Camp Chapman attack (December 2009) with Al-Qaeda"
+      ],
+      "relatedEntities": ["taliban", "pakistan", "al-qaeda", "gdi"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "nrf",
+      "name": "National Resistance Front (NRF)",
+      "aliases": ["NRF", "Northern Resistance"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/National_Resistance_Front_of_Afghanistan",
+      "role": "Afghan Resistance (Tajik-based)",
+      "keyFacts": [
+        "Primary ethnic: Tajik",
+        "Leader: Ahmad Massoud",
+        "Cannot win alone due to ethnic limitations",
+        "Most well-known resistance pocket",
+        "Trying to communicate continued terrorist connections",
+        "Confirmed Taliban funding info with Scott Mann",
+        "Fighting same terrorists as Ahmad Shah Massoud"
+      ],
+      "relatedEntities": ["ahmad-massoud", "afghanistan", "taliban"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "task-force-pineapple",
+      "name": "Task Force Pineapple",
+      "aliases": ["Pineapple"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Task_Force_Pineapple",
+      "role": "Afghanistan Evacuation NGO",
+      "keyFacts": [
+        "Scott Mann's organization",
+        "One of 'louder ones' talking about withdrawal issues",
+        "Government wanted to diffuse their voice",
+        "Part of reason for Afghan Evac coalition creation (to control/silence)",
+        "Evacuated Afghan allies during Kabul fall"
+      ],
+      "relatedEntities": ["scott-mann", "afghanistan"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "state-department",
+      "name": "U.S. State Department",
+      "aliases": ["State Dept", "State"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States_Department_of_State",
+      "role": "U.S. Foreign Affairs Agency",
+      "keyFacts": [
+        "Source of $44-87 million weekly to Taliban via NGOs",
+        "Tom West is Special Envoy to Afghanistan",
+        "Ross Wilson former Special Envoy (covered up Frerichs detention)",
+        "Requesting $53M for new Tripoli embassy while FBI has no bounty budget",
+        "Blue Mountain Group (Benghazi) was State Dept contract",
+        "Consistently denied Blue Mountain had any terrorists",
+        "Ran Kabul evacuation (NEO), took over CIA gate"
+      ],
+      "relatedEntities": ["united-states", "taliban", "tom-west", "ross-wilson", "benghazi"],
+      "threatLevel": "info"
     }
   ]
 }
