@@ -1,0 +1,50 @@
+digraph FundingFlow {
+    rankdir=LR;
+    node [style=filled, fontname="Arial", fontsize=11];
+
+    // Source
+    us_taxpayers [label="U.S. Taxpayers", fillcolor="#16a34a", fontcolor=white, shape=box, penwidth=3];
+
+    // Weekly Payments
+    weekly [label="Weekly Cash Delivery\n$44-87 Million\n(Plane from U.S.)", fillcolor="#ea580c", fontcolor=white, shape=box, penwidth=2];
+
+    // Eight Delivery Stops
+    stop1 [label="Prime Minister\nMohammad Hassan Akhund", fillcolor="#dc2626", fontcolor=white, shape=box];
+    stop2 [label="Deputy PM\nMullah Baradar", fillcolor="#dc2626", fontcolor=white, shape=box];
+    stop3 [label="GDI Head\nAbdul Haq Wasiq\n(Holds 3 Americans)", fillcolor="#dc2626", fontcolor=white, shape=box];
+    stop4 [label="Interior Ministry\nSirajuddin Haqqani", fillcolor="#dc2626", fontcolor=white, shape=box];
+    stop5 [label="Haqqani's House\n(Direct Payment)", fillcolor="#dc2626", fontcolor=white, shape=box];
+    stop6 [label="Supreme Leader\nHibatullah Akhundzada\n$3M/month", fillcolor="#dc2626", fontcolor=white, shape=box];
+    stop7 [label="Al-Qaeda Military\nSaif al-Adel", fillcolor="#dc2626", fontcolor=white, shape=box];
+    stop8 [label="Bin Laden Brothers\nHamza, Saad, Abdullah", fillcolor="#dc2626", fontcolor=white, shape=box];
+
+    // Refugee Fraud
+    refugee [label="Refugee Program\nKhalil Haqqani\n$5M/month", fillcolor="#ea580c", fontcolor=white, shape=box];
+    camps [label="Al-Qaeda Training Camps\nNangarhar Province\n(Libyan fighters, etc.)", fillcolor="#dc2626", fontcolor=white, shape=box];
+
+    // Trained Attackers
+    attackers [label="1,000+ Terrorists\nTrained for U.S. Attack\n50,000-60,000 Predicted Casualties", fillcolor="#dc2626", fontcolor=white, shape=box, penwidth=3];
+
+    // Flow
+    us_taxpayers -> weekly [label="$2.3-4.5B\nAnnually", penwidth=3, color="#16a34a"];
+
+    weekly -> stop1 [penwidth=2];
+    weekly -> stop2 [penwidth=2];
+    weekly -> stop3 [penwidth=2];
+    weekly -> stop4 [penwidth=2];
+    weekly -> stop5 [penwidth=2];
+    weekly -> stop6 [penwidth=2];
+    weekly -> stop7 [penwidth=2];
+    weekly -> stop8 [penwidth=2];
+
+    us_taxpayers -> refugee [label="Humanitarian Aid", penwidth=2, color="#16a34a"];
+    refugee -> camps [penwidth=2, color="#dc2626"];
+    camps -> attackers [penwidth=3, color="#dc2626"];
+
+    stop7 -> attackers [style=dashed, color="#dc2626"];
+    stop8 -> attackers [style=dashed, color="#dc2626"];
+
+    label="U.S. Funding Flow to Terrorists Training for Homeland Attack\n7 of 8 Weekly Recipients are Designated Terrorists";
+    labelloc=b;
+    fontsize=14;
+}

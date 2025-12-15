@@ -1,0 +1,43 @@
+digraph MigrationRoutes {
+    rankdir=LR;
+    node [style=filled, fontname="Arial", fontsize=11];
+
+    // Origin
+    afghanistan [label="Afghanistan\nTraining Complete\nPassports Obtained", fillcolor="#dc2626", fontcolor=white, shape=box, penwidth=2];
+
+    // Route 1: Darien Gap
+    iran [label="Iran\nTransit/Safe Harbor", fillcolor="#ea580c", fontcolor=white, shape=box];
+    turkey [label="Turkey\nTransit Hub\nDocument Procurement", fillcolor="#ea580c", fontcolor=white, shape=box];
+    brazil [label="Brazil\nHumanitarian Visa\n(Easy to obtain)", fillcolor="#ca8a04", fontcolor=white, shape=box];
+    darien [label="Darien Gap, Panama\n40% Mortality Rate\nConfirmed Groups:\n• ISIS (8)\n• Haqqani (25-50)", fillcolor="#dc2626", fontcolor=white, shape=box, penwidth=2];
+    central_america [label="Central America\nMultiple Routes", fillcolor="#ca8a04", fontcolor=white, shape=box];
+    mexico [label="Mexico\nNorthward Travel", fillcolor="#ca8a04", fontcolor=white, shape=box];
+    us_border [label="U.S. Southern Border\nPrimary Weakness", fillcolor="#dc2626", fontcolor=white, shape=box, penwidth=3];
+
+    // Route 2: Legal Visa
+    clean_operatives [label="'Clean' Operatives\nSaudi, Kuwait, Jordan\nNo Terror Records", fillcolor="#ea580c", fontcolor=white, shape=ellipse];
+    us_visa [label="U.S. Visa Approved\n(Legal Entry)", fillcolor="#ca8a04", fontcolor=white, shape=ellipse];
+    us_airport [label="U.S. Airport\nLegal Entry\nFly Next Day", fillcolor="#dc2626", fontcolor=white, shape=box, penwidth=2];
+
+    // Inside U.S.
+    us_interior [label="INSIDE UNITED STATES\n1,000+ Deployed\nAwaiting Orders", fillcolor="#dc2626", fontcolor=white, shape=box, penwidth=4];
+
+    // Darien Gap Route Flow
+    afghanistan -> iran [label="Land/Air", penwidth=2];
+    iran -> turkey [label="Transit", penwidth=2];
+    turkey -> brazil [label="Flight", penwidth=2];
+    brazil -> darien [label="3 weeks\nminimum", penwidth=2, color="#dc2626"];
+    darien -> central_america [label="Survivors", penwidth=2];
+    central_america -> mexico [penwidth=2];
+    mexico -> us_border [penwidth=2];
+    us_border -> us_interior [penwidth=3, color="#dc2626"];
+
+    // Legal Visa Route Flow
+    clean_operatives -> us_visa [label="Al-Qaeda\nPrefers This", penwidth=2, style=dashed];
+    us_visa -> us_airport [label="Fly\nImmediately", penwidth=2, style=dashed];
+    us_airport -> us_interior [penwidth=3, color="#dc2626", style=dashed];
+
+    label="Terrorist Migration Routes to United States\nDarien Gap: 3 weeks, 40% mortality | Legal Visa: Next day, 0% mortality\nAl-Qaeda prefers legal route to 'embarrass system like 9/11'";
+    labelloc=b;
+    fontsize=12;
+}

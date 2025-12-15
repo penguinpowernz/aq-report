@@ -1,0 +1,52 @@
+digraph IslamicArmyHierarchy {
+    rankdir=TB;
+    node [style=filled, fontname="Arial", fontsize=12];
+
+    // Supreme Command
+    hamza [label="Hamza bin Laden\nSupreme Commander\nIslamic Army", fillcolor="#dc2626", fontcolor=white, shape=box, penwidth=3];
+    hamza_military [label="Hamza al-Ghamdi\nMilitary Commander", fillcolor="#ea580c", fontcolor=white, shape=box];
+
+    // Major Organizations
+    aq [label="Al-Qaeda\n(Global Network)", fillcolor="#dc2626", fontcolor=white, shape=box];
+    taliban [label="Taliban\n(Afghanistan Govt)", fillcolor="#dc2626", fontcolor=white, shape=box];
+    haqqani [label="Haqqani Network\n(Interior Ministry)", fillcolor="#dc2626", fontcolor=white, shape=box];
+    isis [label="ISIS/ISIS-K\n(Controlled)", fillcolor="#ea580c", fontcolor=white, shape=box];
+    hamas [label="Hamas\n(Gaza/Training)", fillcolor="#ea580c", fontcolor=white, shape=box];
+    hezbollah [label="Hezbollah\n(Lebanon/Syria)", fillcolor="#ea580c", fontcolor=white, shape=box];
+
+    // State Actors
+    iran [label="Iran\nIRGC Support", fillcolor="#ca8a04", fontcolor=white, shape=ellipse];
+    russia [label="Russia\nSupply Chains", fillcolor="#ca8a04", fontcolor=white, shape=ellipse];
+    china [label="China\n$10B Investment", fillcolor="#ca8a04", fontcolor=white, shape=ellipse];
+    us [label="United States\n$44-87M Weekly", fillcolor="#16a34a", fontcolor=white, shape=ellipse, style="filled,dashed"];
+
+    // Trained Force
+    force [label="120,000 Trained Fighters\n30 Camps in Afghanistan", fillcolor="#2563eb", fontcolor=white, shape=box];
+
+    // Connections
+    hamza -> hamza_military [penwidth=3, color="#dc2626"];
+    hamza_military -> aq [penwidth=2];
+    hamza_military -> taliban [penwidth=2];
+    hamza_military -> haqqani [penwidth=2];
+    hamza_military -> isis [penwidth=2];
+    hamza_military -> hamas [penwidth=2];
+    hamza_military -> hezbollah [penwidth=2];
+
+    haqqani -> isis [label="Controls\nLeadership", color="#dc2626", penwidth=2];
+
+    // State actor support
+    iran -> hamza [style=dashed, color="#ca8a04"];
+    russia -> hamza [style=dashed, color="#ca8a04"];
+    china -> hamza [style=dashed, color="#ca8a04"];
+    us -> taliban [label="Funding", style=dashed, color="#16a34a", penwidth=2];
+    us -> haqqani [label="$15-18M/mo", style=dashed, color="#16a34a", penwidth=2];
+
+    // Training
+    aq -> force [color="#2563eb"];
+    taliban -> force [color="#2563eb"];
+    haqqani -> force [color="#2563eb"];
+
+    label="Islamic Army Unified Command Structure\n120,000+ Trained Fighters Under Single Leadership\nUnprecedented Sunni-Shia Cooperation";
+    labelloc=b;
+    fontsize=14;
+}
