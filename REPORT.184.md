@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-**Air Date:** February 2025
+**Air Date:** March 21, 2025
 **Guests:**
 - Sarah Adams (Former CIA targeter, call sign "Super Bad")
 - Scott Mann (Lieutenant Colonel, former Green Beret)
