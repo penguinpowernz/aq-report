@@ -93,7 +93,8 @@ function loadSectionContent(sectionName, targetElement) {
         'funding': window.renderFunding,
         'propaganda': window.renderPropaganda,
         'refugees': window.renderRefugees,
-        'glossary': window.renderGlossary
+        'glossary': window.renderGlossary,
+        'about': window.renderAbout
     };
 
     const renderFunction = moduleFunctions[sectionName];
