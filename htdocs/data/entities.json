@@ -17,7 +17,12 @@
         "U.S. government falsely claims he died in 2019",
         "Government suppressing intelligence about his survival",
         "More aggressive than his father - accelerated timeline",
-        "Commands unified Sunni-Shia force (unprecedented)"
+        "Commands unified Sunni-Shia force (unprecedented)",
+        "Leads Islamic Army (120,000 trained fighters)",
+        "Married to Mullah Omar's daughter since age 17",
+        "Covert operator (no videos/audio)",
+        "Approves operations in single meeting vs father's 5 years",
+        "Hidden in Waziristan 2020-2021"
       ],
       "relatedEntities": [
         "osama-bin-laden",
@@ -47,7 +52,12 @@
         "Controls ISIS-K through planted leadership",
         "Protects document forger 'Musa'",
         "Issues passports to terrorists for U.S. infiltration",
-        "Designated terrorist receiving direct U.S. payments"
+        "Designated terrorist receiving direct U.S. payments",
+        "Works with Musa for passport forgery",
+        "Receives 5-6x more money than Supreme Leader",
+        "Sent 1,500+ suicide bombers at U.S. forces",
+        "U.S. delivers cash to his house weekly",
+        "Planted Sultan Aziz Azam in ISIS-K leadership"
       ],
       "relatedEntities": [
         "haqqani-network",
@@ -77,7 +87,12 @@
         "Trump assassination plot coordinator",
         "NOT on FBI Most Wanted list despite known operations",
         "Operates intelligence base inside Al-Qaeda camp in Kandahar",
-        "Coordinates dirty bomb research with Al-Qaeda"
+        "Coordinates dirty bomb research with Al-Qaeda",
+        "Head of IRGC Intelligence Organization",
+        "Co-planned Syrian Blitzkrieg",
+        "Travels regularly to Afghanistan",
+        "Protected Al-Qaeda leaders in Iran including Hamza and Saif al-Adel",
+        "Tasked by Soleimani to keep Al-Qaeda leaders safe"
       ],
       "relatedEntities": [
         "iran",
@@ -106,7 +121,12 @@
         "Discovered CIA not pursuing Benghazi attackers",
         "Conducts independent investigation tracking terrorists",
         "Provides intelligence to U.S. government (often ignored)",
-        "Source of all intelligence in these reports"
+        "Source of all intelligence in these reports",
+        "Weekly intelligence brief contributor to Shawn Ryan Show",
+        "'10% humanitarian, 90% Warlord'",
+        "Found Abbey Gate bomber's name in 4 months (CENTCOM couldn't in 3.5 years)",
+        "Captured Mullah Baradar (January 2010)",
+        "Negotiated with ISI after UBL raid for Al-Mauritani capture"
       ],
       "relatedEntities": [
         "cia",
@@ -164,7 +184,13 @@
         "Military Commission led by Saif al-Adel",
         "Regional branches: AQAP (Yemen), AQIM (North Africa)",
         "Main vein of global terrorism",
-        "Training 1,000+ for U.S. homeland attack"
+        "Training 1,000+ for U.S. homeland attack",
+        "Islamic Army (120,000 trained fighters)",
+        "7 suicide bomber specific training camps",
+        "Trained 10,000 for Syrian Blitzkrieg",
+        "1,000+ deployed to U.S.",
+        "More powerful than pre-9/11",
+        "A year away from Libya 2014 power level"
       ],
       "relatedEntities": [
         "hamza-bin-laden",
@@ -194,7 +220,12 @@
         "NOT designated as terrorist organization by U.S.",
         "Dual power structure: Kandahari vs Haqqani factions",
         "Supreme Leader: Hibatullah Akhundzada",
-        "Holds 3 American hostages via GDI"
+        "Holds 3 American hostages via GDI",
+        "Two warring factions (Haqqani vs Kandahari)",
+        "Receives $44-105M weekly (varies)",
+        "7 million passports printed in Europe since 2021",
+        "Trained 10,000 fighters for Syrian Blitzkrieg",
+        "Political office in Doha funded by U.S. ($10M+ monthly since 2013)"
       ],
       "relatedEntities": [
         "afghanistan",
@@ -251,7 +282,10 @@
         "Will be blamed for Al-Qaeda attacks (attribution strategy)",
         "8 members confirmed en route to U.S. via Darien Gap",
         "Actually less dangerous than Al-Qaeda in Afghanistan",
-        "Used to make Taliban appear as counterterrorism partner"
+        "Used to make Taliban appear as counterterrorism partner",
+        "Two separate branches (Sultan Aziz Azam's Pakistan-origin branch controlled by Haqqani, Kohistani's Tajik branch in north)",
+        "Real ISIS leadership moved to Panjgur Pakistan",
+        "De facto led by Haqqani plant Sultan Aziz Azam"
       ],
       "relatedEntities": [
         "haqqani-network",
@@ -454,8 +488,7 @@
         "libya",
         "al-qaeda",
         "chris-stevens",
-        "bob-cia",
-        "omar-al-shalali"
+        "bob-cia"
       ],
       "threatLevel": "historical"
     },
@@ -643,7 +676,12 @@
         "Approved Islamic Army formation",
         "Allowed 30 Al-Qaeda training camps in Afghanistan",
         "Receives portion of weekly U.S. payments",
-        "Based in Kandahar"
+        "Based in Kandahar",
+        "Issued fatwa authorizing October 7th",
+        "Receives money from Iran/Russia/India",
+        "Controls $10B Chinese investment",
+        "Fat War architect",
+        "Personal security at Bagram funded by India ($10M)"
       ],
       "relatedEntities": [
         "taliban",
@@ -1422,7 +1460,8 @@
         "abdul-haq-wasiq",
         "taliban"
       ],
-      "threatLevel": "victim"
+      "threatLevel": "victim",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States_hostage_policy"
     },
     {
       "id": "mahmood-habibi",
@@ -1447,7 +1486,8 @@
         "abdul-haq-wasiq",
         "taliban"
       ],
-      "threatLevel": "victim"
+      "threatLevel": "victim",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States_hostage_policy"
     },
     {
       "id": "saad-bin-laden",
@@ -1469,7 +1509,8 @@
         "taliban",
         "afghanistan"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saad_bin_Laden"
     },
     {
       "id": "abdullah-bin-laden",
@@ -1493,7 +1534,8 @@
         "taliban",
         "afghanistan"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bin_Laden_family"
     },
     {
       "id": "mohammad-hassan-akhund",
@@ -1519,7 +1561,8 @@
         "pakistan",
         "united-states"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mohammad_Hassan_Akhund"
     },
     {
       "id": "mullah-baradar",
@@ -1550,7 +1593,8 @@
         "richard-holbrooke",
         "obama"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abdul_Ghani_Baradar"
     },
     {
       "id": "khalil-haqqani",
@@ -1574,7 +1618,8 @@
         "al-qaeda",
         "taliban"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Haqqani_network"
     },
     {
       "id": "abdulaziz-haqqani",
@@ -1593,7 +1638,8 @@
         "al-qaeda",
         "taliban"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Haqqani_network"
     },
     {
       "id": "anas-haqqani",
@@ -1612,7 +1658,8 @@
         "sirajuddin-haqqani",
         "taliban"
       ],
-      "threatLevel": "high"
+      "threatLevel": "high",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Haqqani_network"
     },
     {
       "id": "mullah-yaqub",
@@ -1635,7 +1682,8 @@
         "india",
         "isis-k"
       ],
-      "threatLevel": "high"
+      "threatLevel": "high",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mohammad_Yaqoob"
     },
     {
       "id": "ghulam-kohistani",
@@ -1659,10 +1707,10 @@
         "haqqani-network",
         "sirajuddin-haqqani",
         "russia",
-        "afghanistan",
-        "tajikistan"
+        "afghanistan"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Islamic_State_Khorasan_Province"
     },
     {
       "id": "hafiz-zahir-hamidi",
@@ -1682,7 +1730,8 @@
         "abdul-rahim-sangari",
         "sirajuddin-haqqani"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2021_Kabul_airport_attack"
     },
     {
       "id": "abdullah-omar-bhajauri",
@@ -1703,7 +1752,8 @@
         "sanullah-ghafari",
         "afghanistan"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Islamic_State_Khorasan_Province"
     },
     {
       "id": "tom-west",
@@ -1724,7 +1774,8 @@
         "state-department",
         "united-states"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93United_States_relations"
     },
     {
       "id": "ross-wilson",
@@ -1747,7 +1798,8 @@
         "state-department",
         "afghanistan"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93United_States_relations"
     },
     {
       "id": "mark-frerichs",
@@ -1768,7 +1820,8 @@
         "afghanistan",
         "united-states"
       ],
-      "threatLevel": "victim"
+      "threatLevel": "victim",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mark_Frerichs"
     },
     {
       "id": "richard-holbrooke",
@@ -1791,7 +1844,8 @@
         "taliban",
         "united-states"
       ],
-      "threatLevel": "historical"
+      "threatLevel": "historical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Richard_Holbrooke"
     },
     {
       "id": "obama",
@@ -1816,7 +1870,8 @@
         "hillary-clinton",
         "jake-sullivan"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Barack_Obama"
     },
     {
       "id": "hillary-clinton",
@@ -1835,7 +1890,8 @@
         "obama",
         "united-states"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hillary_Clinton"
     },
     {
       "id": "jake-sullivan",
@@ -1854,7 +1910,8 @@
         "obama",
         "united-states"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jake_Sullivan"
     },
     {
       "id": "ron-desantis",
@@ -1878,7 +1935,8 @@
         "scott-mann",
         "united-states"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ron_DeSantis"
     },
     {
       "id": "scott-mann",
@@ -1903,7 +1961,8 @@
         "task-force-pineapple",
         "ahmad-massoud"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Task_Force_Pineapple"
     },
     {
       "id": "ahmad-massoud",
@@ -1925,7 +1984,8 @@
         "afghanistan",
         "scott-mann"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ahmad_Massoud"
     },
     {
       "id": "ahmad-shah-massoud",
@@ -1950,7 +2010,8 @@
         "afghanistan",
         "ayman-al-zawahiri"
       ],
-      "threatLevel": "historical"
+      "threatLevel": "historical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ahmad_Shah_Massoud"
     },
     {
       "id": "tyler-vargas-andrews",
@@ -1973,7 +2034,8 @@
         "congress",
         "afghanistan"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2021_Kabul_airport_attack"
     },
     {
       "id": "qasem-soleimani",
@@ -2000,7 +2062,8 @@
         "united-states",
         "al-qaeda"
       ],
-      "threatLevel": "historical"
+      "threatLevel": "historical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Qasem_Soleimani"
     },
     {
       "id": "mullah-omar",
@@ -2023,7 +2086,8 @@
         "mohammad-hassan-akhund",
         "mullah-baradar"
       ],
-      "threatLevel": "historical"
+      "threatLevel": "historical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mohammed_Omar"
     },
     {
       "id": "north-korea",
@@ -2249,8 +2313,7 @@
       ],
       "relatedEntities": [
         "al-qaeda",
-        "aqim",
-        "africa"
+        "aqim"
       ],
       "threatLevel": "critical"
     },
@@ -2639,7 +2702,8 @@
         "libya",
         "syria"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2012_Benghazi_attack"
     },
     {
       "id": "amrullah-saleh",
@@ -2706,7 +2770,8 @@
         "sirajuddin-haqqani",
         "amrullah-saleh"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93United_States_relations"
     },
     {
       "id": "thomas-west",
@@ -2731,7 +2796,8 @@
         "united-states",
         "tom-west"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93United_States_relations"
     },
     {
       "id": "haji-muhammad-idris",
@@ -2759,7 +2825,8 @@
         "united-states",
         "haqqani-network"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Da_Afghanistan_Bank"
     },
     {
       "id": "khalid-amiri",
@@ -2785,7 +2852,8 @@
         "isis-k",
         "amrullah-saleh"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Afghan_National_Army"
     },
     {
       "id": "legend",
@@ -2813,7 +2881,8 @@
         "afghanistan",
         "united-states"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Intelligence_assessment"
     },
     {
       "id": "erik-prince",
@@ -2863,7 +2932,8 @@
         "taliban",
         "legend"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amrullah_Saleh"
     },
     {
       "id": "nds",
@@ -2910,7 +2980,8 @@
         "afghanistan",
         "haqqani-network"
       ],
-      "threatLevel": "high"
+      "threatLevel": "high",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Taliban"
     },
     {
       "id": "azizi-bank",
@@ -2934,7 +3005,8 @@
         "dubai",
         "united-states"
       ],
-      "threatLevel": "critical"
+      "threatLevel": "critical",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Banking_in_Afghanistan"
     },
     {
       "id": "afghanistan-international-bank",
@@ -3006,7 +3078,8 @@
         "panjshir-valley",
         "united-states"
       ],
-      "threatLevel": "high"
+      "threatLevel": "high",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Non-governmental_organization"
     },
     {
       "id": "al-alom-military-base",
@@ -3027,7 +3100,8 @@
         "abu-muhammad-al-julani",
         "taliban"
       ],
-      "threatLevel": "high"
+      "threatLevel": "high",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Syrian_civil_war"
     },
     {
       "id": "panjshir-valley",
@@ -3076,7 +3150,8 @@
         "taliban",
         "amrullah-saleh"
       ],
-      "threatLevel": "info"
+      "threatLevel": "info",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Provinces_of_Afghanistan"
     },
     {
       "id": "mogadishu",
@@ -3196,6 +3271,534 @@
         "afghanistan"
       ],
       "threatLevel": "high"
+    },
+    {
+      "id": "sultan-aziz-azam",
+      "name": "Sultan Aziz Azam",
+      "aliases": [
+        "Sanaullah Ghafari",
+        "Shahab al-Muhajir",
+        "Sa'ad"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sanaullah_Ghafari",
+      "role": "Current ISIS-K Leader, Haqqani Plant, Abbey Gate Mastermind",
+      "keyFacts": [
+        "Member of Haqqani Network since 2012",
+        "Head of Haqqani Network in Kabul",
+        "Abbey Gate bombing mastermind",
+        "Installed as ISIS-K leader by Sirajuddin Haqqani",
+        "De facto head of ALL ISIS (real ISIS moved to Baluchistan)",
+        "Reports to Haqqani, not ISIS central leadership",
+        "Used to make Taliban appear as counterterrorism partner"
+      ],
+      "relatedEntities": [
+        "isis-k",
+        "haqqani-network",
+        "sirajuddin-haqqani",
+        "abbey-gate",
+        "panjgur"
+      ],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "michael-mccaul",
+      "name": "Michael McCaul",
+      "aliases": [
+        "McCaul",
+        "Chairman McCaul"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_McCaul",
+      "role": "House Foreign Affairs Chairman",
+      "keyFacts": [
+        "Chairman of House Foreign Affairs Committee",
+        "Tyler Vargas Andrews testified to his committee",
+        "Took no action after testimony",
+        "382,000+ petition signatures delivered to Congress (no action)"
+      ],
+      "relatedEntities": [
+        "congress",
+        "united-states",
+        "taliban",
+        "tyler-vargas-andrews"
+      ],
+      "threatLevel": "info"
+    },
+    {
+      "id": "trey-gowdy",
+      "name": "Trey Gowdy",
+      "aliases": [
+        "Gowdy"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Trey_Gowdy",
+      "role": "Former House Benghazi Committee Chairman",
+      "keyFacts": [
+        "Chairman of House Select Committee on Benghazi (2015)",
+        "Sarah Adams worked on his staff",
+        "Committee discovered CIA not pursuing Benghazi attackers"
+      ],
+      "relatedEntities": [
+        "congress",
+        "benghazi",
+        "sarah-adams",
+        "cia"
+      ],
+      "threatLevel": "info"
+    },
+    {
+      "id": "bob-cia",
+      "name": "Bob (CIA Chief of Station)",
+      "aliases": [
+        "Bob",
+        "CIA Chief Benghazi"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2012_Benghazi_attack",
+      "role": "CIA Chief of Station Benghazi",
+      "keyFacts": [
+        "CIA Chief of Station in Benghazi during attacks",
+        "17-minute delay before responding was fatal",
+        "Could have saved Ambassador Stevens"
+      ],
+      "relatedEntities": [
+        "cia",
+        "benghazi",
+        "chris-stevens"
+      ],
+      "threatLevel": "info"
+    },
+    {
+      "id": "wasam-bin-hamid",
+      "name": "Wasam Bin Hamid",
+      "aliases": [
+        "Bin Hamid"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2012_Benghazi_attack",
+      "role": "Benghazi Mortar Team Commander",
+      "keyFacts": [
+        "Commander of Hassan Al-Jabber Cell mortar team",
+        "Killed Tyrone Woods and Glen Doherty with mortar fire",
+        "Part of Rafallah al-Sehati Brigades"
+      ],
+      "relatedEntities": [
+        "benghazi",
+        "hassan-al-jabber-cell",
+        "rafallah-al-sehati",
+        "al-qaeda"
+      ],
+      "threatLevel": "high"
+    },
+    {
+      "id": "muhammad-al-gharabi",
+      "name": "Muhammad al-Gharabi",
+      "aliases": [
+        "Al-Gharabi"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2012_Benghazi_attack",
+      "role": "Al-Qaeda Commander, Rafallah al-Sehati Leader",
+      "keyFacts": [
+        "Al-Qaeda commander",
+        "Led Rafallah al-Sehati Brigades",
+        "Commanded Benghazi attack forces",
+        "Travels between Libya and Turkey"
+      ],
+      "relatedEntities": [
+        "al-qaeda",
+        "rafallah-al-sehati",
+        "benghazi",
+        "libya",
+        "turkey"
+      ],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "abu-khattala",
+      "name": "Abu Khattala",
+      "aliases": [
+        "Ahmed Abu Khattala"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ahmed_Abu_Khattala",
+      "role": "Ansar al-Sharia Commander, Benghazi Attack Leader",
+      "keyFacts": [
+        "One of main Benghazi attack leaders",
+        "Captured by U.S.",
+        "Connected to Hamas weapons smuggling"
+      ],
+      "relatedEntities": [
+        "benghazi",
+        "al-qaeda",
+        "hamas",
+        "gaza",
+        "libya"
+      ],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "marwan-issa",
+      "name": "Marwan Issa",
+      "aliases": [
+        "Issa"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Marwan_Issa",
+      "role": "Hamas Deputy Commander",
+      "keyFacts": [
+        "Hamas representative in Libya",
+        "Released and given private plane from Tripoli to Qatar",
+        "Coordinated arms shipments to Gaza"
+      ],
+      "relatedEntities": [
+        "hamas",
+        "libya",
+        "qatar",
+        "gaza",
+        "benghazi"
+      ],
+      "threatLevel": "high"
+    },
+    {
+      "id": "abu-muhammad-al-masri",
+      "name": "Abu Muhammad al-Masri",
+      "aliases": [
+        "Al-Masri",
+        "Abdullah Ahmed Abdullah"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abdullah_Ahmed_Abdullah",
+      "role": "Al-Qaeda Africa Head",
+      "keyFacts": [
+        "Head of Al-Qaeda operations in Africa",
+        "Deployed from Afghanistan to Mali",
+        "Reason for U.S. Embassy Bamako threat"
+      ],
+      "relatedEntities": [
+        "al-qaeda",
+        "mali",
+        "bamako",
+        "afghanistan",
+        "aqim"
+      ],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "abdul-hakim-belhaj",
+      "name": "Abdul Hakim Belhaj",
+      "aliases": [
+        "Belhaj"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abdul_Hakim_Belhaj",
+      "role": "Libyan Politician, Former LIFG Commander",
+      "keyFacts": [
+        "Leader of 'Islamic Reform Movement' (rebranded Al-Qaeda)",
+        "U.S. aligned with same government that harbors him",
+        "Controls Benghazi attackers in Tripoli"
+      ],
+      "relatedEntities": [
+        "libya",
+        "al-qaeda",
+        "tripoli",
+        "benghazi",
+        "united-states"
+      ],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "ayman-al-zawahiri",
+      "name": "Ayman al-Zawahiri",
+      "aliases": [
+        "Zawahiri",
+        "Al-Zawahiri"
+      ],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ayman_al-Zawahiri",
+      "role": "Former Al-Qaeda Leader (Killed 2022)",
+      "keyFacts": [
+        "Al-Qaeda leader after Osama bin Laden",
+        "Harbored by Iran 2001-2021",
+        "Killed by U.S. drone strike in Kabul (July 2022)",
+        "Coordinated Ahmad Shah Massoud assassination"
+      ],
+      "relatedEntities": [
+        "al-qaeda",
+        "iran",
+        "waziristan",
+        "kabul",
+        "ahmad-shah-massoud"
+      ],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "moral-compass-federation",
+      "name": "Moral Compass Federation",
+      "aliases": [
+        "Moral Compass"
+      ],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Moral_Compass_Federation",
+      "role": "Veteran Organization",
+      "keyFacts": [
+        "Sarah Adams is member",
+        "Tyler Vargas Andrews is member",
+        "Called 'rogue entity' by Afghan Evac coalition"
+      ],
+      "relatedEntities": [
+        "sarah-adams",
+        "tyler-vargas-andrews",
+        "abbey-gate",
+        "united-states"
+      ],
+      "threatLevel": "info"
+    },
+    {
+      "id": "blue-mountain-group",
+      "name": "Blue Mountain Group",
+      "aliases": [
+        "Blue Mountain"
+      ],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Blue_Mountain_Group",
+      "role": "Private Security Company",
+      "keyFacts": [
+        "Provided security at U.S. Benghazi consulate",
+        "State Department contract",
+        "At least one member was terrorist",
+        "Security failures contributed to Benghazi attack"
+      ],
+      "relatedEntities": [
+        "benghazi",
+        "state-department",
+        "17th-february",
+        "libya"
+      ],
+      "threatLevel": "high"
+    },
+    {
+      "id": "17th-february",
+      "name": "17th February Martyrs Brigade",
+      "aliases": [
+        "February 17 Brigade"
+      ],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/February_17th_Martyrs_Brigade",
+      "role": "Libyan Militia, Al-Qaeda Infiltrated",
+      "keyFacts": [
+        "Provided security at U.S. Benghazi compound",
+        "Infiltrated by Al-Qaeda cells",
+        "Rafallah al-Sehati Brigades operated within it",
+        "Members participated in Benghazi attacks"
+      ],
+      "relatedEntities": [
+        "benghazi",
+        "rafallah-al-sehati",
+        "hassan-al-jabber-cell",
+        "blue-mountain-group",
+        "al-qaeda"
+      ],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "khorasan-group",
+      "name": "Khorasan Group",
+      "aliases": [
+        "Khorasan"
+      ],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Khorasan_group",
+      "role": "Al-Qaeda External Operations Unit",
+      "keyFacts": [
+        "Formed around 2012",
+        "Focused on Europe and U.S. attacks",
+        "Musa bin Ali was sole travel document facilitator",
+        "U.S. claimed 'wiped out'"
+      ],
+      "relatedEntities": [
+        "al-qaeda",
+        "musa-bin-ali",
+        "syria",
+        "afghanistan"
+      ],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "al-badri-brigade",
+      "name": "Al-Badri Brigade",
+      "aliases": [
+        "Libyan ISIS fighters"
+      ],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/ISIS",
+      "role": "Libyan ISIS Unit",
+      "keyFacts": [
+        "Conducted Manchester Arena bombing",
+        "Conducted Bataclan attack in Paris",
+        "Musa bin Ali provided travel documents",
+        "Training camp in Libya south of Misrata"
+      ],
+      "relatedEntities": [
+        "isis-k",
+        "libya",
+        "musa-bin-ali",
+        "syria",
+        "misrata-camp"
+      ],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "rafallah-al-sehati",
+      "name": "Rafallah al-Sehati Brigades",
+      "aliases": [
+        "Rafallah al-Sehati"
+      ],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2012_Benghazi_attack",
+      "role": "Benghazi Militia, Al-Qaeda Cell",
+      "keyFacts": [
+        "Cell within 17th February Martyrs Brigade",
+        "Provided mortar team for Benghazi attack",
+        "Led by Muhammad al-Gharabi (Al-Qaeda commander)"
+      ],
+      "relatedEntities": [
+        "benghazi",
+        "17th-february",
+        "hassan-al-jabber-cell",
+        "muhammad-al-gharabi",
+        "al-qaeda"
+      ],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "hassan-al-jabber-cell",
+      "name": "Hassan Al-Jabber Cell",
+      "aliases": [
+        "Al-Jabber Cell"
+      ],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2012_Benghazi_attack",
+      "role": "Benghazi Mortar Team",
+      "keyFacts": [
+        "Cell within Rafallah al-Sehati Brigades",
+        "Named after Al Jazeera journalist killed in ambush",
+        "Mortar team that killed Tyrone Woods and Glen Doherty",
+        "Commander: Wasam Bin Hamid"
+      ],
+      "relatedEntities": [
+        "benghazi",
+        "rafallah-al-sehati",
+        "wasam-bin-hamid",
+        "al-qaeda"
+      ],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "al-shabaab",
+      "name": "Al-Shabaab",
+      "aliases": [
+        "Shabaab",
+        "The Youth"
+      ],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Al-Shabaab_(militant_group)",
+      "role": "Somali Terrorist Group",
+      "keyFacts": [
+        "Al-Qaeda affiliate in Somalia",
+        "Target for Islamic Army takeover",
+        "Part of Somalia caliphate expansion plan",
+        "Threatens U.S. Embassy Mogadishu"
+      ],
+      "relatedEntities": [
+        "somalia",
+        "mogadishu",
+        "al-qaeda",
+        "islamic-army",
+        "mali"
+      ],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "misrata-camp",
+      "name": "Misrata Training Camp",
+      "aliases": [
+        "Libya Training Camp",
+        "South of Misrata"
+      ],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Misrata",
+      "role": "Terrorist Training Camp",
+      "keyFacts": [
+        "Large terrorist training camp in Libya",
+        "Located south of Misrata city",
+        "Run by Musa bin Ali and Abu Muhammad Al-Julani",
+        "Trains fighters for Syria operations"
+      ],
+      "relatedEntities": [
+        "libya",
+        "musa-bin-ali",
+        "abu-muhammad-al-julani",
+        "al-badri-brigade",
+        "syria"
+      ],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "syrian-blitzkrieg",
+      "name": "Syrian Blitzkrieg",
+      "aliases": [
+        "Syria Takeover 2024",
+        "November 2024 Syria Operation"
+      ],
+      "type": "operation",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Syrian_civil_war",
+      "role": "Taliban/Al-Qaeda Takeover of Syria",
+      "keyFacts": [
+        "Planned November 2021 in Afghanistan",
+        "Executed November 2024",
+        "10,000 Al-Qaeda trained fighters deployed",
+        "Led by Abu Muhammad Al-Julani",
+        "Second country in current caliphate generation (after Afghanistan)",
+        "U.S. removed $10M bounty on Julani 'in minutes'"
+      ],
+      "relatedEntities": [
+        "syria",
+        "abu-muhammad-al-julani",
+        "taliban",
+        "al-qaeda",
+        "islamic-army",
+        "afghanistan"
+      ],
+      "threatLevel": "historical"
+    },
+    {
+      "id": "fat-war",
+      "name": "Fat War Plan",
+      "aliases": [
+        "Fat War",
+        "Pakistan Expansion"
+      ],
+      "type": "operation",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Taliban",
+      "role": "Taliban Expansion into Pakistan",
+      "keyFacts": [
+        "TTP conducting 800 attacks/year in Pakistan",
+        "Afghan Taliban rotating units into TTP",
+        "Part of Hibatullah Akhundzada's strategy",
+        "Using India to assassinate Pakistan-loyal militants",
+        "Creating new Taliban-aligned Kashmir landscape"
+      ],
+      "relatedEntities": [
+        "taliban",
+        "ttp",
+        "pakistan",
+        "kashmir",
+        "hibatullah-akhundzada",
+        "india"
+      ],
+      "threatLevel": "critical"
     }
   ]
 }
