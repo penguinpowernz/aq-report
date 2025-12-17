@@ -58,8 +58,8 @@ A single-page web application providing interactive access to all intelligence d
 **Quick Start:**
 ```bash
 cd htdocs
-sudo ./START.sh
-# Open http://localhost
+python3 -m http.server 8010
+# Open http://localhost:8100
 ```
 
 See `htdocs/README.md` for detailed setup instructions.
