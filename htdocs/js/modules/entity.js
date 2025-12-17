@@ -53,13 +53,6 @@ window.renderEntity = async function(container, entityId) {
     const page = document.createElement('div');
     page.className = 'entity-page';
 
-    // Back button
-    const backButton = document.createElement('a');
-    backButton.href = '#glossary';
-    backButton.className = 'back-to-glossary';
-    backButton.textContent = 'Back to Glossary';
-    page.appendChild(backButton);
-
     // Entity header
     const header = document.createElement('div');
     header.className = `entity-header threat-${entity.threatLevel}`;

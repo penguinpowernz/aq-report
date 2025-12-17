@@ -51,6 +51,13 @@ window.renderFunding = function(container) {
     `);
     container.appendChild(statsGrid);
 
+    // Graphviz diagram of funding flow
+    const fundingDiagram = document.createElement('div');
+    fundingDiagram.className = 'funding-diagram';
+    fundingDiagram.innerHTML = "<div class='diagram-container'><img src='images/diagrams/funding-flow.png' alt='Funding Diagram'></div>";
+    container.appendChild(fundingDiagram);
+
+
     // U.S. Weekly Cash Deliveries Breakdown
     const weeklyChart = createChartContainer(
         'U.S. Weekly Cash Deliveries to Afghanistan',

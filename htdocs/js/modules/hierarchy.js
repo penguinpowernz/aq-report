@@ -26,61 +26,49 @@ window.renderHierarchy = function(container) {
     );
     container.appendChild(alert);
 
-    // Overall Islamic Army Structure
+    // Overall Islamic Army Structure - Interactive SVG Diagram
     const structureChart = createChartContainer(
-        'Islamic Army Structure',
-        'Unified command integrating Al-Qaeda, ISIS, Taliban, Hamas, Hezbollah, and IRGC'
+        'Islamic Army Unified Command Structure',
+        'Click any node to view detailed entity information'
     );
 
-    const orgFlow = document.createElement('div');
-    orgFlow.className = 'flow-chart';
-    orgFlow.innerHTML = `
-        <div class="flow-row">
-            <div class="flow-node red">
-                <div class="flow-node-title"><a href="#entity:islamic-army" class="entity-link" style="color: inherit;">ISLAMIC ARMY</a></div>
-                <div class="flow-node-detail">120,000+ trained fighters</div>
-            </div>
-        </div>
-        <div class="flow-row">
-            <div class="flow-node orange">
-                <div class="flow-node-title"><a href="#entity:hamza-bin-laden" class="entity-link" style="color: inherit;">Hamza bin Laden</a></div>
-                <div class="flow-node-detail">Supreme Commander</div>
-            </div>
-            <div class="flow-node orange">
-                <div class="flow-node-title"><a href="#entity:hamza-al-ghamdi" class="entity-link" style="color: inherit;">Hamza al-Ghamdi</a></div>
-                <div class="flow-node-detail">Military Commander</div>
-            </div>
-        </div>
-        <div class="flow-row">
-            <div class="flow-node blue">
-                <div class="flow-node-title"><a href="#entity:al-qaeda" class="entity-link" style="color: inherit;">Al-Qaeda Core</a></div>
-                <div class="flow-node-detail">Training & Operations</div>
-            </div>
-            <div class="flow-node blue">
-                <div class="flow-node-title"><a href="#entity:taliban" class="entity-link" style="color: inherit;">Taliban</a></div>
-                <div class="flow-node-detail">Safe Haven & Support</div>
-            </div>
-            <div class="flow-node blue">
-                <div class="flow-node-title"><a href="#entity:isis-k" class="entity-link" style="color: inherit;">ISIS/ISIS-K</a></div>
-                <div class="flow-node-detail">Territory Control</div>
-            </div>
-        </div>
-        <div class="flow-row">
-            <div class="flow-node green">
-                <div class="flow-node-title"><a href="#entity:hamas" class="entity-link" style="color: inherit;">Hamas</a></div>
-                <div class="flow-node-detail">Al-Qassam Brigades</div>
-            </div>
-            <div class="flow-node green">
-                <div class="flow-node-title"><a href="#entity:hezbollah" class="entity-link" style="color: inherit;">Hezbollah</a></div>
-                <div class="flow-node-detail">Military Wing</div>
-            </div>
-            <div class="flow-node green">
-                <div class="flow-node-title"><a href="#entity:irgc" class="entity-link" style="color: inherit;">Iranian IRGC</a></div>
-                <div class="flow-node-detail">Quds Force & Intel</div>
-            </div>
-        </div>
-    `;
-    structureChart.appendChild(orgFlow);
+    const svgContainer = document.createElement('div');
+    svgContainer.className = 'svg-diagram-container';
+    svgContainer.id = 'hierarchy-svg-container';
+
+    // Load and inline the SVG for clickable links
+    fetch('images/diagrams/islamic-army-hierarchy-linked.svg')
+        .then(response => response.text())
+        .then(svgContent => {
+            svgContainer.innerHTML = svgContent;
+
+            // Make sure links work by intercepting clicks
+            const svgElement = svgContainer.querySelector('svg');
+            if (svgElement) {
+                svgElement.style.width = '100%';
+                svgElement.style.maxWidth = '900px';
+                svgElement.style.height = 'auto';
+
+                // Handle clicks on links - navigate parent window
+                svgContainer.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const href = link.getAttribute('xlink:href') || link.getAttribute('href');
+                        if (href) {
+                            // Extract just the hash part
+                            const hash = href.includes('#') ? href.substring(href.indexOf('#')) : href;
+                            window.location.hash = hash;
+                        }
+                    });
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Failed to load SVG:', error);
+            svgContainer.innerHTML = '<img src="images/diagrams/islamic-army-hierarchy.png" alt="Islamic Army Hierarchy" style="max-width: 100%;" />';
+        });
+
+    structureChart.appendChild(svgContainer);
     container.appendChild(structureChart);
 
     // Al-Qaeda Core Leadership - "The Top Three"

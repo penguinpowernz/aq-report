@@ -328,3 +328,18 @@ body {
 .mt-2 { margin-top: 1rem; }
 .mt-3 { margin-top: 1.5rem; }
 .mt-4 { margin-top: 2rem; }
+
+
+.diagram-container img {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.diagram-container { 
+    height: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+    /* background: var(--secondary-bg); */
+    margin-bottom: 2rem;
+    text-align: center;
+}
