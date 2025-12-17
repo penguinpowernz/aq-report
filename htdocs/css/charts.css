@@ -231,7 +231,7 @@
 }
 
 .bar-label {
-    min-width: 200px;
+    min-width: 300px;
     font-weight: 500;
 }
 
@@ -280,7 +280,7 @@
     transform: translateY(-4px);
 }
 
-.location-card.critical { border-left-color: var(--accent-red); }
+.location-card.critical { border-color: var(--accent-red); }
 .location-card.high { border-left-color: var(--accent-orange); }
 .location-card.medium { border-left-color: var(--accent-yellow); }
 .location-card.low { border-left-color: var(--accent-blue); }

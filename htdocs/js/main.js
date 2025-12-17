@@ -166,14 +166,18 @@ function createBarChart(data, maxValue) {
         const track = document.createElement('div');
         track.className = 'bar-track';
 
+        
+        const val = item.valueLabel || item.value;
         const fill = document.createElement('div');
         fill.className = 'bar-fill';
+        fill.title = val;
         const percentage = (item.value / maxValue) * 100;
         fill.style.width = `${percentage}%`;
 
         const valueEl = document.createElement('span');
         valueEl.className = 'bar-value';
-        valueEl.textContent = item.valueLabel || item.value;
+        valueEl.textContent = val;
+        valueEl.title = val;
         fill.appendChild(valueEl);
 
         track.appendChild(fill);

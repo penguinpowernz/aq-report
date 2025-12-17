@@ -101,7 +101,7 @@ window.renderFunding = function(container) {
         {
             step: 3,
             title: 'Central Bank of Afghanistan',
-            description: 'AIB transfers money to Taliban-controlled Central Bank managed by <strong>Haji Muhammad Idris</strong> - a sanctioned terrorist who financed bomb attacks killing Americans.',
+            description: 'AIB transfers money to Taliban-controlled Central Bank managed by Haji Muhammad Idris - a sanctioned terrorist who financed bomb attacks killing Americans.',
             taliban_cut: false
         },
         {
@@ -127,7 +127,7 @@ window.renderFunding = function(container) {
         {
             step: 7,
             title: 'Taliban-Approved Vendor Purchases',
-            description: 'NGOs must buy from Taliban-approved vendors only. Example: <strong>Habib Group</strong> (owned by brother of Taliban Foreign Minister).',
+            description: 'NGOs must buy from Taliban-approved vendors only. Example: Habib Group (owned by brother of Taliban Foreign Minister).',
             taliban_cut: true,
             cut_description: 'Second Taliban Cut: Vendor fees, transportation charges, service costs'
         },
@@ -148,7 +148,7 @@ window.renderFunding = function(container) {
         {
             step: 10,
             title: 'Foreign Purchases (Second Conversion)',
-            description: 'For foreign goods, Afghanis converted BACK to dollars through Central Bank. Taliban exchangers win bid AGAIN. Money moved through <strong>Azizi Bank</strong> to Dubai ("not even a bank, it\'s a Ponzi scheme").',
+            description: 'For foreign goods, Afghanis converted BACK to dollars through Central Bank. Taliban exchangers win bid AGAIN. Money moved through Azizi Bank to Dubai ("not even a bank, it\'s a Ponzi scheme").',
             taliban_cut: true,
             cut_description: 'Fifth Taliban Cut: Second exchange rate manipulation plus foreign intermediary fees'
         }
@@ -161,37 +161,63 @@ window.renderFunding = function(container) {
 
     processSteps.forEach(step => {
         const stepCard = document.createElement('div');
-        stepCard.className = step.taliban_cut ? 'location-card critical' : 'location-card';
-        stepCard.style.borderLeft = step.taliban_cut ? '4px solid var(--danger)' : '4px solid var(--accent-blue)';
+        stepCard.className = 'location-card low';
+        if (step.taliban_cut) {
+            stepCard.classList.add('critical');
+            stepCard.classList.remove('low');
+        }
+        stepCard.style.backgroundColor = "#505050ff"
 
-        stepCard.innerHTML = linkifyEntities(`
-            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem;">
-                <div style="
-                    background: ${step.taliban_cut ? 'var(--danger)' : 'var(--accent-blue)'};
-                    color: white;
-                    font-weight: bold;
-                    padding: 0.5rem 0.75rem;
-                    border-radius: 4px;
-                    min-width: 50px;
-                    text-align: center;
-                ">STEP ${step.step}</div>
-                <div class="location-name" style="font-size: 1rem; flex: 1;">${step.title}</div>
-            </div>
-            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
-                ${step.description}
-            </p>
-            ${step.taliban_cut ? `
-                <div style="
-                    background: rgba(239, 68, 68, 0.1);
-                    border: 1px solid var(--danger);
-                    border-radius: 4px;
-                    padding: 0.75rem;
-                    margin-top: 0.75rem;
-                ">
-                    <strong style="color: var(--danger);">💰 ${step.cut_description}</strong>
-                </div>
-            ` : ''}
-        `);
+        const stepBadgeColor = step.taliban_cut ? 'var(--danger)' : 'var(--accent-blue)';
+
+        const headerDiv = document.createElement('div');
+        headerDiv.style.display = 'flex';
+        headerDiv.style.alignItems = 'center';
+        headerDiv.style.gap = '1rem';
+        headerDiv.style.marginBottom = '0.75rem';
+
+        const badge = document.createElement('div');
+        badge.style.background = stepBadgeColor;
+        badge.style.color = 'white';
+        badge.style.fontWeight = 'bold';
+        badge.style.padding = '0.5rem 0.75rem';
+        badge.style.borderRadius = '4px';
+        badge.style.minWidth = '50px';
+        badge.style.textAlign = 'center';
+        badge.textContent = `STEP ${step.step}`;
+
+        const titleDiv = document.createElement('div');
+        titleDiv.className = 'location-name';
+        titleDiv.style.fontSize = '1rem';
+        titleDiv.style.flex = '1';
+        titleDiv.textContent = step.title;
+
+        headerDiv.appendChild(badge);
+        headerDiv.appendChild(titleDiv);
+        stepCard.appendChild(headerDiv);
+
+        const descP = document.createElement('p');
+        descP.style.color = 'var(--text-secondary)';
+        descP.style.fontSize = '0.9rem';
+        descP.style.marginBottom = '0.5rem';
+        descP.innerHTML = linkifyEntities(step.description);
+        stepCard.appendChild(descP);
+
+        if (step.taliban_cut) {
+            const cutBox = document.createElement('div');
+            cutBox.style.background = 'rgba(239, 68, 68, 0.1)';
+            cutBox.style.border = '1px solid var(--danger)';
+            cutBox.style.borderRadius = '4px';
+            cutBox.style.padding = '0.75rem';
+            cutBox.style.marginTop = '0.75rem';
+
+            const cutText = document.createElement('strong');
+            cutText.textContent = `💰 ${step.cut_description}`;
+            cutBox.appendChild(cutText);
+
+            stepCard.appendChild(cutBox);
+        }
+
         processContainer.appendChild(stepCard);
     });
 
@@ -317,7 +343,6 @@ window.renderFunding = function(container) {
         { label: 'Taliban Political Office Qatar (monthly)', value: 10, valueLabel: '$10M ($120M/year since 2013)' },
         { label: 'Supreme Leader Office (monthly)', value: 3, valueLabel: '$3M ($36M/year, 75% of budget)' },
         { label: 'Refugee Program Fraud (monthly)', value: 5, valueLabel: '$5M ($60M/year to Al-Qaeda camps)' },
-        { label: 'ISIS Counterterrorism (monthly)', value: 8, valueLabel: 'Classified amounts' }
     ];
 
     additionalChart.appendChild(createBarChart(additionalData, 12));
