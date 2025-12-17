@@ -84,6 +84,89 @@ window.renderLocations = function(container) {
                 'Confirmed Groups': 'ISIS (8), Haqqani (25-50)',
                 'Threat Level': 'CRITICAL'
             }
+        },
+        {
+            name: 'Syria',
+            priority: 'critical',
+            region: 'Middle East',
+            description: 'Second caliphate country - fell November 2024',
+            details: {
+                'Takeover Date': 'November 2024',
+                'President': 'Abu Muhammad Al-Julani (terrorist)',
+                'Planning Meeting': 'November 2021 in Afghanistan',
+                'Fighters Deployed': '10,000 (trained in Afghanistan 2021-2024)',
+                'Ethnic Cleansing': 'Christians, Alawites, Kurds',
+                'ISIS Prisoners': '40,000+ to be released',
+                'Threat Level': 'CRITICAL'
+            }
+        },
+        {
+            name: 'Panjshir Valley, Afghanistan',
+            priority: 'info',
+            region: 'Central Asia',
+            description: 'Only province not fallen to Taliban - resistance stronghold',
+            details: {
+                'Status': 'Resistance-controlled',
+                'Leader': 'President Amrullah Saleh',
+                'Significance': 'Declared national resistance Aug 15, 2021',
+                'Taliban Support': 'Zero',
+                'Aid Distribution': 'Taliban uses Ansar NGO for propaganda',
+                'Threat Level': 'INFO (Allied)'
+            }
+        },
+        {
+            name: 'Mogadishu, Somalia',
+            priority: 'critical',
+            region: 'East Africa',
+            description: 'U.S. Embassy under active attack threat',
+            details: {
+                'Target': 'U.S. Embassy',
+                'Funding Source': 'U.S. dollars from Afghanistan laundering',
+                'Objective': 'Push U.S. out, establish caliphate',
+                'Al-Shabaab': 'Al-Qaeda affiliate',
+                'Next Caliphate': 'Third country target',
+                'Threat Level': 'CRITICAL'
+            }
+        },
+        {
+            name: 'Bamako, Mali',
+            priority: 'critical',
+            region: 'West Africa',
+            description: 'U.S. Embassy under attack threat',
+            details: {
+                'Target': 'U.S. Embassy',
+                'Funding': 'Physical U.S. dollars from Afghanistan',
+                'Caliphate Plan': 'Alternative to Somalia',
+                'Threat Window': '2025',
+                'Threat Level': 'CRITICAL'
+            }
+        },
+        {
+            name: 'Al-Alom Military Base, Syria',
+            priority: 'high',
+            region: 'Middle East',
+            description: 'Julani\'s training camps were being bombed',
+            details: {
+                'Significance': 'Why Julani needed Afghanistan camps',
+                'Problem': 'Camps outside base being targeted',
+                'Solution': 'Taliban provided camps in Afghanistan',
+                'Period': '2021-2024',
+                'Threat Level': 'HIGH'
+            }
+        },
+        {
+            name: 'Doha, Qatar',
+            priority: 'high',
+            region: 'Middle East',
+            description: 'Taliban political office - U.S. funded',
+            details: {
+                'Taliban Office': 'Political headquarters',
+                'U.S. Funding': '$10 million+ per month',
+                'Duration': 'Since 2013 (11+ years)',
+                'Annual Cost': '$120 million+',
+                'Separate From': 'Weekly $40-105M cash deliveries',
+                'Threat Level': 'HIGH'
+            }
         }
     ];
 

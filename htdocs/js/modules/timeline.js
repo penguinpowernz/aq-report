@@ -305,13 +305,59 @@ window.renderTimeline = function(container) {
             ]
         },
         {
-            id: 'predictions-2025',
-            title: 'Current Status & 2025 Predictions',
+            id: 'syria-caliphate',
+            title: 'Syria Takeover - Second Caliphate (2021-2024)',
             events: [
                 {
+                    date: 'November 2021',
+                    title: 'Syrian Takeover Planning Meeting',
+                    description: linkifyEntities('<strong>Location: Kandahar, Afghanistan</strong> (same location as October 7th and Abbey Gate planning). <strong>Attendees:</strong> Abu Muhammad Al-Julani (former ISIS, now Syria president), Musa bin Ali (Benghazi plotter), Sirajuddin Haqqani (Taliban Interior Minister), Mullah Yaqub (Taliban Military). <strong>Agreement:</strong> Taliban provides training for 10,000 fighters for Syrian operation. Al-Julani\'s problem: Training camps at Al-Alom Military Base in Syria being bombed - needed alternative training location. Taliban solution: Use Afghanistan Al-Qaeda camps for 3-year training program.')
+                },
+                {
+                    date: '2021-2024',
+                    title: 'Syrian Fighter Training - 10,000 Fighters',
+                    description: linkifyEntities('<strong>Training Location:</strong> Afghanistan Al-Qaeda camps. <strong>Duration:</strong> 3 years (2021-2024). <strong>Number:</strong> 10,000 fighters trained. <strong>Purpose:</strong> Syrian government takeover operation. <strong>Significance:</strong> Largest single deployment of Islamic Army-trained fighters besides October 7th. Demonstrates scale of Afghanistan training infrastructure.')
+                },
+                {
+                    date: 'November 2024',
+                    title: 'Syria Falls - Second Caliphate Established',
+                    description: linkifyEntities('<strong>Syrian Blitzkrieg:</strong> Government fell in days to 10,000 Afghanistan-trained fighters. <strong>New President:</strong> Abu Muhammad Al-Julani (terrorist, former ISIS). <strong>Ethnic Cleansing begins:</strong> Christians, Alawites, Kurds targeted. Methods: Beheadings, burnings alive, drownings. <strong>40,000 ISIS prisoners to be released.</strong> <strong>U.S. Response:</strong> Ambassador Karen Decker sent to establish relations. Thomas West (Special Envoy) authorized to open negotiations. State Department recognizes terrorist government. <strong>Second caliphate country after Afghanistan (first was 2021).</strong> Third planned: Somalia or Mali (2025).')
+                }
+            ]
+        },
+        {
+            id: 'current-2025',
+            title: 'Current Status & 2025 Events',
+            events: [
+                {
+                    date: 'January 2025',
+                    title: 'Weekly Funding Increase - Record $105 Million',
+                    description: linkifyEntities('<strong>Third week of January 2025:</strong> U.S. delivered $105 million in single week to Central Bank of Afghanistan (highest recorded single-week amount). <strong>Weekly range:</strong> $40-105 million depending on week. <strong>Annual projection:</strong> $5.5 billion per year at high end. <strong>Manager:</strong> Haji Muhammad Idris (Ahmadzai) - sanctioned terrorist. <strong>10-step laundering process:</strong> Taliban takes cuts at each stage through exchange rate manipulation, vendor fees, taxes, customs, and intermediary charges. <strong>Direct recipients include:</strong> Hamza bin Laden (Al-Qaeda #1), Saad bin Laden (#2), Abdullah bin Laden (#3), Sirajuddin Haqqani (~$15-18M/month), Hibatullah Akhundzada (~$3M/month + $48M office budget). All designated terrorists except Abdullah bin Laden.')
+                },
+                {
+                    date: '2025 (Active Threat)',
+                    title: 'Somalia Embassy Attack - Al-Shabaab Funded',
+                    description: linkifyEntities('<strong>Target:</strong> U.S. Embassy in Mogadishu, Somalia. <strong>Attacker:</strong> Al-Shabaab (Al-Qaeda affiliate). <strong>Funding source:</strong> Physical U.S. dollars from Afghanistan money laundering operations. <strong>Objective:</strong> Push U.S. out, establish third caliphate country. <strong>Timeline:</strong> Active threat window 2025. <strong>Significance:</strong> First known use of U.S. Afghanistan cash to directly fund embassy attack in Africa. Demonstrates transnational money flow from Kabul → laundering → physical cash → Somalia.')
+                },
+                {
+                    date: '2025 (Active Threat)',
+                    title: 'Mali Embassy Attack Threat',
+                    description: linkifyEntities('<strong>Target:</strong> U.S. Embassy in Bamako, Mali. <strong>Funding:</strong> Physical U.S. dollars from Afghanistan laundering network (same as Somalia). <strong>Purpose:</strong> Alternative to Somalia for third caliphate establishment. <strong>Planning:</strong> Coordination between Al-Qaeda affiliates in North/West Africa. <strong>Timeline:</strong> 2025 threat window. Mali identified as backup target if Somalia operation delayed or fails.')
+                },
+                {
+                    date: '2025 (Active Threat)',
+                    title: 'Baghdad Embassy - 1,500 Fighters Positioned',
+                    description: linkifyEntities('<strong>Location:</strong> U.S. Embassy, Baghdad, Iraq. <strong>Force size:</strong> 1,500 fighters positioned. <strong>Planning:</strong> Coordinated by Kata\'ib Hezbollah (Iranian proxy). <strong>Purpose:</strong> Push U.S. out of Iraq entirely. <strong>Threat level:</strong> CRITICAL - large force already in position. <strong>U.S. awareness:</strong> Known threat but no defensive action visible.')
+                },
+                {
                     date: '2025 (Predicted)',
-                    title: 'U.S. Homeland & Embassy Attacks',
-                    description: linkifyEntities('<strong>Adams: "I\'m certain we\'ll either have embassy attacks in 2025 or Homeland attack or both."</strong> 1,000+ trained terrorists. Multiple cities simultaneously. October 7th/Mumbai-style swarming. <strong>Predicted 50,000-60,000 American casualties.</strong> Attack will be falsely attributed to ISIS. <strong>Entry methods:</strong> Southern border (primary - through Darien Gap, fake Afghan/Syrian/Turkish passports, U.S. Border Patrol can\'t identify fake docs). Legal immigration (Al-Qaeda preference - "clean" terrorists from Saudi/Kuwait/Jordan with tourist visas, goal: "embarrass system again like 9/11 attackers"). Refugee pipeline ("very dangerous" - Afghan passport now "extremely powerful," terrorists given official passports with fake names like Libya precedent). Testing the system: "Some still doing border to see if they can do it and test it." <strong>Warning signs ignored:</strong> People observed Hamas training in Afghanistan, reports provided to Israeli government before attack, no action taken. Adams: "I worry because same things being passed to our government. They\'re not taking it serious." Foreign intelligence confirmation: European service contacted Adams - "Your report is spot-on. That\'s what we have." <strong>Governor Ron DeSantis: "I\'ve received no threat reporting at all on terrorism from federal government."</strong> First responders unprepared for tactics, no training for Oct 7th-style attacks.')
+                    title: 'U.S. Homeland Attack - Multiple Cities',
+                    description: linkifyEntities('<strong>Adams: "I\'m certain we\'ll either have embassy attacks in 2025 or Homeland attack or both."</strong> <strong>Trained terrorists:</strong> 1,000+ (Adams believes higher than Al-Qaeda claims). <strong>Attack model:</strong> October 7th/Mumbai-style swarming, multiple cities simultaneously. <strong>Predicted casualties:</strong> 50,000-60,000 Americans. <strong>False attribution:</strong> Will be blamed on ISIS, not Al-Qaeda. <strong>Entry methods:</strong> (1) Southern border via Darien Gap with fake Afghan/Syrian/Turkish passports, (2) Legal immigration - "clean" terrorists from Saudi/Kuwait/Jordan with tourist visas, (3) Refugee pipeline with official Afghan passports. <strong>Target cities (Tier 1):</strong> New York, Washington DC, Los Angeles, Chicago. <strong>Tier 2:</strong> Houston, Miami, San Francisco, Seattle, Boston, Atlanta. <strong>Target types:</strong> Shopping malls, schools, transit hubs, entertainment venues, residential areas (soft targets). <strong>Tactics:</strong> Invisible bomb vests (defeat security), coordinated teams, extended engagements, real-time coordination. <strong>Warning signs ignored:</strong> Multiple intelligence reports provided to government. European intelligence confirms: "Your report is spot-on." Governor DeSantis: "Received no threat reporting from federal government." First responders unprepared, no training for Oct 7th-style attacks.')
+                },
+                {
+                    date: '2025 (Ongoing)',
+                    title: 'Afghanistan Resistance - AGT Intelligence Network',
+                    description: linkifyEntities('<strong>Organization:</strong> Afghanistan Green Trend (AGT). <strong>Leader:</strong> President Amrullah Saleh (constitutional president, former NDS Director). <strong>Location:</strong> Panjshir Valley (only province not fallen to Taliban). <strong>Created:</strong> August 15, 2021 (day Kabul fell). <strong>Purpose:</strong> Collect and disseminate intelligence on Taliban, Al-Qaeda, ISIS-K. <strong>Key personnel:</strong> Khalid Amiri and other former NDS officials. <strong>Website:</strong> Afghanistangreentrend.org. <strong>U.S. Support:</strong> ZERO - State Department abandoned Saleh and resistance. <strong>Intelligence value:</strong> Provides ground-truth reporting from inside Taliban-controlled territory. <strong>Risk:</strong> Members hunted by Taliban using U.S.-provided biometric systems.')
                 }
             ]
         }

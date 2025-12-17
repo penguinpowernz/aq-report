@@ -87,7 +87,7 @@ window.renderHierarchy = function(container) {
                 <strong>Location:</strong> Kandahar, <a href="#entity:afghanistan" class="entity-link">Afghanistan</a><br>
                 <strong>Status:</strong> U.S. falsely claims deceased<br>
                 <strong>Married to:</strong> Daughter of Mullah Omar & Zawahiri<br>
-                <strong>Receives:</strong> U.S. weekly cash ($44-87M distributed)<br>
+                <strong>Receives:</strong> U.S. weekly cash ($40-105M distributed)<br>
                 <strong>FBI Reward:</strong> $1M (remarkably low)
             </p>
         </div>
@@ -128,7 +128,7 @@ window.renderHierarchy = function(container) {
     // U.S. Weekly Funding Recipients
     const fundingChart = createChartContainer(
         'U.S. Weekly Cash Recipients',
-        '$44-87 million per week distributed to designated terrorists'
+        '$40-105 million per week distributed to designated terrorists'
     );
 
     const fundingBox = document.createElement('div');
@@ -682,12 +682,182 @@ window.renderHierarchy = function(container) {
     shiftsChart.appendChild(shiftsTable);
     container.appendChild(shiftsChart);
 
+    // Afghanistan Resistance Network
+    const resistanceChart = createChartContainer(
+        'Afghanistan Resistance - AGT Intelligence Network',
+        'President Saleh\'s organization providing intelligence on Taliban and Al-Qaeda'
+    );
+
+    const resistanceGrid = document.createElement('div');
+    resistanceGrid.className = 'location-grid';
+    resistanceGrid.innerHTML = linkifyEntities(`
+        <div class="location-card info">
+            <div class="location-name">Afghanistan Green Trend (AGT)</div>
+            <div class="location-region">Resistance Intelligence Network</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                <strong>Leader:</strong> President Amrullah Saleh (legitimate Afghan president)<br>
+                <strong>Created:</strong> August 15, 2021 (day Kabul fell)<br>
+                <strong>Purpose:</strong> Collect and disseminate intelligence on Taliban/AQ<br>
+                <strong>Website:</strong> Afghanistangreentrend.org<br>
+                <strong>U.S. Support:</strong> ZERO - abandoned by State Department
+            </p>
+        </div>
+        <div class="location-card info">
+            <div class="location-name">President Amrullah Saleh</div>
+            <div class="location-region">Legitimate President of Afghanistan</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                <strong>Background:</strong> Former Director of National Directorate of Security (NDS)<br>
+                <strong>Constitutional:</strong> Became president when Ghani fled<br>
+                <strong>Location:</strong> Panjshir Valley (only province not fallen to Taliban)<br>
+                <strong>Declared:</strong> National resistance August 15, 2021<br>
+                <strong>Intelligence:</strong> AGT provides reporting on terrorist activities
+            </p>
+        </div>
+        <div class="location-card info">
+            <div class="location-name">Khalid Amiri</div>
+            <div class="location-region">AGT Operations</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                <strong>Role:</strong> Works with President Saleh on AGT intelligence<br>
+                <strong>Former:</strong> Senior NDS official<br>
+                <strong>Current:</strong> Collecting intelligence from inside Afghanistan<br>
+                <strong>Network:</strong> Sources throughout Taliban-controlled territory
+            </p>
+        </div>
+        <div class="location-card high">
+            <div class="location-name">National Directorate of Security (NDS)</div>
+            <div class="location-region">Former Afghan CIA (Disbanded)</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                <strong>Former Director:</strong> Amrullah Saleh<br>
+                <strong>Status:</strong> Disbanded after Taliban takeover<br>
+                <strong>Personnel:</strong> Many now work with AGT resistance<br>
+                <strong>U.S. Action:</strong> Abandoned sources, no support for remnants
+            </p>
+        </div>
+    `);
+    resistanceChart.appendChild(resistanceGrid);
+    container.appendChild(resistanceChart);
+
+    // Syrian Takeover Command Structure
+    const syriaChart = createChartContainer(
+        'Syria Takeover (2024) - Second Caliphate Command Structure',
+        'November 2021 planning in Afghanistan, executed November 2024'
+    );
+
+    const syriaFlow = document.createElement('div');
+    syriaFlow.className = 'flow-chart';
+    syriaFlow.innerHTML = linkifyEntities(`
+        <div class="info-box warning" style="margin-bottom: 2rem;">
+            <div class="info-box-title">November 2021 Planning Meeting - Kandahar, Afghanistan</div>
+            <p><strong>Attendees:</strong> Abu Muhammad Al-Julani (former ISIS, now Syria president), Musa bin Ali (Benghazi plotter), Sirajuddin Haqqani, Mullah Yaqub<br>
+            <strong>Agreement:</strong> Taliban provides training for 10,000 fighters<br>
+            <strong>Training Duration:</strong> 2021-2024 (3 years)<br>
+            <strong>Execution:</strong> November 2024 - Syrian government fell in days</p>
+        </div>
+        <div class="flow-row">
+            <div class="flow-node red">
+                <div class="flow-node-title">Al-Qaeda Support</div>
+                <div class="flow-node-detail">Training camps, fighters, expertise</div>
+            </div>
+            <div class="flow-node orange">
+                <div class="flow-node-title">Taliban Agreement</div>
+                <div class="flow-node-detail">Haqqani/Yaqub: camp access</div>
+            </div>
+        </div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-row">
+            <div class="flow-node green">
+                <div class="flow-node-title">10,000 Fighters Trained</div>
+                <div class="flow-node-detail">Afghanistan camps 2021-2024</div>
+            </div>
+        </div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-row">
+            <div class="flow-node blue">
+                <div class="flow-node-title">Syrian Blitzkrieg</div>
+                <div class="flow-node-detail">November 2024 - Government fell</div>
+            </div>
+        </div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-row">
+            <div class="flow-node red">
+                <div class="flow-node-title">Abu Muhammad Al-Julani</div>
+                <div class="flow-node-detail">President of Syria (terrorist)</div>
+            </div>
+        </div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-row">
+            <div class="flow-node red">
+                <div class="flow-node-title">Ethnic Cleansing</div>
+                <div class="flow-node-detail">Christians, Alawites, Kurds</div>
+            </div>
+            <div class="flow-node red">
+                <div class="flow-node-title">40,000 ISIS Prisoners</div>
+                <div class="flow-node-detail">To be released</div>
+            </div>
+        </div>
+    `);
+    syriaChart.appendChild(syriaFlow);
+    container.appendChild(syriaChart);
+
+    // Money Laundering Network
+    const launderingChart = createChartContainer(
+        'Taliban Financial Control Network',
+        'U.S. dollars flow through Taliban-controlled institutions with cuts at every stage'
+    );
+
+    const launderingGrid = document.createElement('div');
+    launderingGrid.className = 'location-grid';
+    launderingGrid.innerHTML = linkifyEntities(`
+        <div class="location-card critical">
+            <div class="location-name">Central Bank of Afghanistan</div>
+            <div class="location-region">Entry Point for U.S. Cash</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                <strong>Manager:</strong> Haji Muhammad Idris (Ahmadzai) - Sanctioned terrorist<br>
+                <strong>Receives:</strong> $40-105 million per week from U.S.<br>
+                <strong>Function:</strong> First stop in 10-step laundering process<br>
+                <strong>Taliban Control:</strong> Complete
+            </p>
+        </div>
+        <div class="location-card high">
+            <div class="location-name">Habib Group</div>
+            <div class="location-region">Money Exchange Network</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                <strong>CEO:</strong> Muhammad Habib<br>
+                <strong>Role:</strong> Major money exchanger in laundering chain<br>
+                <strong>Operations:</strong> Multiple currency conversions<br>
+                <strong>Taliban Cuts:</strong> Rate manipulation at each exchange
+            </p>
+        </div>
+        <div class="location-card high">
+            <div class="location-name">Azizi Bank</div>
+            <div class="location-region">Taliban-Controlled Banking</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                <strong>Status:</strong> Under Taliban control<br>
+                <strong>Function:</strong> Part of money movement chain<br>
+                <strong>Fees:</strong> Service charges on all transactions<br>
+                <strong>Integration:</strong> Connected to laundering network
+            </p>
+        </div>
+        <div class="location-card high">
+            <div class="location-name">Afghanistan International Bank (AIB)</div>
+            <div class="location-region">Taliban Financial Infrastructure</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                <strong>Status:</strong> Taliban-controlled<br>
+                <strong>Role:</strong> International money movement<br>
+                <strong>Sanctions:</strong> Should be sanctioned but continues operation<br>
+                <strong>U.S. Dollars:</strong> Facilitates movement of laundered funds
+            </p>
+        </div>
+    `);
+    launderingChart.appendChild(launderingGrid);
+    container.appendChild(launderingChart);
+
     // Final Summary
     const summaryBox = createInfoBox(
         'Osama bin Laden\'s Vision - Fulfilled by Hamza',
         `<strong>Original Vision:</strong> Unity across Muslim terrorist groups, push U.S. out of Middle East,
         restore Islamic Caliphate, economic damage to West, homeland attacks<br><br>
-        <strong>Current Status (2024):</strong><br>
+        <strong>Current Status (2024-2025):</strong><br>
         ✓ Islamic Army formed (120,000+ trained)<br>
         ✓ Sunni-Shia cooperation operational<br>
         ✓ State actor support secured (Iran, Russia, China, North Korea)<br>
@@ -695,7 +865,9 @@ window.renderHierarchy = function(container) {
         ✓ Wave-based operations executing (Oct 7th, embassies, Europe, U.S. planned)<br>
         ✓ Safe haven secured (Afghanistan)<br>
         ✓ Training infrastructure (30+ camps)<br>
-        ✓ Funding secured (U.S. $44-87M/week + Chinese $3B + Iranian/Russian support)<br><br>
+        ✓ Funding secured (U.S. $40-105M/week + Chinese $3B + Iranian/Russian support)<br>
+        ✓ Second caliphate established (Syria - November 2024)<br>
+        ✓ Third caliphate planned (Somalia or Mali - 2025)<br><br>
         <strong>Key Difference:</strong> Osama was patient (willing to take 1,000 years).
         Hamza wants everything in his lifetime with fast approvals. Vision being realized faster than planned.`,
         'danger'

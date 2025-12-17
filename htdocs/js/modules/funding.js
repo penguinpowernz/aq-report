@@ -65,18 +65,162 @@ window.renderFunding = function(container) {
     );
 
     const weeklyData = [
-        { label: 'Low Estimate', value: 44, valueLabel: '$44M/week ($2.3B/year)' },
-        { label: 'High Estimate', value: 87, valueLabel: '$87M/week ($4.5B/year)' }
+        { label: 'Low Estimate', value: 40, valueLabel: '$40M/week ($2.1B/year)' },
+        { label: 'Mid Estimate', value: 87, valueLabel: '$87M/week ($4.5B/year)' },
+        { label: 'High Estimate', value: 105, valueLabel: '$105M/week ($5.5B/year)' }
     ];
 
-    weeklyChart.appendChild(createBarChart(weeklyData, 100));
+    weeklyChart.appendChild(createBarChart(weeklyData, 110));
 
     const weeklyNote = document.createElement('p');
     weeklyNote.style.marginTop = '1rem';
     weeklyNote.style.color = 'var(--text-secondary)';
-    weeklyNote.innerHTML = linkifyEntities('<strong>Source:</strong> U.S. State Department via NGOs. Initial reports $40M/week, revised to $44-87M. 70% diverted to Taliban-only causes.');
+    weeklyNote.innerHTML = linkifyEntities('<strong>Source:</strong> U.S. State Department via NGOs. Amount varies by week: $40-105M. <strong>January 2025:</strong> Third week delivered $105M. 70% diverted to Taliban-only causes through systematic money laundering.');
     weeklyChart.appendChild(weeklyNote);
     container.appendChild(weeklyChart);
+
+    // 10-Step Money Laundering Process
+    const launderingSection = createChartContainer(
+        'Complete 10-Step Money Laundering Process',
+        'How U.S. dollars are systematically laundered through Taliban-controlled financial system'
+    );
+
+    const processSteps = [
+        {
+            step: 1,
+            title: 'Physical Cash Delivery',
+            description: 'U.S. sends $40-105M weekly by charter plane to Afghanistan. Physical dollars, not wire transfers.',
+            taliban_cut: false
+        },
+        {
+            step: 2,
+            title: 'Afghanistan International Bank (AIB)',
+            description: 'Cash delivered to AIB which does NOT have authorization to convert dollars to Afghanis.',
+            taliban_cut: false
+        },
+        {
+            step: 3,
+            title: 'Central Bank of Afghanistan',
+            description: 'AIB transfers money to Taliban-controlled Central Bank managed by <strong>Haji Muhammad Idris</strong> - a sanctioned terrorist who financed bomb attacks killing Americans.',
+            taliban_cut: false
+        },
+        {
+            step: 4,
+            title: 'Currency Exchange Bidding',
+            description: 'Central Bank invites money exchangers to bid. Taliban/Haqqani-affiliated exchangers always win.',
+            taliban_cut: true,
+            cut_description: 'First Taliban Cut: Exchange rate manipulation'
+        },
+        {
+            step: 5,
+            title: 'First Conversion (Dollars → Afghanis)',
+            description: 'Taliban-affiliated exchangers convert dollars to Afghanis, taking cut on exchange rate.',
+            taliban_cut: true,
+            cut_description: 'Taliban Profit: Rate manipulation and conversion fees'
+        },
+        {
+            step: 6,
+            title: 'NGO Account Deposits',
+            description: 'Afghanis deposited into NGO accounts. Every NGO must have Taliban representative on board approving all spending.',
+            taliban_cut: false
+        },
+        {
+            step: 7,
+            title: 'Taliban-Approved Vendor Purchases',
+            description: 'NGOs must buy from Taliban-approved vendors only. Example: <strong>Habib Group</strong> (owned by brother of Taliban Foreign Minister).',
+            taliban_cut: true,
+            cut_description: 'Second Taliban Cut: Vendor fees, transportation charges, service costs'
+        },
+        {
+            step: 8,
+            title: 'Taliban Taxes and Fees',
+            description: 'Every transaction subject to: customs fees, transportation fees, security fees, "taxes", storage fees, handling fees.',
+            taliban_cut: true,
+            cut_description: 'Third Taliban Cut: Multiple fees at every transaction point'
+        },
+        {
+            step: 9,
+            title: 'Aid Distribution (Taliban Propaganda)',
+            description: 'NGOs distribute aid alongside Taliban commanders. Recipients told: "This is from Mullah Hibatullah, not America." USAID logos visible but Taliban takes credit.',
+            taliban_cut: true,
+            cut_description: 'Fourth Taliban Cut: Political capital, propaganda value, population control'
+        },
+        {
+            step: 10,
+            title: 'Foreign Purchases (Second Conversion)',
+            description: 'For foreign goods, Afghanis converted BACK to dollars through Central Bank. Taliban exchangers win bid AGAIN. Money moved through <strong>Azizi Bank</strong> to Dubai ("not even a bank, it\'s a Ponzi scheme").',
+            taliban_cut: true,
+            cut_description: 'Fifth Taliban Cut: Second exchange rate manipulation plus foreign intermediary fees'
+        }
+    ];
+
+    const processContainer = document.createElement('div');
+    processContainer.style.display = 'flex';
+    processContainer.style.flexDirection = 'column';
+    processContainer.style.gap = '1rem';
+
+    processSteps.forEach(step => {
+        const stepCard = document.createElement('div');
+        stepCard.className = step.taliban_cut ? 'location-card critical' : 'location-card';
+        stepCard.style.borderLeft = step.taliban_cut ? '4px solid var(--danger)' : '4px solid var(--accent-blue)';
+
+        stepCard.innerHTML = linkifyEntities(`
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem;">
+                <div style="
+                    background: ${step.taliban_cut ? 'var(--danger)' : 'var(--accent-blue)'};
+                    color: white;
+                    font-weight: bold;
+                    padding: 0.5rem 0.75rem;
+                    border-radius: 4px;
+                    min-width: 50px;
+                    text-align: center;
+                ">STEP ${step.step}</div>
+                <div class="location-name" style="font-size: 1rem; flex: 1;">${step.title}</div>
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
+                ${step.description}
+            </p>
+            ${step.taliban_cut ? `
+                <div style="
+                    background: rgba(239, 68, 68, 0.1);
+                    border: 1px solid var(--danger);
+                    border-radius: 4px;
+                    padding: 0.75rem;
+                    margin-top: 0.75rem;
+                ">
+                    <strong style="color: var(--danger);">💰 ${step.cut_description}</strong>
+                </div>
+            ` : ''}
+        `);
+        processContainer.appendChild(stepCard);
+    });
+
+    launderingSection.appendChild(processContainer);
+
+    const launderingNote = document.createElement('div');
+    launderingNote.className = 'info-box danger';
+    launderingNote.innerHTML = linkifyEntities(`
+        <div class="info-box-title">Result: At Least 70% to Taliban</div>
+        <p style="margin-bottom: 1rem;"><strong>Total Taliban Cuts:</strong></p>
+        <ol style="margin-left: 1.5rem; color: var(--text-secondary);">
+            <li style="margin: 0.5rem 0;">First currency exchange (dollars → Afghanis) - Rate manipulation</li>
+            <li style="margin: 0.5rem 0;">Vendor fees (Habib Group and others) - Service charges</li>
+            <li style="margin: 0.5rem 0;">Taxes, customs, fees (at every transaction) - Multiple charges</li>
+            <li style="margin: 0.5rem 0;">Second currency exchange (Afghanis → dollars for foreign purchases) - Rate manipulation again</li>
+            <li style="margin: 0.5rem 0;">Foreign intermediary fees (Dubai, Azizi Bank) - Additional cuts</li>
+        </ol>
+        <p style="margin-top: 1rem;"><strong>Embassy Plots Funded:</strong> Using these exact U.S. dollars:</p>
+        <ul style="margin-left: 1.5rem; color: var(--text-secondary);">
+            <li style="margin: 0.5rem 0;">U.S. Embassy Bamako, Mali under threat</li>
+            <li style="margin: 0.5rem 0;">U.S. Embassy Mogadishu, Somalia under threat</li>
+        </ul>
+        <p style="margin-top: 1rem; font-weight: bold; color: var(--danger);">
+            "It's YOUR money, American tax dollars, being used to fund plots against YOUR embassies" — Legend
+        </p>
+    `);
+    launderingSection.appendChild(launderingNote);
+
+    container.appendChild(launderingSection);
 
     // The Eight Delivery Stops
     const stopsSection = createChartContainer(
