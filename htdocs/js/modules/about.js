@@ -15,7 +15,7 @@ window.renderAbout = function(container) {
         <div class="about-content">
             <div class="info-box">
                 <div class="info-box-title">Why This Site Exists</div>
-                <p>
+                <p style="margin-bottom: 1rem;">
                     This website serves as a comprehensive visual analysis and reference tool for understanding
                     the current terrorist threat landscape facing the United States and its allies. It transforms
                     hours of detailed intelligence testimony into an accessible, interconnected knowledge base.
@@ -104,6 +104,7 @@ window.renderAbout = function(container) {
                     <li><strong>Episode 81.2</strong> (November 2023) - Extended discussion of Islamic Army formation</li>
                     <li><strong>Episode 116</strong> - Benghazi detailed investigation and intelligence failures</li>
                     <li><strong>Episode 149</strong> (December 2024) - Current status and 2025 predictions</li>
+                    <li><strong>Episode 184</strong> (March 2025) - Latest updates on terrorist operations and threats</li>
                 </ul>
                 <p style="margin-top: 1rem;">
                     <strong>Sarah Adams</strong> is a former CIA counterterrorism officer who specialized in

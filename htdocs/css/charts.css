@@ -412,8 +412,41 @@
 
 /* Entity Page Styles */
 .entity-page {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.entity-content-layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.entity-main-content {
+    min-width: 0;
+}
+
+.entity-sidebar {
+    min-width: 0;
+}
+
+.entity-sidebar-section {
+    margin-bottom: 1.5rem;
+}
+
+.entity-sidebar-section h3 {
+    font-size: 1.1rem;
+}
+
+.entity-sidebar .related-entities-grid {
+    grid-template-columns: 1fr;
+}
+
+@media (max-width: 768px) {
+    .entity-content-layout {
+        grid-template-columns: 1fr;
+    }
 }
 
 .entity-header {

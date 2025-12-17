@@ -64,6 +64,9 @@ function loadEntityPage(entityId) {
             window.renderEntity(entitySection, entityId);
         }
     }
+
+    // Scroll to top
+    window.scrollTo(0, 0);
 }
 
 function loadSection(sectionName) {
@@ -81,6 +84,9 @@ function loadSection(sectionName) {
             loadSectionContent(sectionName, targetSection);
         }
     }
+
+    // Scroll to top
+    window.scrollTo(0, 0);
 }
 
 function loadSectionContent(sectionName, targetElement) {

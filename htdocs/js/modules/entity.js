@@ -53,6 +53,14 @@ window.renderEntity = async function(container, entityId) {
     const page = document.createElement('div');
     page.className = 'entity-page';
 
+    // Create two-column layout
+    const contentLayout = document.createElement('div');
+    contentLayout.className = 'entity-content-layout';
+
+    // Main content column
+    const mainContent = document.createElement('div');
+    mainContent.className = 'entity-main-content';
+
     // Entity header
     const header = document.createElement('div');
     header.className = `entity-header threat-${entity.threatLevel}`;
@@ -84,7 +92,7 @@ window.renderEntity = async function(container, entityId) {
         header.appendChild(aliases);
     }
 
-    page.appendChild(header);
+    mainContent.appendChild(header);
 
     // Key Facts section
     if (entity.keyFacts && entity.keyFacts.length > 0) {
@@ -100,18 +108,24 @@ window.renderEntity = async function(container, entityId) {
 
         entity.keyFacts.forEach(fact => {
             const li = document.createElement('li');
-            li.textContent = fact;
+            li.innerHTML = linkifyEntities(fact);
             factsList.appendChild(li);
         });
 
         factsSection.appendChild(factsList);
-        page.appendChild(factsSection);
+        mainContent.appendChild(factsSection);
     }
+
+    contentLayout.appendChild(mainContent);
+
+    // Sidebar column
+    const sidebar = document.createElement('div');
+    sidebar.className = 'entity-sidebar';
 
     // Related Entities section
     if (entity.relatedEntities && entity.relatedEntities.length > 0) {
         const relatedSection = document.createElement('div');
-        relatedSection.className = 'entity-section';
+        relatedSection.className = 'entity-section entity-sidebar-section';
 
         const relatedTitle = document.createElement('h3');
         relatedTitle.textContent = 'Related Entities';
@@ -132,16 +146,16 @@ window.renderEntity = async function(container, entityId) {
         });
 
         relatedSection.appendChild(relatedGrid);
-        page.appendChild(relatedSection);
+        sidebar.appendChild(relatedSection);
     }
 
     // Wikipedia section
     if (entity.wikipediaUrl) {
         const wikiSection = document.createElement('div');
-        wikiSection.className = 'entity-section';
+        wikiSection.className = 'entity-section entity-sidebar-section';
 
         const wikiTitle = document.createElement('h3');
-        wikiTitle.textContent = 'Additional Information';
+        wikiTitle.textContent = 'Additional Info';
         wikiSection.appendChild(wikiTitle);
 
         const wikiLink = document.createElement('a');
@@ -152,8 +166,11 @@ window.renderEntity = async function(container, entityId) {
         wikiLink.textContent = 'View on Wikipedia';
         wikiSection.appendChild(wikiLink);
 
-        page.appendChild(wikiSection);
+        sidebar.appendChild(wikiSection);
     }
+
+    contentLayout.appendChild(sidebar);
+    page.appendChild(contentLayout);
 
     // Source attribution
     const attribution = document.createElement('div');
