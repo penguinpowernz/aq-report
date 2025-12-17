@@ -1,7 +1,7 @@
 # DRILLDOWN REPORT: FUNDING AND MONEY FLOWS TO TERRORIST ORGANIZATIONS
 
-**Compiled From:** Shawn Ryan Show Episodes 81, 81-2, 116, 149 featuring Sarah Adams
-**Report Date:** December 2024
+**Compiled From:** Shawn Ryan Show Episodes 81, 81-2, 116, 149, 184 featuring Sarah Adams
+**Report Date:** January 2025
 **Classification:** Open Source Intelligence
 
 ---
@@ -56,21 +56,28 @@ This comprehensive funding report documents money flows from the United States g
 
 ### Weekly Cash Deliveries to Kabul
 
-**Amount:** $44-87 million per week
+**Amount:** $40-105 million per week (varies by week)
 
-**Initial Public Reports:** $40 million per week
-
-**Revised Estimates:** $44-87 million per week (large discrepancy)
+**Public Reports Evolution:**
+- Initial: $40 million per week
+- Revised Episode 184: **$40-105 million per week**
+- Third week of January 2025: $105 million that week
+- Low end: $40 million per week
+- High end: $87 million per week (previous estimate)
+- Latest high: $105 million per week
+- Quote: "I even think saying 87's low at this point"
 
 **Source:** U.S. State Department via NGOs
 
+**Origin Point:** Cash from Erbil and Iraq, loaded on charter planes
+
 **Confirmed By:**
 - Sarah Adams (former CIA)
-- "Legend" (source of revised figure)
+- "Legend" (source of revised figures, Episode 184)
 - Scott Mann (former Lt. Col.)
 - Ahmad Massoud (National Resistance Front)
 
-**Annual Total:** $2.288 billion to $4.524 billion annually
+**Annual Total:** $2.08 billion to $5.46 billion annually (based on $40-105M range)
 
 **Process:**
 1. Money arrives by plane weekly to Afghanistan
@@ -83,7 +90,7 @@ This comprehensive funding report documents money flows from the United States g
 **Distribution Timeline:**
 - Started: August 2021 (after Kabul fall)
 - Duration: 3+ years continuous
-- Status as of December 2024: Ongoing
+- Status as of February 2025: Ongoing
 
 ### The Plane Route and Operations
 
@@ -100,6 +107,156 @@ This comprehensive funding report documents money flows from the United States g
 - No banking paper trail for some deliveries
 - Traditional Afghan preference
 - Taliban lacks international banking access
+
+---
+
+## THE 10-STEP MONEY LAUNDERING PROCESS
+
+### Complete Money Flow from U.S. to Taliban/Al-Qaeda
+
+**Source: Episode 184 - "Legend" detailed explanation**
+
+**Step 1: Origin**
+- Cash: $40-105 million per week (varies)
+- From: Erbil and Iraq
+- Loaded on charter planes
+
+**Step 2: Arrival at Kabul International Airport**
+- Under control of Sirajuddin Haqqani
+- Minister of Interior, Taliban government
+- Controls all airport operations
+
+**Step 3: Transport to Afghanistan International Bank (AIB)**
+- Convoy arranged by Haqqani
+- Takes $40-105 million to AIB
+- AIB is primary banking institution
+
+**Step 4: First Conversion - Central Bank**
+- AIB doesn't have authorization to convert dollars to Afghanis
+- Money given to Taliban-controlled **Central Bank of Afghanistan**
+- Functions like U.S. Federal Reserve
+- Manager: **Haji Muhammad Idris (Ahmadzai)**
+  - **Sanctioned terrorist**
+  - **Sanctioned by United States for financing bomb attacks against American soldiers**
+  - **Killed many American soldiers**
+  - **Still sanctioned while receiving $40-105 million weekly**
+
+**Step 5: Money Market Bidding Process**
+- Central Bank has monopoly over Afghanistan's money market rates
+- Invites money exchangers to bid on conversion
+- **Money exchangers are companies affiliated with Haqqani Network and Senior Taliban leadership**
+- **Winners are "individuals associated with the Haqqani Network"**
+- **They control money market**
+- **Take a cut during conversion** (dollars to Afghanis)
+
+**Step 6: Distribution to NGOs**
+- Afghanis given back to Afghanistan International Bank
+- AIB deposits money into bank accounts of NGOs
+- About 2,500 Afghan NGOs
+- About 300 international NGOs (including American NGOs)
+
+**NGO Control Requirements:**
+- Every Afghan NGO - licenses and permits given by Taliban
+- **If you're anti-Taliban, Taliban won't give you a license**
+- **All NGOs are pro-Taliban or Taliban-sympathetic**
+- **Every NGO collecting from this fund must have Taliban representative on board**
+- Complete control of money distribution
+
+**NGO Infiltration:**
+- Long-standing NGOs with State Department relationships
+- Taliban "gutted them completely, put all Taliban in them"
+- State Department claims "12-year relationship, good record"
+- Reality: "None of them work there anymore, it's all now just Taliban"
+
+**Step 7: Purchasing and Vendor Lists**
+- NGOs purchase materials for aid distribution
+- 50% of materials from abroad
+- 50% purchased in Afghanistan (rice, wheat, flour, oil, medicine)
+- **Can ONLY purchase from pre-approved Taliban vendor list**
+- **"Cannot buy from Mullah Shawn Ryan's Afghan store"**
+- **Must buy from Taliban-operated stores**
+- Taliban take another cut through vendor monopoly
+
+**Step 8: Foreign Purchases and Second Conversion**
+- Materials from Kazakhstan, Uzbekistan
+- Must pay in dollars
+- NGOs reconvert Afghanis back to dollars through Central Bank
+- **Taliban take another cut during second conversion**
+- Money moved to UAE/Dubai
+
+**Bank: Azizi Bank**
+- **"It's not even a bank, it's a Ponzi scheme"**
+- Managed by Taliban
+- Moves money to Dubai/UAE
+
+**Step 9: Bulk Orders and Logistics**
+- NGOs order bulk materials (tons of rice, wheat, medicine, medical equipment)
+- Transfer materials to Kabul International Airport
+
+**Company: Habib Group**
+- Brings materials for NGOs
+- **Owned partially by brother of current Foreign Minister of Taliban**
+- Takes cut by charging for services
+- Transportation fees
+
+**Step 10: Customs, Taxes, and Final Distribution**
+
+**At Kabul International Airport:**
+- Moment aid lands
+- **Taliban charge customs, taxes, and fees**
+- **Another cut taken**
+
+**Final Distribution:**
+- Aid arrives at NGO offices
+- List of recipients provided by Taliban
+- **"5 poor and hungry Afghans"**
+- **"95 Taliban fighters, families of suicide bombers"**
+- All from U.S. taxpayer dollars
+
+### U.S. Aid Distributed in Taliban's Name
+
+**Badman Province Distribution:**
+- Province does not have a lot of Taliban support historically
+- USAID distributes aid with logo visible
+- **President Saleh exposed this**
+- NGOs affiliated with USAID distribute aid
+- **Alongside Taliban commanders**
+- **"Distribute the aid not in the name of the generosity of the American people or in the name of Joe Biden"**
+- **"Distribute the aid in honor of Mullah Hibatullah and the Taliban"**
+
+**Panjshir Province Distribution:**
+- Zero Taliban support
+- Pro-resistance, sympathetic toward resistance
+- Taliban goes with NGO called "Ansar"
+- Lineup of Afghans and widows
+- Envelopes with $200 cash per family
+- **Taliban tells them: "During the days of the Republic did those infidel Republicans that were puppets of America did they ever come and give you aid? Unlike them, see the leader of the Taliban loves you so much he's giving you aid, he's sending you money"**
+
+**U.S. Cash Distributed:**
+- **"In honor of Mullah Hibatullah not in the name of the generosity of the American people"**
+
+**Missing American Flag:**
+- **Even US Aid packages that go to Afghanistan, the US flag is missing from it**
+- In Latin America, Africa, and elsewhere: USAID packages have American flag with message from American people
+- **Not in Taliban control Afghanistan**
+- **They do not want people to know that this aid comes from the American people**
+- **They say this aid comes from Mullah Hibatullah**
+
+### Summary: Taliban Cuts at Every Step
+
+**10 Points Where Taliban Take Money:**
+1. Airport arrival (control fees)
+2. Transport convoy (Haqqani-arranged)
+3. Central Bank conversion (Haji Muhammad Idris)
+4. Money exchanger bidding (Haqqani Network companies)
+5. NGO board membership (Taliban representative control)
+6. Vendor lists (Taliban-operated stores only)
+7. Second conversion (back to dollars for foreign purchases)
+8. Azizi Bank "Ponzi scheme" fees
+9. Habib Group logistics (Taliban Foreign Minister's brother)
+10. Customs/taxes/fees at airport
+
+**Result: 70% siphoned to Taliban-only causes, majority to Taliban military**
 
 ---
 
@@ -575,6 +732,101 @@ Sarah Adams' team "followed the money" - discovered money from plane doesn't all
 - As long as ISIS is threat, Taliban continues receiving payment to fight them
 - Taliban actually controlling ISIS-K leader (Sanaullah is Haqqani plant since 2012)
 
+### Counterterrorism Dollars Fund Embassy Plots
+
+**Separate from Humanitarian Aid:**
+Counterterrorism dollars come in as U.S. cash, "go all over the place"
+
+**Uses:**
+1. Foreign fighters (humanitarian dollars)
+2. Homeland plot (counterterrorism dollars)
+3. Money laundering through Azizi Bank to support U.S. homeland plot
+4. Other plots against Americans (not in United States)
+5. **Embassy attacks against Americans in Africa**
+
+**Taking Physical U.S. Dollars Cash from Afghanistan to Africa**
+
+**Two Current Embassy Plots (Episode 184):**
+
+**1. U.S. Embassy in Bamako, Mali**
+- Part of Sahel region
+- Al-Qaeda/ISIS strong presence
+- French forces withdrew
+- U.S. presence targeted
+- Counterterrorism dollars funding attack planning
+
+**2. U.S. Embassy in Mogadishu, Somalia**
+- **Biggest concern right now**
+- Next push of caliphate plan
+- Push U.S. government out of Somalia
+- Somalia fall to Al-Shabaab or ISIS
+- Really part of Al-Qaeda's caliphate plan (just like Syria)
+
+**Sarah Adams (Episode 184):**
+> "We are actually funding with these dollars we send to fight ISIS, plots against us in Africa of all places besides here in the homeland. It's insane that we're funding these incidents that are going to kill Americans."
+
+**The Coming Blame:**
+> "Think of how that's going to come back right. We have some Americans die let's say Mogadishu, we have a bombing go off in Virginia, and then when you track the money down the money came from the US government. But think of how Americans are going to handle this and that's what the terrorists want. They want you to blame your government."
+
+### Department of Defense Funding
+
+**Beyond USAID and State:**
+> "We don't just have a problem with USAID, we don't just have a problem with State Department, we have a problem with the money the Department of Defense is giving to the Taliban, we have problem with money CIA is giving to the Taliban"
+
+**Example - Operation Sentinel:**
+- Department of Defense paid **$60 million last year** supposedly for women's education in Afghanistan
+- **Taliban don't even allow Afghan women to leave their homes**
+- **"They said they gave 60 million for women's education when women can't go to school"**
+- Gave **$11 million for Taliban to register their broken arms**
+
+**Sarah Adams:**
+> "We have to be honest about all these pockets of money because you can't stop them if you don't discuss all of them"
+
+### Taliban Martyr Payments - Operation Sentinel
+
+**Critical Issue (Episode 184):**
+U.S. paying welfare to Taliban martyr families
+
+**Who Gets Paid:**
+- Every Taliban member who died fighting U.S. forces
+- U.S. government paying stipend to family
+- Ongoing monthly payments
+- Funded from humanitarian aid budget
+
+**American Gold Star Families:**
+- American families who lost loved ones to Taliban attacks
+- U.S. Support: **"Aren't getting squat"**
+
+**Justification Given:**
+"One person gave answer: 'It'll stop them from joining ISIS'"
+
+**Sarah Adams' Response:**
+"The Taliban guy is already dead"
+
+**The Absurdity:**
+1. Taliban fighter kills Americans
+2. Americans kill Taliban fighter
+3. U.S. pays Taliban fighter's family
+4. U.S. doesn't pay American Gold Star family
+5. Justification: Prevent family from joining ISIS
+6. Reality: Fighter already dead, can't join ISIS
+
+**What It Funds:**
+- Taliban recruitment ("we take care of families")
+- More fighters willing to die
+- Incentive structure for suicide bombers
+- Family financial security if martyr
+- Encourages more attacks on Americans
+
+**Sarah Adams:** "We should not be giving a penny" to this
+
+**Scale:**
+- 20 years of war
+- Thousands of Taliban KIA
+- Each family receiving payments
+- Adds up to millions monthly
+- Billions over time period
+
 ---
 
 ## MONEY SIPHONING MECHANISMS
@@ -665,6 +917,224 @@ Sarah Adams' team "followed the money" - discovered money from plane doesn't all
 - Enormous exchange fees
 - Captive banking system
 - No alternatives available
+
+### 5. The Complete 10-Step Money Laundering Process
+
+**Source:** Episode 184 - Legend's detailed explanation of how U.S. dollars are laundered through Taliban-controlled financial system
+
+**Weekly Amount:** $40-105 million per week (varies)
+**Example Week:** Third week of January 2025 = $105 million that specific week
+
+#### STEP 1: Physical Cash Delivery
+
+**Action:** U.S. sends physical dollars by plane to Afghanistan
+
+**Carrier:** Charter planes
+**Frequency:** Weekly
+**Amount:** $40-105 million per delivery
+**Currency:** Physical U.S. dollars (not wire transfers)
+
+**Justification:** Humanitarian aid for Afghan people
+
+#### STEP 2: Afghanistan International Bank (AIB) Deposit
+
+**Action:** Cash delivered to Afghanistan International Bank
+
+**Key Facts:**
+- AIB does NOT have authorization to convert dollars to Afghanis
+- AIB cannot legally perform currency exchange
+- Bank still receives the money
+
+**Process:**
+- Plane lands
+- Cash unloaded
+- Transported to AIB
+- Deposited
+
+#### STEP 3: Transfer to Central Bank of Afghanistan
+
+**Action:** AIB gives money to Central Bank of Afghanistan
+
+**Central Bank Manager:** Haji Muhammad Idris (Ahmadzai)
+- **Sanctioned terrorist**
+- Sanctioned by U.S. for financing bomb attacks that killed American soldiers
+- **Still sanctioned while receiving U.S. funds weekly**
+
+**Central Bank Role:**
+- Taliban-controlled (equivalent to U.S. Federal Reserve)
+- Monopoly over Afghanistan's money market rates
+- Controls all currency exchange operations
+
+#### STEP 4: Currency Exchange Bidding Process
+
+**Action:** Central Bank invites money exchangers to bid on conversion rate
+
+**Bidding Process:**
+- Central Bank announces rate for the day
+- Money exchangers submit bids
+- Taliban/Haqqani-affiliated exchangers always win
+- **First Taliban cut taken here** (difference between official rate and exchange rate)
+
+**Quote from Legend:** "The Central Bank has monopoly over the money market rates"
+
+**Control Mechanism:**
+- Only Taliban-friendly exchangers get contracts
+- Non-Taliban exchangers excluded
+- Ensures Taliban profit from every transaction
+
+#### STEP 5: First Conversion - Dollars to Afghanis
+
+**Action:** Taliban-affiliated money exchangers convert dollars to Afghanis
+
+**Taliban Profit #1:**
+- Exchange rate manipulation
+- Cut taken during conversion
+- Money goes to Taliban leadership
+
+**Afghanis Destination:** Back to Central Bank
+
+#### STEP 6: Central Bank Deposits Afghanis into NGO Accounts
+
+**Action:** Afghanis deposited into various NGO bank accounts
+
+**NGO Control:**
+- Every NGO must have Taliban representative on board
+- Taliban approve all expenditures
+- NGOs effectively Taliban fronts
+
+**Distribution:**
+- Multiple NGO accounts
+- Appears to be humanitarian distribution
+- Actually Taliban-controlled spending
+
+#### STEP 7: NGO Purchases from Taliban Vendors
+
+**Action:** NGOs attempt to purchase supplies and materials
+
+**Vendor Requirement:**
+- **All vendors must be on Taliban-approved vendor list**
+- Cannot purchase from non-approved vendors
+- Vendor list controlled by Taliban/Haqqanis
+
+**Example:** Habib Group
+- Logistics company bringing materials for NGOs
+- **Owned partially by brother of Taliban Foreign Minister**
+- Takes cut by charging for services
+- Transports materials to Kabul International Airport
+
+**Taliban Profit #2:** Vendor fees, transportation charges, service costs
+
+#### STEP 8: Taliban Taxes, Customs, and Fees
+
+**Action:** Every transaction subject to multiple Taliban charges
+
+**Fees Include:**
+- Customs fees
+- Transportation fees
+- Security fees
+- "Taxes" on all goods
+- Storage fees
+- Handling fees
+
+**Quote from Legend:** "At every step, Taliban taking cut"
+
+**Taliban Profit #3:** Multiple fees at every transaction point
+
+#### STEP 9: NGO Distribution to Afghans
+
+**Action:** NGOs distribute aid alongside Taliban commanders
+
+**Propaganda Component:**
+- Aid distributed in Taliban's name
+- Recipients told: "This is from Mullah Hibatullah, not America"
+- USAID logos visible, but Taliban takes credit
+
+**Example Location:** Badman Province
+- Historically lacks Taliban support
+- Aid distributed in honor of Mullah Hibatullah
+- President Amrullah Saleh exposed this practice
+
+**Example Location:** Panjshir Valley (via Ansar NGO)
+- Only province not fallen to Taliban
+- Taliban goes with Ansar NGO
+- Distributes $200 cash per family
+- Recipients told aid is from Taliban, not U.S.
+
+**Taliban Profit #4:** Political capital, propaganda value, population control
+
+#### STEP 10: Foreign Purchases Requiring Second Conversion
+
+**Action:** Some aid requires foreign purchases (items not available in Afghanistan)
+
+**Process:**
+- NGO needs to buy foreign goods
+- Afghanis cannot be used outside Afghanistan
+- Must convert back to dollars or other currency
+
+**Second Conversion:**
+- Afghanis back to Central Bank
+- Central Bank invites money exchangers again
+- Taliban-affiliated exchangers win bid again
+- **Taliban cut taken AGAIN** (second conversion)
+
+**Taliban Profit #5:** Second exchange rate manipulation
+
+**Foreign Purchase Middlemen:**
+- Must use Taliban-approved intermediaries
+- Additional fees and cuts
+- Often through Dubai (Azizi Bank)
+
+**Azizi Bank:**
+- Moves money from Afghanistan to Dubai
+- "Not even a bank, it's a Ponzi scheme" (Legend)
+- Managed by Taliban
+- Part of money laundering operation
+
+#### TOTAL TALIBAN CUTS:
+
+1. **First currency exchange** (dollars to Afghanis) - Rate manipulation
+2. **Vendor fees** (Habib Group and others) - Service charges
+3. **Taxes, customs, fees** (at every transaction) - Multiple charges
+4. **Second currency exchange** (Afghanis back to dollars for foreign purchases) - Rate manipulation again
+5. **Foreign intermediary fees** (Dubai, Azizi Bank) - Additional cuts
+
+**Result:** "At least 70% siphoned to Taliban-only causes" becomes clearer with this detailed process
+
+**Embassy Plots Funded:** Using these exact U.S. dollars:
+- U.S. Embassy Bamako, Mali under threat
+- U.S. Embassy Mogadishu, Somalia under threat
+- Physical U.S. dollars traced to embassy plot planning
+
+**Quote from Legend:** "It's YOUR money, American tax dollars, being used to fund plots against YOUR embassies"
+
+---
+
+### 6. Operation Sentinel - Department of Defense Fraud
+
+**New Information from Episode 184:**
+
+**Program Name:** Operation Sentinel
+
+**Stated Purpose:** Women's education in Afghanistan
+
+**Actual Purpose:** Money laundering to Taliban
+
+**Amount:** $60 million (Department of Defense budget)
+
+**Mechanism:**
+- DOD claims to fund women's education
+- Taliban ban women from education
+- Money goes to Taliban instead
+- Classified as "counterterrorism" spending
+
+**Absurdity:**
+1. Taliban forbid women's education
+2. U.S. sends $60M for women's education
+3. No women being educated
+4. Money goes to Taliban
+5. DOD classifies as counterterrorism success
+
+**Result:** $60 million fraud, zero women educated, Taliban enriched
 
 ---
 

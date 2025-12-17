@@ -1907,6 +1907,463 @@
       ],
       "relatedEntities": ["united-states", "taliban", "tom-west", "ross-wilson", "benghazi"],
       "threatLevel": "info"
+    },
+    {
+      "id": "abu-muhammad-al-julani",
+      "name": "Abu Muhammad Al-Julani",
+      "aliases": ["Julani", "Ahmad al-Sharaa", "Syria President"],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abu_Mohammad_al-Julani",
+      "role": "Current President of Syria, Former ISIS/Al-Qaeda",
+      "keyFacts": [
+        "Current president of Syria (as of November 2024)",
+        "Former ISIS member",
+        "November 2021: Traveled to Afghanistan to plan Syrian takeover",
+        "Met with Musa bin Ali, Sirajuddin Haqqani, Mullah Yaqub",
+        "Requested 10,000 fighters from Al-Qaeda for Syrian operation",
+        "$10 million U.S. bounty removed 'in matter of minutes'",
+        "Runs terrorist camp in Libya south of Misrata with Musa bin Ali",
+        "U.S. has official relationship and shares intelligence with him",
+        "U.S. DOD taking out his rivals to consolidate power",
+        "Plan: ethnic cleansing of Christians, Alawites, Kurds"
+      ],
+      "relatedEntities": ["taliban", "sirajuddin-haqqani", "mullah-yaqub", "musa-bin-ali", "al-qaeda", "syria", "isis-k"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "musa-bin-ali",
+      "name": "Musa bin Ali",
+      "aliases": ["Musa"],
+      "type": "person",
+      "role": "Benghazi Plotter, Al-Qaeda Operative",
+      "keyFacts": [
+        "One of top Benghazi plotters",
+        "Number one target of Benghazi investigation (Sarah Adams)",
+        "November 2021: Planned Syrian Blitzkrieg with Julani and Taliban",
+        "Runs terrorist facilitation networks in Syria (over decade)",
+        "Runs large terrorist camp in Libya south of Misrata (with Julani)",
+        "Connects Benghazi, Libya, Syria, Afghanistan operations",
+        "Key coordinator between multiple terrorist theaters"
+      ],
+      "relatedEntities": ["benghazi", "al-qaeda", "abu-muhammad-al-julani", "taliban", "libya", "syria"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "amrullah-saleh",
+      "name": "President Amrullah Saleh",
+      "aliases": ["Saleh", "Acting President"],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amrullah_Saleh",
+      "role": "Acting President of Afghanistan, Resistance Leader",
+      "keyFacts": [
+        "Age 15-16: Started in resistance under Commander Ahmed Shah Massoud",
+        "Former head of NDS (National Directorate of Security - Afghan CIA)",
+        "Built NDS with U.S. help",
+        "Minister of Interior of Afghanistan",
+        "2011: Founded AGT (Afghanistan Green Trend)",
+        "2019: First Vice President under President Ashraf Ghani",
+        "August 15, 2021: Became Acting President (constitutional succession)",
+        "Went to Panjshir Valley, declared national resistance",
+        "July 2024: Term ended, continues leading intelligence",
+        "Most reliable intelligence source (Legend)",
+        "Father of Afghanistan intelligence",
+        "Abandoned by U.S. government",
+        "Source of 1,000+ terrorist operatives in U.S. intelligence",
+        "Exposed USAID distribution in Taliban's name"
+      ],
+      "relatedEntities": ["agt", "nds", "afghanistan", "taliban", "legend", "scott-mann", "panjshir-valley", "ahmad-shah-massoud"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "karen-decker",
+      "name": "Ambassador Karen Decker",
+      "aliases": ["Decker", "Taliban First Lady"],
+      "type": "person",
+      "role": "U.S. Ambassador to Afghanistan",
+      "keyFacts": [
+        "Appointed by Biden administration",
+        "Still serving under Trump administration",
+        "Direct communication with every Taliban governor",
+        "Denounced armed resistance against Taliban",
+        "Has not met with resistance leadership",
+        "Blocks resistance events internationally",
+        "Pressured Tajikistan not to work with resistance",
+        "Refuses to call Sirajuddin Haqqani a terrorist",
+        "Literally acting as the unofficial first lady of the Taliban (Legend)"
+      ],
+      "relatedEntities": ["taliban", "state-department", "united-states", "sirajuddin-haqqani", "amrullah-saleh"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "thomas-west",
+      "name": "Thomas West",
+      "aliases": ["West", "Special Envoy"],
+      "type": "person",
+      "role": "In Charge of Sanctions, Taliban Sympathizer",
+      "keyFacts": [
+        "Former Special Envoy to Afghanistan",
+        "Now in charge of sanctions at State Department",
+        "Believes Taliban are professionals, sincere, and technocrats",
+        "Said: We will do anything at all cost to recognize the Taliban",
+        "Taliban sympathizer",
+        "Controls sanctions decisions (unlikely to sanction Taliban)"
+      ],
+      "relatedEntities": ["taliban", "state-department", "united-states", "tom-west"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "haji-muhammad-idris",
+      "name": "Haji Muhammad Idris",
+      "aliases": ["Idris", "Ahmadzai"],
+      "type": "person",
+      "role": "Central Bank of Afghanistan Manager, Sanctioned Terrorist",
+      "keyFacts": [
+        "Manager of Central Bank of Afghanistan (Taliban-controlled)",
+        "Sanctioned terrorist",
+        "Sanctioned by U.S. for financing bomb attacks that killed American soldiers",
+        "Still sanctioned while receiving U.S. funds",
+        "Receives $40-105 million weekly",
+        "Monopoly over Afghanistan money market rates",
+        "Takes cuts during currency conversions (twice per transaction)",
+        "Taliban/Haqqani-affiliated money exchangers win bids"
+      ],
+      "relatedEntities": ["taliban", "afghanistan", "central-bank-afghanistan", "united-states", "haqqani-network"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "khalid-amiri",
+      "name": "Commander Khalid Amiri",
+      "aliases": ["Amiri", "General Amiri"],
+      "type": "person",
+      "role": "Afghan Commando, General, Resistance Leader",
+      "keyFacts": [
+        "Afghan Commando",
+        "General",
+        "Leading resistance in Afghanistan since 2021",
+        "Letter: Taliban are defeatable, vulnerable militarily",
+        "Fighting Taliban, Al-Qaeda, ISIS-K",
+        "Resistance has inflicted significant casualties on Taliban"
+      ],
+      "relatedEntities": ["afghanistan", "taliban", "al-qaeda", "isis-k", "amrullah-saleh"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "legend",
+      "name": "Legend",
+      "aliases": ["Afghan American Intel"],
+      "type": "person",
+      "role": "Afghan American, Former Army Intelligence",
+      "keyFacts": [
+        "Afghan American",
+        "Former U.S. Army Intelligence",
+        "Face hidden (still operational)",
+        "Travels in and out of Afghanistan",
+        "Direct liaison to President Amrullah Saleh",
+        "Cultivated intelligence relationships abandoned by U.S. government",
+        "Maintained contact with Afghanistan Green Trend (AGT)",
+        "Source of most reliable Afghanistan intelligence",
+        "Primary contact for AGT intelligence",
+        "Provided testimony on HR 26"
+      ],
+      "relatedEntities": ["amrullah-saleh", "agt", "afghanistan", "united-states"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "erik-prince",
+      "name": "Erik Prince",
+      "aliases": ["Prince"],
+      "type": "person",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Erik_Prince",
+      "role": "Unplugged Phone Developer, Former Blackwater Founder",
+      "keyFacts": [
+        "Developed Unplugged phone",
+        "Designed to avoid Big Tech surveillance",
+        "Kill switch separates battery from device",
+        "No data collection by Instagram, X, Google",
+        "Former Blackwater founder"
+      ],
+      "relatedEntities": ["united-states"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "agt",
+      "name": "Afghanistan Green Trend (AGT)",
+      "aliases": ["AGT", "Green Trend"],
+      "type": "organization",
+      "role": "President Saleh's Intelligence Network",
+      "keyFacts": [
+        "Founded 2011 by Amrullah Saleh",
+        "Main political party in Afghanistan (pre-2021)",
+        "Grassroots movement with millions of members",
+        "Intelligence network operational in Afghanistan (current)",
+        "Most active and reliable resistance intelligence",
+        "NOT the GDI (Taliban intelligence)",
+        "Under control of resistance",
+        "Provides document-based intelligence and on-ground reporting",
+        "Most reliable intelligence Legend has seen",
+        "Exposed USAID distribution in Taliban's name"
+      ],
+      "relatedEntities": ["amrullah-saleh", "afghanistan", "taliban", "legend"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "nds",
+      "name": "National Directorate of Security (NDS)",
+      "aliases": ["NDS", "Afghan CIA"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/National_Directorate_of_Security",
+      "role": "Afghan CIA (Former)",
+      "keyFacts": [
+        "Afghan version of Central Intelligence Agency",
+        "America helped build NDS post-2001",
+        "Amrullah Saleh literally built that unit",
+        "Saleh was head of NDS",
+        "Intelligence agency of former Afghan government",
+        "Disbanded after Taliban takeover August 2021"
+      ],
+      "relatedEntities": ["afghanistan", "amrullah-saleh", "united-states"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "habib-group",
+      "name": "Habib Group",
+      "aliases": ["Habib"],
+      "type": "organization",
+      "role": "Taliban-Connected Logistics Company",
+      "keyFacts": [
+        "Brings materials for NGOs",
+        "Owned partially by brother of Taliban Foreign Minister",
+        "Takes cut by charging for services",
+        "Part of money laundering process for U.S. aid",
+        "Transports materials to Kabul International Airport"
+      ],
+      "relatedEntities": ["taliban", "afghanistan", "haqqani-network"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "azizi-bank",
+      "name": "Azizi Bank",
+      "aliases": ["Azizi"],
+      "type": "organization",
+      "role": "Taliban Ponzi Scheme Bank",
+      "keyFacts": [
+        "Moves money from Afghanistan to Dubai",
+        "Not even a bank, it's a Ponzi scheme (Legend)",
+        "Managed by Taliban",
+        "Used for money laundering",
+        "Supports U.S. homeland plot",
+        "Part of NGO funding flow"
+      ],
+      "relatedEntities": ["taliban", "afghanistan", "dubai", "united-states"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "afghanistan-international-bank",
+      "name": "Afghanistan International Bank (AIB)",
+      "aliases": ["AIB"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Afghanistan_International_Bank",
+      "role": "Taliban-Controlled Bank",
+      "keyFacts": [
+        "Receives $40-105 million weekly U.S. cash deliveries",
+        "Doesn't have authorization to convert dollars to Afghanis",
+        "Gives money to Taliban-controlled Central Bank",
+        "Deposits Afghanis into NGO accounts",
+        "Part of systematic money laundering process"
+      ],
+      "relatedEntities": ["taliban", "afghanistan", "central-bank-afghanistan", "united-states"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "central-bank-afghanistan",
+      "name": "Central Bank of Afghanistan",
+      "aliases": ["Da Afghanistan Bank"],
+      "type": "organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Da_Afghanistan_Bank",
+      "role": "Taliban Money Laundering Operation",
+      "keyFacts": [
+        "Taliban-controlled (like Federal Reserve)",
+        "Manager: Haji Muhammad Idris (sanctioned terrorist)",
+        "Monopoly over Afghanistan's money market rates",
+        "Invites money exchangers to bid (Taliban-affiliated win)",
+        "Takes cut during conversions (twice per transaction)",
+        "Converts dollars to Afghanis and back for foreign purchases"
+      ],
+      "relatedEntities": ["taliban", "afghanistan", "haji-muhammad-idris", "united-states"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "ansar-ngo",
+      "name": "Ansar (NGO)",
+      "aliases": ["Ansar"],
+      "type": "organization",
+      "role": "Taliban-Controlled NGO",
+      "keyFacts": [
+        "Taliban goes with this NGO to Panjshir Province",
+        "Distributes $200 cash per family",
+        "Taliban tells recipients aid is from Mullah Hibatullah, not America",
+        "Used to distribute U.S. aid in Taliban's name",
+        "Part of propaganda operation"
+      ],
+      "relatedEntities": ["taliban", "afghanistan", "panjshir-valley", "united-states"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "al-alom-military-base",
+      "name": "Al-Alom Military Base",
+      "aliases": ["Al-Alom"],
+      "type": "location",
+      "role": "Syria Military Base",
+      "keyFacts": [
+        "Julani's camps outside this base were being bombed",
+        "Couldn't safely train there",
+        "Taliban provided training camps in Afghanistan instead",
+        "Syria location"
+      ],
+      "relatedEntities": ["syria", "abu-muhammad-al-julani", "taliban"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "panjshir-valley",
+      "name": "Panjshir Valley",
+      "aliases": ["Panjshir"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Panjshir_Valley",
+      "role": "Resistance Stronghold",
+      "keyFacts": [
+        "Only province not fallen to Taliban (August 2021)",
+        "Amrullah Saleh went here after Kabul fell",
+        "Declared national resistance from here",
+        "Zero Taliban support",
+        "Pro-resistance, sympathetic toward resistance",
+        "Taliban distributes aid here via Ansar NGO",
+        "Historically resistant to Taliban control"
+      ],
+      "relatedEntities": ["afghanistan", "amrullah-saleh", "taliban", "ansar-ngo"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "badman-province",
+      "name": "Badman Province",
+      "aliases": ["Badman"],
+      "type": "location",
+      "role": "Province Lacking Taliban Support",
+      "keyFacts": [
+        "Does not have a lot of Taliban support historically",
+        "USAID distributes aid here",
+        "Aid distributed alongside Taliban commanders",
+        "Aid distributed in honor of Mullah Hibatullah, not American people",
+        "President Saleh exposed this",
+        "USAID logo visible during distribution"
+      ],
+      "relatedEntities": ["afghanistan", "taliban", "amrullah-saleh"],
+      "threatLevel": "info"
+    },
+    {
+      "id": "mogadishu",
+      "name": "Mogadishu, Somalia",
+      "aliases": ["Mogadishu"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mogadishu",
+      "role": "U.S. Embassy Plot Target",
+      "keyFacts": [
+        "U.S. Embassy under active threat",
+        "One of two current embassy plots",
+        "Biggest concern right now",
+        "Next push of caliphate plan",
+        "Push U.S. government out of Somalia",
+        "Somalia fall to Al-Shabaab or ISIS",
+        "Really part of Al-Qaeda's caliphate plan",
+        "Using U.S. counterterrorism dollars from Afghanistan to fund plot"
+      ],
+      "relatedEntities": ["somalia", "al-qaeda", "taliban", "united-states"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "bamako",
+      "name": "Bamako, Mali",
+      "aliases": ["Bamako"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bamako",
+      "role": "U.S. Embassy Plot Target",
+      "keyFacts": [
+        "U.S. Embassy under threat",
+        "One of two current embassy plots",
+        "Using physical U.S. dollars from Afghanistan",
+        "Part of caliphate expansion",
+        "Next Al-Qaeda base location"
+      ],
+      "relatedEntities": ["mali", "al-qaeda", "taliban", "united-states"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "doha-qatar",
+      "name": "Doha, Qatar",
+      "aliases": ["Doha"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Doha",
+      "role": "Taliban Office Location",
+      "keyFacts": [
+        "Taliban political office location",
+        "U.S. funds Taliban office: $10 million+ per month",
+        "Operating expenses funded by U.S. since 2013",
+        "11+ years of continuous U.S. funding",
+        "Separate from weekly cash deliveries to Afghanistan"
+      ],
+      "relatedEntities": ["qatar", "taliban", "united-states"],
+      "threatLevel": "high"
+    },
+    {
+      "id": "somalia",
+      "name": "Somalia",
+      "aliases": ["Federal Republic of Somalia"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Somalia",
+      "role": "Caliphate Expansion Target",
+      "keyFacts": [
+        "Next caliphate target (competing with Mali)",
+        "U.S. Embassy Mogadishu under threat",
+        "Al-Qaeda/Al-Shabaab operations",
+        "Part of Islamic Army expansion plan"
+      ],
+      "relatedEntities": ["mogadishu", "al-qaeda", "mali", "islamic-army"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "syria",
+      "name": "Syria",
+      "aliases": ["Syrian Arab Republic"],
+      "type": "country",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Syria",
+      "role": "Second Caliphate Country",
+      "keyFacts": [
+        "Fell to Julani November 2024 (Syrian Blitzkrieg)",
+        "Second country in current caliphate generation (after Afghanistan)",
+        "10,000 Al-Qaeda fighters trained in Afghanistan for takeover",
+        "November 2021: Planning meeting in Afghanistan",
+        "Christians, Alawites, Kurds being ethnically cleansed",
+        "Over 40,000 ISIS members in camps (to be released)",
+        "U.S. shares intelligence with Julani (terrorist president)",
+        "U.S. leaving Syria, handing camps to Julani"
+      ],
+      "relatedEntities": ["abu-muhammad-al-julani", "al-qaeda", "taliban", "isis-k", "afghanistan", "iran"],
+      "threatLevel": "critical"
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai, UAE",
+      "aliases": ["Dubai"],
+      "type": "location",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dubai",
+      "role": "Money Laundering Hub",
+      "keyFacts": [
+        "Azizi Bank moves money here from Afghanistan",
+        "Part of Taliban money laundering operation",
+        "Ashraf Ghani fled here August 15, 2021",
+        "Financial hub for terrorist operations"
+      ],
+      "relatedEntities": ["azizi-bank", "taliban", "afghanistan"],
+      "threatLevel": "high"
     }
   ]
 }

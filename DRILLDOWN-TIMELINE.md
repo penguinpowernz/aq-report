@@ -1,9 +1,9 @@
 # DRILLDOWN: Overall Timeline - Comprehensive Chronological Analysis
 ## Al-Qaeda, Taliban, and Global Terrorism Events (1979-2025)
 
-**Compiled from:** Shawn Ryan Show Episodes 81, 81-2, 116, and 149 featuring Sarah Adams
+**Compiled from:** Shawn Ryan Show Episodes 81, 81-2, 116, 149, and 184 featuring Sarah Adams
 **Sources:** "Know Thy Enemy" investigations, CIA operational intelligence, open-source investigation
-**Date Compiled:** December 2024
+**Date Compiled:** January 2025
 
 ---
 
@@ -28,6 +28,13 @@
 ---
 
 ## Pre-9/11 Historical Context (1979-2001)
+
+### 1979-1989: Soviet-Afghan War (Mujahideen Era)
+
+**Age 15-16 (Amrullah Saleh):**
+- Starts in resistance
+- Does liaison intelligence work under Commander Ahmed Shah Massoud
+- Fights against Soviet invasion
 
 ### 1979-1989: Soviet-Afghan War (Mujahideen Era)
 
@@ -86,6 +93,20 @@
 - Date chosen has significance (anniversary used for October 7th training start in 2022)
 - This attack establishes pattern of embassy targeting
 
+### 2011
+
+**2011:** President Amrullah Saleh starts Afghanistan Green Trend (AGT)
+- One of main political parties in Afghanistan
+- Grassroots movement
+- Had millions of members inside Afghanistan
+- Now serves as intelligence network operational in Afghanistan
+
+### 2019
+
+**2019:** Amrullah Saleh wins elections, becomes First Vice President
+- Under President Ashraf Ghani
+- Continues through August 2021
+
 ### 2001: Pre-9/11
 
 **Early 2001**
@@ -97,7 +118,14 @@
 - **Ahmad Shah Massoud assassinated** by two Tunisian suicide bombers
 - Individual who provided the Tunisians would later provide attackers to Zawahiri for Benghazi
 - Same individual still active as of 2023
-- His son now leads Northern Alliance resistance
+- His son **Commander Ahmed Massoud** now leads National Resistance Front
+
+**Post-2001 (Amrullah Saleh):**
+- Became head of NDS (National Directorate of Security)
+- Afghan version of Central Intelligence Agency
+- America helped build NDS
+- Saleh literally built that unit
+- Minister of Interior of Afghanistan
 
 ---
 
@@ -1176,6 +1204,27 @@ Three weeks before Benghazi: Al-Qaeda kidnapped only Quds Force officer in Bengh
 
 ---
 
+## Afghanistan Withdrawal and Aftermath (August 2021 - Present)
+
+### August 15, 2021: The Abandonment
+
+**U.S. Abandons President Saleh and 98-99% of Intelligence Assets:**
+- Afghanistan falls to Taliban
+- President Ashraf Ghani flees to Dubai
+- **Saleh does NOT flee**
+- Goes to Panjshir Valley (only province not fallen to Taliban)
+- Declares national resistance against Taliban
+- According to Articles 60 and 67 of Constitution: Became Acting President
+- U.S. abandons 98-99% of human intelligence assets built over 20 years
+
+**Scott Mann Assessment:**
+> "98 to 99% of the human intelligence assets in Afghanistan that took 20 years to build were left behind"
+
+**Veterans Fill the Gap:**
+- No formal intelligence agency picked up these relationships
+- Veterans maintained contacts for "primarily humanitarian reasons"
+- Four years later: "High veracity intelligence and reporting coming through these channels instead of formal channels"
+
 ## Afghanistan Withdrawal - Day by Day (August 2021)
 
 ### Pre-Withdrawal Context
@@ -1454,6 +1503,99 @@ Three weeks before Benghazi: Al-Qaeda kidnapped only Quds Force officer in Bengh
 - No way to rebuild quickly
 
 ---
+
+## Syrian Blitzkrieg Planning and Execution (November 2021 - November 2024)
+
+### November 2021: Syrian Blitzkrieg Planning Meeting in Kandahar, Afghanistan
+
+**Location:** Afghanistan (planning began immediately following Afghanistan's fall to Taliban)
+
+**Key Planners:**
+1. **Abu Muhammad Al-Julani** (current president of Syria) - Traveled to Afghanistan
+2. **Musa bin Ali** (Benghazi plotter, Al-Qaeda operative)
+3. **Sirajuddin Haqqani** (Minister of Interior, Afghanistan)
+4. **Mullah Yaqub** (Minister of Defense, Afghanistan)
+
+**The Meeting:**
+- Goal: "Do in Syria what happened in Afghanistan"
+- Problem: Julani's camps outside Al-Alom Military Base in Syria being bombed
+- Couldn't safely train there
+- Solution: Taliban provided training camps in Nangarhar Province, Afghanistan
+
+**The Commitment:**
+- Julani requested 10,000 fighters
+- Al-Qaeda committed to training 10,000 fighters in Afghanistan
+- These fighters in addition to Julani's own trainees
+- Training conducted over 2-3 years (2021-2024)
+
+### 2021-2024: Al-Qaeda Trains 10,000 Fighters for Syria
+
+**Training Infrastructure:**
+- Location: Nangarhar Province, Afghanistan
+- Provided by: Taliban
+- Conducted by: Al-Qaeda
+- Duration: 2-3 years
+- Number: 10,000 fighters specifically for Syrian operation
+- In addition to Julani's own training operations
+
+**Current Status (after Syrian takeover):**
+- Musa bin Ali runs large terrorist training camp in Libya south of Misrata with Julani
+
+### November 2024: Syrian Blitzkrieg Executed Successfully
+
+**The Attack:**
+- Julani takes over Syria
+- 10,000 Al-Qaeda-trained fighters from Afghanistan deployed
+- Taliban fighters in Syria right now
+- Taliban members supported Julani during takeover
+
+**U.S. Response:**
+- State Department removes $10 million bounty on Julani "in a matter of minutes"
+- Rewards for Justice website page on Julani disappeared
+- "He was a terrorist on Monday evening, he was no longer a terrorist"
+- U.S. Department of Defense taking out Julani's rivals for last month
+- U.S. consolidating power for the terrorist
+
+**Current Plan for Syria:**
+- Ethnic cleansing: Christians, Alawites, Kurds, "any minority"
+- Goal: Islamic caliphate (Sharia law)
+- Same model as Afghanistan Taliban
+
+### The Disarmament Trap (Post-Takeover)
+
+**Julani's Registration Scheme:**
+- Required weapons be turned in
+- Required registration
+- "Be part of this new democracy, this inclusive government"
+
+**Results:**
+- Christians and Alawites turned in weapons
+- West was pushing this narrative
+- U.S. think tanks urged Kurds to turn in weapons
+
+**Kurdish Response:**
+- Kurds refused to turn in weapons
+- Still armed and defending themselves
+- Still being attacked by Turkish government
+- But not defenseless like other groups
+
+### Christian Persecution in Syria (November 2024 - Present)
+
+**Scale of Killings:**
+- "In the thousands"
+- Exact numbers very limited due to terrorist-run government
+- Only seeing "maybe 10% of the numbers"
+
+**Methods of Execution:**
+- Beheadings
+- Bodies dumped in rivers
+- Children put in cages and drowned in river
+- Women taken as sex slaves
+- Burning alive: Putting people in cages, setting them on fire
+- Going through demographic group by group
+
+**Legend's Intelligence:**
+> "There are Taliban fighters in Syria, there are Taliban members that supported Julani during his takeover of Syria just a few months ago and there are Taliban fighters in Syria right now currently at the moment"
 
 ## October 7th Planning and Execution (2022-2023)
 
@@ -2157,6 +2299,172 @@ From documentary "Jihad Rehab":
   - NOT training (finished)
 
 ---
+
+## Afghan Passport Production and Distribution (2021-2025)
+
+### 2021-2025: 7 Million Afghan Passports Printed in Europe
+
+**The Scale:**
+- 7 million Afghan passports printed in Europe since 2021
+- Shipped to Afghanistan
+- Permission granted by United States State Department
+- "There's probably going to print a million more passports this year, more than a million"
+
+**Who Controls Permission:**
+- United States State Department grants permission whether to print or not
+
+**The Problem:**
+> "We all know where the passports go to: Sirajuddin [Haqqani]"
+
+**Why Afghanistan Can't Produce:**
+- "Afghanistan cannot produce its own passport booklets just like it cannot produce its own currency"
+
+**Sirajuddin Haqqani:**
+- Minister of Interior, Afghanistan
+- Father of suicide bombing in Afghanistan
+- Killed over 1,000 American service members
+- Wanted by FBI: $10 million reward (or was - State Department unclear)
+- Controls passport distribution
+
+**Ambassador Decker's Refusal:**
+- On AMU TV (Afghan news show), host Sam asked: "Is Sirajuddin Haqqani still a terrorist? Is the State Department still looking for him?"
+- **She refused to answer, would not call Haqqani a wanted terrorist**
+
+### Passports as Terrorist Travel Documents
+
+**Sarah Adams' Observations:**
+> "We're also not treating these passports as compromised which is insane right, so they don't even act like the Afghan passports are compromised even though any terrorists can travel to Afghanistan and get their name changed and their face put on one of these passports"
+
+**What She's Seen:**
+- Algerian faces on Afghan passports
+- Libyan faces on Afghan passports
+- Syrian faces on Afghan passports
+- Any nationality can get Afghan passport with new identity
+
+**The Process:**
+- Terrorists travel to Afghanistan
+- Sirajuddin Haqqani issues passport with:
+  - New name
+  - Their face
+  - Afghan nationality (false)
+  - Complete new identity
+
+## July 2024: Saleh's Presidential Term Ends
+
+**Timeline:**
+- July 2024: Time as Acting President ends per constitution
+- Returns to intelligence work
+- "Spies never quit"
+- Runs intelligence network operational in Afghanistan
+
+**Legend's Assessment:**
+> "I don't think there's any American intelligence official that is unfamiliar with Mr. Saleh. He was and he I believe he still is our ally"
+
+### Afghanistan Green Trend (AGT) Intelligence Network
+
+**Organization:**
+- Intelligence network operational in Afghanistan
+- NOT the GDI (Taliban intelligence)
+- Under control of the resistance
+- Most active and reliable intelligence network
+- By far most reliable intelligence Legend has seen
+
+**Network Scale:**
+- Saleh runs extensive sources in Afghanistan
+- "I don't think anyone has as much sources under his control as Mr. Saleh in that region"
+
+**Intelligence Provided:**
+- Most reliable intelligence coming from AGT
+- Document-based intelligence
+- On-ground reporting
+- Information on Taliban, Al-Qaeda, ISIS-K operations
+
+## Current Status and 2025 Predictions
+
+### Third Week January 2025: Record Taliban Funding
+
+**$105 Million Sent to Taliban That Week:**
+- Highest weekly amount reported
+- Regular payments range $40-105 million per week
+- Sarah Adams: "I even think saying 87's low at this point"
+- Additional $10 million more per month to Taliban's office in Doha, Qatar
+
+### 2025: 1,000+ Deep Cover Operatives in United States
+
+**The 1,000+ Number:**
+- Source: President Amrullah Saleh / Afghanistan Green Trend (AGT)
+- "There are over 1,000 Taliban and ISIS-K operatives in the United States"
+
+**Critical Distinction:**
+> "These 1,000 are not the individuals that were emboldened after the United States abandoned Afghanistan and withdrew. These are not the individuals in the Afghan-American community in the diaspora or those we brought in - 120,000 that were evacuated. They're not members of those communities who are now sympathetic towards the Taliban."
+
+**Who They Are:**
+> "The 1,000 or so that I mentioned these are deep cover operatives that report to Sirajuddin Haqqani and then the leadership of the Taliban and ISIS-K"
+
+### Taliban Fighters Going Back and Forth U.S.-Afghanistan
+
+**Legend's Intel:**
+> "There are Afghan Americans from California, from Tennessee, from Florida, from New Jersey, from New York that have went back and joined the Taliban that are serving with the Taliban right now and these folks go back and forth"
+
+**The Process:**
+- Trained by U.S. Special Operations while we were there
+- Some evacuated to United States by Biden Administration
+- Decided to go back to Afghanistan
+- Joined Taliban
+- Get debriefed and rebriefed by Taliban/Haqqani
+- Sent back to United States
+- "Don't think that individual you see in the range is only in Afghanistan - they're going back and forth"
+
+### 2025 Predictions: Embassy Attacks
+
+**U.S. Embassy Plots Identified:**
+
+**1. U.S. Embassy in Bamako, Mali:**
+- Active threat identified
+- Al-Qaeda operational planning ongoing
+- Abu Muhammad al-Masri in Mali (Al-Qaeda's best operational planner)
+
+**2. U.S. Embassy in Mogadishu, Somalia:**
+- Active threat identified
+- Somalia as next caliphate target
+- Biggest concern right now
+- Next push of caliphate plan
+- Push U.S. government out of Somalia
+
+**Sarah Adams on Embassy Attacks:**
+> "We are actually funding with these dollars we send to fight ISIS, plots against us in Africa of all places besides here in the homeland. It's insane that we're funding these incidents that are going to kill Americans."
+
+**The Coming Blame:**
+> "Think of how that's going to come back right. We have some Americans die let's say Mogadishu, we have a bombing go off in Virginia, and then when you track the money down the money came from the US government. But think of how Americans are going to handle this and that's what the terrorists want. They want you to blame your government."
+
+### 2025 Predictions: Next Caliphate Targets
+
+**The Caliphate Plan (Led by Hamza Bin Laden):**
+
+**Countries Already Part:**
+1. **Iran** - Already considered part (long established)
+2. **Afghanistan** - First in current generation
+3. **Syria** - Second (just fell November 2024)
+
+**Next Targets (Debating Which is First):**
+4. **Somalia** OR **Mali**
+5. **Iraq**
+6. **Burkina Faso**
+7. **Libya**
+
+**Strategy:**
+- Drop countries to terrorists
+- Become pieces of caliphate
+- Connect over time
+- Create "giant Islamic emirate"
+
+### Warning About 1,000+ Operatives in U.S.
+
+**Purpose:**
+> "They want you to feel it in your neighborhood, at your home. They don't want you to feel safe where you live now"
+
+**Motivation:**
+> "We impacted them in Afghanistan, we impacted them in Iraq, we impacted them in Syria which is kind of the most recent open wound right, and so they want our warfighters who did that in those countries to feel it here"
 
 ## Current Status and 2025 Predictions
 

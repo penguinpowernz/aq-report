@@ -1819,6 +1819,299 @@ Two warring factions:
 
 ## U.S. GOVERNMENT OFFICIALS
 
+### Abu Muhammad Al-Julani (Ahmad al-Sharaa)
+**Status:** ALIVE, IN POWER
+**Position:** President of Syria (as of November 2024)
+**Background:** Former ISIS member, Al-Qaeda operative
+**Designation:** Had $10 million U.S. bounty removed "in matter of minutes"
+
+**Background:**
+- Member of ISIS
+- Former terrorist
+- Rewards for Justice website page disappeared immediately
+- "He was a terrorist on Monday evening, he was no longer a terrorist"
+- Now wears suit and tie instead of turban
+- U.S. has official relationship with him
+- U.S. shares intelligence with him
+
+**Syrian Blitzkrieg Planning (November 2021):**
+- Traveled to Afghanistan
+- Met with Musa bin Ali, Sirajuddin Haqqani, Mullah Yaqub
+- Goal: "Do in Syria what happened in Afghanistan"
+- Requested 10,000 fighters
+- Al-Qaeda trained 10,000 in Afghanistan over 2-3 years
+- November 2024: Syrian Blitzkrieg executed successfully
+
+**Training Infrastructure:**
+- Had camps outside Al-Alom Military Base in Syria being bombed
+- Couldn't safely train there
+- Taliban provided training camps in Nangarhar Province, Afghanistan
+- Al-Qaeda committed to training additional fighters
+
+**Current Status:**
+- Runs large terrorist training camp in Libya south of Misrata with Musa bin Ali
+- U.S. Department of Defense taking out his rivals
+- U.S. consolidating power for him
+
+**Plan for Syria:**
+- Ethnic cleansing: Christians, Alawites, Kurds, minorities
+- Islamic caliphate (Sharia law)
+- Same model as Afghanistan Taliban
+- Part of Hamza Bin Laden's caliphate vision
+
+**Location:** Syria
+
+**See also:** Musa bin Ali, Sirajuddin Haqqani, Mullah Yaqub
+
+---
+
+### President Amrullah Saleh
+**Status:** ALIVE, LEADING RESISTANCE
+**Position:** Former First Vice President of Afghanistan (2019-2021), Acting President (August 15, 2021 - July 2024)
+**Current Role:** Leading intelligence operations from resistance
+
+**Career History:**
+- Age 15-16: Started in resistance
+- Did liaison intelligence work under Commander Ahmed Shah Massoud
+- Fought against Soviet invasion
+- Fought Taliban and Al-Qaeda
+- Post-2001: Head of NDS (National Directorate of Security)
+  - Afghan version of Central Intelligence Agency
+  - America helped build NDS
+  - Saleh literally built that unit
+- Minister of Interior of Afghanistan
+- 2011: Started AGT (Afghanistan Green Trend)
+  - One of main political parties in Afghanistan
+  - Grassroots movement
+  - Had millions of members inside Afghanistan
+- 2019: Won elections, became First Vice President under President Ashraf Ghani
+- August 15, 2021: Ghani fled to Dubai, Saleh did NOT flee
+  - Went to Panjshir Valley (only province not fallen to Taliban)
+  - Declared national resistance against Taliban
+  - According to Articles 60 and 67 of Constitution: Became Acting President
+- July 2024: Time in office ended
+- Currently: Leading intelligence in Afghanistan
+  - "Spies never quit"
+  - Runs intelligence network operational in Afghanistan
+
+**Afghanistan Green Trend (AGT):**
+- Intelligence network operational in Afghanistan
+- NOT the GDI (Taliban intelligence)
+- Under control of the resistance
+- Most active and reliable intelligence network
+- Most reliable intelligence Legend has seen
+- Extensive sources in Afghanistan
+- "No one has as much sources under his control as Mr. Saleh in that region"
+
+**Intelligence Provided:**
+- Document-based intelligence
+- On-ground reporting
+- Information on Taliban, Al-Qaeda, ISIS-K operations
+- Exposed USAID distribution in Taliban's name
+- Provided intelligence on 1,000+ Taliban/ISIS-K operatives in United States
+
+**U.S. Abandonment:**
+- Formal intelligence agencies abandoned him August 15, 2021
+- Legend maintained the relationship
+- "Father of Afghanistan intelligence talking primarily to Afghan American Army NCO"
+
+**Assessment:**
+- "I don't think there's any American intelligence official unfamiliar with Mr. Saleh"
+- "He was and he still is our ally"
+- "Taliban are very much defeatable" - Saleh's assessment
+
+**Location:** Afghanistan (resistance stronghold areas)
+
+**See also:** Commander Khalid Amiri, Commander Ahmed Massoud, Legend
+
+---
+
+### Ambassador Karen Decker
+**Status:** ACTIVE
+**Position:** U.S. Ambassador to Afghanistan
+**Appointed by:** Joe Biden administration
+**Current Status:** Still serving under Trump administration
+
+**Description:** "Literally acting as the unofficial first lady of the Taliban" - Legend
+
+**Her Actions:**
+1. Direct communication with every Taliban governor all over Afghanistan
+2. Denounced armed resistance against Taliban, ISIS-K, and Al-Qaeda
+3. Has not met with leadership of the resistance
+4. Does not speak with the resistance
+5. Denounced the resistance
+6. Diplomatically dealing only with Taliban
+
+**Blocking Resistance Events:**
+- Whenever resistance hosts events (political diplomatic events, conferences)
+- In Vienna, Dushanbe, or anywhere else
+- State Department under her leadership dispatches individuals
+- Tells host countries not to allow it to happen
+- Went to Tajikistan government and intelligence leadership
+- Said "don't have relationships with the resistance, it's going to affect your relationship with US government"
+
+**On Sirajuddin Haqqani:**
+- AMU TV host Sam asked: "Is Sirajuddin Haqqani still a terrorist? Is State Department still looking for him?"
+- **Her Response:** Refused to answer, refuses to call Haqqani a wanted terrorist
+- Despite: Haqqani killed over 1,000 American service members
+- Despite: $10 million FBI reward (or was)
+
+**Location:** Washington D.C. and Afghanistan
+
+---
+
+### Thomas West
+**Status:** ACTIVE
+**Position:** Former Special Envoy to Afghanistan, Now in charge of sanctions at State Department
+
+**Taliban Sympathizer Views:**
+- Believes "Taliban are professionals, sincere, and technocrats"
+- After Kabul fall said: "We will do anything at all cost to recognize the Taliban"
+- "This is the broker we have" - Sarah Adams
+
+**The Problem:**
+- Taliban sympathizer now in charge of sanctions
+- "How often do you think she's sanctioning the Taliban?"
+
+**Location:** Washington D.C.
+
+---
+
+### Haji Muhammad Idris (Ahmadzai)
+**Status:** ALIVE, IN POSITION
+**Position:** Manager of Central Bank of Afghanistan (Taliban-controlled)
+**Designation:** Sanctioned terrorist by United States
+
+**Background:**
+- Sanctioned for financing bomb attacks against American soldiers
+- Killed many American soldiers
+- Still sanctioned
+- Gets $40-105 million weekly from U.S.
+
+**Central Bank Operations:**
+- Money arrives from U.S. via Afghanistan International Bank
+- AIB gives money to Taliban-controlled Central Bank
+- Central Bank has monopoly over Afghanistan's money market rates
+- Invites money exchangers to bid
+- Winners are "individuals associated with the Haqqani Network"
+- They control money market
+- Take cut during currency conversion (twice - dollars to Afghanis, then Afghanis back to dollars)
+
+**U.S. Funding Flow:**
+- Receives weekly $40-105 million deliveries
+- Takes cut during both conversions
+- Distributes to Taliban-controlled NGOs
+- Taliban take another cut for foreign purchases
+
+**Location:** Kabul, Afghanistan
+
+---
+
+### Commander Khalid Amiri
+**Status:** ALIVE, LEADING RESISTANCE
+**Position:** Afghan Commando, General
+**Role:** Leading resistance in Afghanistan since 2021
+
+**Letter Content (read by Legend on Shawn Ryan Show):**
+
+"The strength of any military force relies on six principles: leadership, discipline, institution building, technology and weaponry, strategy and support systems. Taliban factions and militias are not only unfamiliar with these principles but the equipment and weapons left behind by Afghan armed forces are inadequate to meet the group's long-term needs. At best the Taliban remain an insurgent group lacking the capacity for institution building and governance."
+
+"The armed struggle of Afghanistan's freedom fighters over the past three years and the significant casualties they have inflicted on Taliban militias demonstrate the group's vulnerability in military and intelligence terms. A powerful and united anti-Taliban front could bring the Taliban to their knees."
+
+"Taliban leaders and militias are unfamiliar with the diverse languages and cultures of Afghan society and will never gain national or popular legitimacy. The people of Afghanistan both in cities and rural areas view them as occupiers. The populace is fed up with the repressive anti-woman and anti-freedom rule of the Taliban and it will not be long before our people's uprising will drive them out of our land."
+
+**Assessment:**
+- "Taliban are very much defeatable" - Commander Amiri
+- Resistance inflicted significant casualties on Taliban
+- Taliban vulnerable in military and intelligence terms
+
+**Legend's Statement:**
+"He tells you that the Taliban are very much defeatable. President Saleh says the Taliban are very much defeatable. I hope somebody in the administration, in the new administration, listens to this letter that I just read and takes action."
+
+**Location:** Afghanistan (resistance areas)
+
+**See also:** President Amrullah Saleh, Commander Ahmed Massoud
+
+---
+
+### Scott Mann
+**Status:** ACTIVE
+**Position:** Lieutenant Colonel (Retired), Former Green Beret
+**Organization:** Leader of Task Force Pineapple
+
+**Background:**
+- Afghanistan evacuation volunteer coordinator
+- Co-author of "The Gathering Storm" (community preparedness book)
+- Expert on counterinsurgency and special operations
+- Maintains Signal network of law enforcement and EOC responders nationwide
+
+**Afghanistan Evacuation:**
+- Task Force Pineapple operations
+- Private coordination when government abandoned people
+- Maintained relationships government abandoned
+
+**Current Work:**
+- Community preparedness and defense training
+- "The Gathering Storm Project"
+- Red cell and penetration testing advocacy
+- Briefing law enforcement on terrorism threats
+- Private-public partnership development
+
+**Intelligence Network:**
+- Maintained contact with Afghan Special Forces and Commandos
+- Part of veteran network maintaining intelligence relationships
+- Signal network connecting sheriff deputies, EOC responders nationwide
+- Broadcasts training opportunities
+
+**Assessment on Intelligence:**
+- "98 to 99% of human intelligence assets in Afghanistan that took 20 years to build were left behind"
+- Veterans filled the gap
+- "High veracity intelligence and reporting coming through these channels instead of formal channels"
+
+**Location:** United States
+
+---
+
+### "Legend"
+**Status:** ACTIVE, OPERATIONAL
+**Identity:** Afghan American, Former U.S. Army Intelligence
+**Security:** Face hidden (still operational)
+
+**Background:**
+- Former U.S. Army Intelligence
+- Travels in and out of Afghanistan
+- Direct liaison to President Amrullah Saleh
+- Cultivated intelligence relationships abandoned by U.S. government
+- Maintained contact with Afghanistan Green Trend (AGT)
+
+**Intelligence Role:**
+- "Over these last several years Legend has cultivated a relationship and really done the job...of what a formal intelligence agency would normally do with a massive asset like that"
+- "Literally the guy who was regarded as the father of Afghanistan intelligence talking primarily to an Afghan American Army US Army NCO"
+- Only maintaining relationship with Saleh after U.S. government abandoned him
+
+**Key Intelligence Provided:**
+- Over 1,000 Taliban and ISIS-K operatives in United States
+- Deep cover operatives reporting to Sirajuddin Haqqani
+- Taliban fighters going back and forth between U.S. and Afghanistan
+- Syrian Blitzkrieg information
+- U.S. funding to Taliban details
+
+**Gift Exchange with Shawn Ryan:**
+- Brought Shawn Afghan dagger from Afghanistan
+- Shawn gave Legend "Unplugged" phone (developed by Erik Prince)
+
+**Key Statement:**
+"These individuals they have hijacked Islam and Islamic symbols...why is Saudi Arabia UAE Qatar Oman Egypt these Muslim majority countries why are they not taking the lead and stopping these guys there?"
+
+**Warning:**
+"It will be a tragedy, a very sad tragedy, if the guys that we trained in Afghanistan to fight terrorists, we end up fighting those guys here in America."
+
+**Location:** United States and Afghanistan (travels between)
+
+**See also:** President Amrullah Saleh, Scott Mann, Sarah Adams
+
+---
+
 ### Tom West
 **Status:** ACTIVE
 **Position:** Special Envoy to Afghanistan
