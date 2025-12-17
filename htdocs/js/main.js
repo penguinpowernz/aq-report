@@ -290,6 +290,8 @@ function linkifyEntities(text) {
         'Commander Khalid Amiri': 'khalid-amiri',
         'Haji Muhammad Idris': 'haji-muhammad-idris',
         'Mohammad Hassan Akhund': 'mohammad-hassan-akhund',
+        'Muhammad Hassan Akhund': 'mohammad-hassan-akhund',
+        "Abdullah bin Laden": "abdullah-bin-laden",
         'Mullah Abdul Ghani Baradar': 'mullah-baradar',
         'Hibatullah Akhundzada': 'hibatullah-akhundzada',
         'Abdullah Omar Bhajauri': 'abdullah-omar-bhajauri',

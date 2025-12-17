@@ -23,6 +23,43 @@ window.renderLocations = function(container) {
     );
     container.appendChild(alert);
 
+    // International Coordination
+    const coordChart = createChartContainer(
+        'International Coordination Network',
+        'State actors supporting terrorist operations'
+    );
+
+    const coordInfo = document.createElement('div');
+    coordInfo.className = 'location-grid';
+    coordInfo.innerHTML = linkifyEntities(`
+        <div class="location-card critical">
+            <div class="location-name">Kandahar Meeting Hub</div>
+            <div class="location-region">Afghanistan</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                Regular meetings between: Russian representatives, Chinese officials, Iranian IRGC,
+                North Korean contacts, and terrorist leadership. Unprecedented state-level coordination.
+            </p>
+        </div>
+        <div class="location-card high">
+            <div class="location-name">China - Uranium Mines</div>
+            <div class="location-region">Afghanistan</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                Chinese-operated uranium mines co-located with IRGC and Al-Qaeda conducting
+                dirty bomb research. State-level expertise transfer.
+            </p>
+        </div>
+        <div class="location-card high">
+            <div class="location-name">Turkey - Transit Hub</div>
+            <div class="location-region">Middle East</div>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
+                Major transit point for terrorists. Medical treatment destination. Document procurement.
+                Wasam's brother (terrorist financier, multimillionaire) lives here.
+            </p>
+        </div>
+    `);
+    coordChart.appendChild(coordInfo);
+    container.appendChild(coordChart);
+
     // Regional Breakdown
     const regions = [
         {
@@ -238,40 +275,4 @@ window.renderLocations = function(container) {
     targetsChart.appendChild(targetInfo);
     container.appendChild(targetsChart);
 
-    // International Coordination
-    const coordChart = createChartContainer(
-        'International Coordination Network',
-        'State actors supporting terrorist operations'
-    );
-
-    const coordInfo = document.createElement('div');
-    coordInfo.className = 'location-grid';
-    coordInfo.innerHTML = linkifyEntities(`
-        <div class="location-card critical">
-            <div class="location-name">Kandahar Meeting Hub</div>
-            <div class="location-region">Afghanistan</div>
-            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
-                Regular meetings between: Russian representatives, Chinese officials, Iranian IRGC,
-                North Korean contacts, and terrorist leadership. Unprecedented state-level coordination.
-            </p>
-        </div>
-        <div class="location-card high">
-            <div class="location-name">China - Uranium Mines</div>
-            <div class="location-region">Afghanistan</div>
-            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
-                Chinese-operated uranium mines co-located with IRGC and Al-Qaeda conducting
-                dirty bomb research. State-level expertise transfer.
-            </p>
-        </div>
-        <div class="location-card high">
-            <div class="location-name">Turkey - Transit Hub</div>
-            <div class="location-region">Middle East</div>
-            <p style="margin-top: 0.75rem; color: var(--text-secondary);">
-                Major transit point for terrorists. Medical treatment destination. Document procurement.
-                Wasam's brother (terrorist financier, multimillionaire) lives here.
-            </p>
-        </div>
-    `);
-    coordChart.appendChild(coordInfo);
-    container.appendChild(coordChart);
 };

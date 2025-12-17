@@ -10,6 +10,25 @@ window.renderAttacks = function(container) {
     );
     container.appendChild(intro);
 
+    // Mumbai Model Explanation
+    const mumbaiModel = createChartContainer('Mumbai Attack Model', 'Template for all modern coordinated attacks');
+    const modelBox = createInfoBox(
+        '2008 Mumbai Attack Methodology',
+        '<strong>Core Tactics:</strong><br>' +
+        '• Swarming multiple locations simultaneously<br>' +
+        '• Real-time intelligence provided to attackers<br>' +
+        '• Operational flexibility (change targets during attack)<br>' +
+        '• Extended duration engagements (multiple days)<br>' +
+        '• Fedayeen fighters (fight to death, not traditional suicide bombers)<br>' +
+        '• Maximum casualties over time<br>' +
+        '• Maximum media coverage<br>' +
+        '• Maximum terror impact<br><br>' +
+        '<strong>Applications:</strong> October 7, 2023 Hamas attacks and all planned U.S./European attacks',
+        'info'
+    );
+    mumbaiModel.appendChild(modelBox);
+    container.appendChild(mumbaiModel);
+
     // Past Attacks Section
     const pastSection = createChartContainer('Historical Attacks', 'Attack patterns and methodologies');
 
@@ -55,24 +74,7 @@ window.renderAttacks = function(container) {
 
     container.appendChild(pastSection);
 
-    // Mumbai Model Explanation
-    const mumbaiModel = createChartContainer('Mumbai Attack Model', 'Template for all modern coordinated attacks');
-    const modelBox = createInfoBox(
-        '2008 Mumbai Attack Methodology',
-        '<strong>Core Tactics:</strong><br>' +
-        '• Swarming multiple locations simultaneously<br>' +
-        '• Real-time intelligence provided to attackers<br>' +
-        '• Operational flexibility (change targets during attack)<br>' +
-        '• Extended duration engagements (multiple days)<br>' +
-        '• Fedayeen fighters (fight to death, not traditional suicide bombers)<br>' +
-        '• Maximum casualties over time<br>' +
-        '• Maximum media coverage<br>' +
-        '• Maximum terror impact<br><br>' +
-        '<strong>Applications:</strong> October 7, 2023 Hamas attacks and all planned U.S./European attacks',
-        'info'
-    );
-    mumbaiModel.appendChild(modelBox);
-    container.appendChild(mumbaiModel);
+ 
 
     // Predicted 2025 Attacks
     const predicted = createChartContainer('Predicted 2025 Wave Attacks', 'Multi-phase coordinated global operations');
